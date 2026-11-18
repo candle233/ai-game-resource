@@ -1,0 +1,52 @@
+<svg viewBox="0 0 360 230" role="img" aria-labelledby="b1t">
+              <title id="b1t">黑帆船长剪影概念图</title>
+              <defs>
+                <radialGradient id="b1lamp" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffcf7d" stop-opacity=".8"/><stop offset="100%" stop-color="#ffcf7d" stop-opacity="0"/></radialGradient>
+                <linearGradient id="b1sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a1a20"/><stop offset="100%" stop-color="#0b2026"/></linearGradient>
+              </defs>
+              <rect width="360" height="230" fill="url(#b1sky)"/>
+              <circle cx="292" cy="52" r="26" fill="#d9ceae" opacity=".18"/>
+              <circle cx="292" cy="52" r="14" fill="#e8dfc2" opacity=".35"/>
+              <!-- rigging -->
+              <g stroke="#3d5b58" stroke-opacity=".5">
+                <path d="M24 0 L64 150"/><path d="M120 0 L96 150"/><path d="M40 40 h70"/>
+                <path d="M0 62 L360 42" stroke-opacity=".2"/>
+              </g>
+              <path d="M30 0 L86 0 L54 96 Z" fill="#0d2226" opacity=".9"/>
+              <!-- deck -->
+              <path d="M0 178 H360 V230 H0 Z" fill="#071013"/>
+              <path d="M0 178 H360" stroke="#4a6b67" stroke-opacity=".5"/>
+              <g stroke="#2c4644" stroke-opacity=".7">
+                <path d="M0 192h360M0 208h360M0 220h360"/>
+              </g>
+              <!-- barrels -->
+              <g fill="#0b1d21" stroke="#3f5f5b" stroke-opacity=".6">
+                <rect x="286" y="150" width="26" height="30" rx="3"/>
+                <rect x="318" y="156" width="22" height="24" rx="3"/>
+                <path d="M286 160h26M286 170h26M318 164h22M318 174h22"/>
+              </g>
+              <!-- figure -->
+              <g fill="#040c0e" stroke="#4f7a74" stroke-opacity=".5">
+                <path d="M148 178 L166 178 L162 132 L152 132 Z"/>
+                <path d="M128 178 L148 178 L146 136 L130 136 Z"/>
+                <path d="M112 116 C112 138 110 160 116 180 L184 180 C190 158 188 136 186 116 Z"/>
+                <path d="M112 116 C120 100 178 100 186 116"/>
+                <circle cx="148" cy="92" r="14"/>
+                <path d="M128 86 h42 v-5 a5 5 0 0 0 -5 -5 h-32 a5 5 0 0 0 -5 5 Z"/>
+                <path d="M126 82 q22 -12 46 0" fill="none"/>
+                <path d="M186 120 L214 140 L208 146 L182 128 Z"/>
+                <path d="M212 140 a7 7 0 1 0 8 8" fill="none"/>
+                <path d="M186 128 L182 148" stroke-width="2"/>
+              </g>
+              <!-- lantern -->
+              <g>
+                <rect x="206" y="152" width="12" height="16" rx="2" fill="#0a1a1e" stroke="#d8a94a" stroke-opacity=".55"/>
+                <circle cx="212" cy="160" r="3" fill="#ffcf7d"/>
+                <circle cx="212" cy="160" r="20" fill="url(#b1lamp)"/>
+              </g>
+              <!-- muzzle flash -->
+              <g opacity=".55">
+                <path d="M98 132 l-26 -10 l8 16 l-14 10 l30 -2 Z" fill="#ffb061"/>
+                <circle cx="88" cy="138" r="12" fill="#ffcf7d" opacity=".35"/>
+              </g>
+            </svg>

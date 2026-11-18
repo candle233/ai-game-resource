@@ -1,0 +1,33 @@
+<svg viewBox="0 0 720 250" role="img" aria-labelledby="b5t">
+            <title id="b5t">无昼之眼剪影概念图</title>
+            <defs>
+              <radialGradient id="b5glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#c9b6e8" stop-opacity=".5"/><stop offset="55%" stop-color="#7fb3ae" stop-opacity=".18"/><stop offset="100%" stop-color="#7fb3ae" stop-opacity="0"/></radialGradient>
+              <linearGradient id="b5beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#efe6c6" stop-opacity=".35"/><stop offset="100%" stop-color="#efe6c6" stop-opacity="0"/></linearGradient>
+            </defs>
+            <rect width="720" height="250" fill="#0a1013"/>
+            <circle cx="360" cy="124" r="150" fill="url(#b5glow)"/>
+            <!-- eye -->
+            <path d="M180 124 C230 68 300 44 360 44 C420 44 490 68 540 124 C490 180 420 204 360 204 C300 204 230 180 180 124 Z" fill="#0b1a1d" stroke="#a892d4" stroke-opacity=".45"/>
+            <ellipse cx="360" cy="124" rx="62" ry="70" fill="#050d0f" stroke="#8fbdb6" stroke-opacity=".35"/>
+            <ellipse cx="360" cy="124" rx="20" ry="52" fill="#04090b"/>
+            <ellipse cx="342" cy="100" rx="12" ry="7" fill="#e7dcbb" opacity=".22" transform="rotate(-22 342 100)"/>
+            <!-- lighthouse beam crossing -->
+            <path d="M40 0 L360 108 L360 140 L40 250 Z" fill="url(#b5beam)" opacity=".35"/>
+            <path d="M680 0 L360 112 L360 136 L680 250 Z" fill="url(#b5beam)" opacity=".2"/>
+            <!-- island silhouette bottom -->
+            <path d="M0 214 C70 200 120 206 170 196 C210 188 250 200 300 206 C360 214 420 206 470 200 C520 194 570 204 620 196 C660 190 700 196 720 200 L720 250 L0 250 Z" fill="#040b0d"/>
+            <path d="M0 226 C90 216 160 224 250 220 C340 216 420 226 510 220 C590 215 660 222 720 218" stroke="#6fb8af" stroke-opacity=".2" fill="none"/>
+            <!-- tiny lighthouse -->
+            <g>
+              <path d="M596 196 l4 -30 l8 0 l4 30 z" fill="#0a181b" stroke="#d8c07a" stroke-opacity=".55"/>
+              <circle cx="604" cy="164" r="3" fill="#ffe2a0"/>
+              <circle cx="604" cy="164" r="16" fill="url(#b5glow)" opacity=".6"/>
+            </g>
+            <!-- fog bands -->
+            <g fill="#8fa9a4" opacity=".07">
+              <rect y="60" width="720" height="16"/><rect y="96" width="720" height="12"/><rect y="176" width="720" height="16"/>
+            </g>
+            <g stroke="#a892d4" stroke-opacity=".25">
+              <path d="M120 40 l8 8 M128 40 l-8 8"/><path d="M600 206 l8 8 M608 206 l-8 8"/>
+            </g>
+          </svg>

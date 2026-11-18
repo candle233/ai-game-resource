@@ -1,0 +1,49 @@
+<svg viewBox="0 0 360 230" role="img" aria-labelledby="b4t">
+              <title id="b4t">潮下之王剪影概念图</title>
+              <defs>
+                <linearGradient id="b4sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b1e24"/><stop offset="100%" stop-color="#050f12"/></linearGradient>
+                <radialGradient id="b4moon" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#e9dfc2" stop-opacity=".55"/><stop offset="100%" stop-color="#e9dfc2" stop-opacity="0"/></radialGradient>
+                <linearGradient id="b4sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#123238"/><stop offset="100%" stop-color="#04100f"/></linearGradient>
+              </defs>
+              <rect width="360" height="230" fill="url(#b4sky)"/>
+              <circle cx="270" cy="54" r="70" fill="url(#b4moon)"/>
+              <circle cx="270" cy="54" r="21" fill="#e7dcbb" opacity=".45"/>
+              <path d="M0 168 H360 V230 H0 Z" fill="url(#b4sea)"/>
+              <!-- distant ships -->
+              <g fill="#061114">
+                <path d="M36 168 l34 0 l-5 9 l-24 0z"/><path d="M52 168 v-16 l10 5 l-2 11z"/>
+                <path d="M310 164 l26 0 l-4 7 l-18 0z"/><path d="M322 164 v-12 l8 4 l-2 8z"/>
+              </g>
+              <!-- tendrils behind -->
+              <g fill="#050e11" stroke="#3f6b69" stroke-opacity=".4">
+                <path d="M136 168 C110 130 92 96 104 68 C120 84 132 112 148 140 Z"/>
+                <path d="M224 168 C250 128 270 94 258 62 C242 82 230 114 214 142 Z"/>
+                <path d="M180 150 C172 110 180 78 196 58 C202 84 198 116 194 148 Z"/>
+              </g>
+              <!-- torso -->
+              <path d="M124 190 C120 150 140 126 180 126 C220 126 240 150 236 190 Z" fill="#040c0e" stroke="#4a7872" stroke-opacity=".5"/>
+              <path d="M140 150 C154 138 206 138 220 150" stroke="#2f5450" fill="none"/>
+              <!-- crown tendrils -->
+              <g fill="#040c0e" stroke="#4a7872" stroke-opacity=".45">
+                <path d="M158 128 C146 106 148 92 160 82 C162 98 168 112 174 124 Z"/>
+                <path d="M180 126 C176 100 182 84 194 74 C194 94 192 110 190 126 Z"/>
+                <path d="M202 128 C214 106 214 92 202 82 C200 98 196 112 190 124 Z"/>
+                <path d="M140 134 C124 122 118 110 122 100 C132 110 144 120 152 128 Z"/>
+              </g>
+              <!-- eyes -->
+              <g fill="#ffcf7d">
+                <ellipse cx="168" cy="156" rx="4" ry="2.2"/><ellipse cx="194" cy="156" rx="4" ry="2.2"/>
+              </g>
+              <g opacity=".35" stroke="#ffcf7d">
+                <path d="M156 150 l24 12" stroke-opacity=".4"/>
+              </g>
+              <!-- claw arms -->
+              <g fill="#040c0e" stroke="#4a7872" stroke-opacity=".45">
+                <path d="M124 172 C96 180 78 198 82 214 C98 208 112 196 128 186 Z"/>
+                <path d="M236 172 C264 180 282 198 278 214 C262 208 248 196 232 186 Z"/>
+              </g>
+              <!-- foam -->
+              <g stroke="#8fd8cc" stroke-opacity=".35" fill="none">
+                <path d="M90 196 q16 -6 32 0 t32 0"/><path d="M210 202 q16 -6 32 0 t32 0"/>
+              </g>
+            </svg>

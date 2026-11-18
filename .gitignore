@@ -1,0 +1,10 @@
+# 本机会话状态与 AI 搜索索引（可自动重建）
+.mimosa/
+vector-db/
+
+# Eagle 自动备份（历史版本已由 git 承担）
+backup/
+
+# 系统缓存文件
+Thumbs.db
+.DS_Store

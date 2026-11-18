@@ -1,0 +1,75 @@
+<svg viewBox="0 0 820 470" role="img" aria-labelledby="loopTitle loopDesc">
+            <title id="loopTitle">每日玩法循环示意图</title>
+            <desc id="loopDesc">顺时针循环：清晨结算补给并恢复行动力，白天消耗行动力探索与交易，整备阶段布防换装，夜晚进行即时战斗；胜利后获得战利品，商船在次日清晨靠岸。</desc>
+            <defs>
+              <marker id="arw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M0 0 L10 5 L0 10 z" fill="#9d7c38"/>
+              </marker>
+              <radialGradient id="nodeG" cx="50%" cy="35%" r="70%">
+                <stop offset="0" stop-color="#1a353a"/><stop offset="100%" stop-color="#0b1a1e"/>
+              </radialGradient>
+              <radialGradient id="nightG" cx="50%" cy="50%" r="50%">
+                <stop offset="0" stop-color="#c95d43" stop-opacity=".16"/>
+                <stop offset="100%" stop-color="#c95d43" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <rect width="820" height="470" fill="#081316"/>
+            <circle cx="410" cy="228" r="150" fill="none" stroke="#dcae55" stroke-opacity=".10"/>
+            <circle cx="410" cy="228" r="112" fill="none" stroke="#dcae55" stroke-opacity=".07" stroke-dasharray="2 8"/>
+            <circle cx="700" cy="240" r="120" fill="url(#nightG)"/>
+
+            <g font-family="sans-serif">
+              <!-- arrows -->
+              <g fill="none" stroke="#9d7c38" stroke-opacity=".65" stroke-width="1.4" marker-end="url(#arw)">
+                <path d="M470 78 C560 92 620 140 646 186"/>
+                <path d="M654 288 C630 342 566 388 480 398"/>
+                <path d="M340 398 C252 386 190 342 166 292"/>
+                <path d="M160 180 C184 132 248 90 336 78"/>
+              </g>
+              <!-- center -->
+              <text x="410" y="214" text-anchor="middle" font-size="13" fill="#8d9c9b" letter-spacing="4">DAY</text>
+              <text x="410" y="250" text-anchor="middle" font-size="42" fill="#dcae55" font-family="Georgia,serif">01—20</text>
+              <text x="410" y="276" text-anchor="middle" font-size="12" fill="#6f7f7e" letter-spacing="2">日出之前 · 潮落之后</text>
+
+              <!-- top node: dawn -->
+              <g>
+                <circle cx="410" cy="66" r="56" fill="url(#nodeG)" stroke="#dcae55" stroke-opacity=".55"/>
+                <path d="M384 74 h52 M392 62 a18 18 0 0 1 36 0" stroke="#dcae55" fill="none" stroke-width="1.3"/>
+                <text x="410" y="52" text-anchor="middle" font-size="15" fill="#ffe4ad" font-family="serif">清晨</text>
+                <text x="410" y="92" text-anchor="middle" font-size="10.5" fill="#8d9c9b">补给 · 行动力</text>
+              </g>
+              <!-- right node: day -->
+              <g>
+                <circle cx="700" cy="232" r="56" fill="url(#nodeG)" stroke="#6fb8af" stroke-opacity=".55"/>
+                <circle cx="700" cy="216" r="9" fill="none" stroke="#6fb8af"/>
+                <path d="M700 206 v-10 M700 236 v10 M690 216 h-10 M710 216 h10 M693 209 l-7 -7 M707 209 l7 -7 M693 223 l-7 7 M707 223 l7 7" stroke="#6fb8af" stroke-width="1.2"/>
+                <text x="700" y="256" text-anchor="middle" font-size="15" fill="#a9ded6" font-family="serif">白天</text>
+                <text x="700" y="270" text-anchor="middle" font-size="10.5" fill="#8d9c9b">探索 · 交易</text>
+              </g>
+              <!-- bottom node: prep -->
+              <g>
+                <circle cx="410" cy="404" r="56" fill="url(#nodeG)" stroke="#a892d4" stroke-opacity=".5"/>
+                <path d="M392 418 h36 M396 418 v-16 h28 v16 M402 402 v-10 h16 v10" stroke="#a892d4" fill="none" stroke-width="1.3"/>
+                <text x="410" y="432" text-anchor="middle" font-size="15" fill="#cbb9ec" font-family="serif">整备</text>
+                <text x="410" y="449" text-anchor="middle" font-size="10.5" fill="#8d9c9b">换装 · 布防</text>
+              </g>
+              <!-- left node: night -->
+              <g>
+                <circle cx="120" cy="232" r="56" fill="url(#nodeG)" stroke="#c95d43" stroke-opacity=".6"/>
+                <path d="M104 220 a16 16 0 1 0 20 22 a18 18 0 1 1 -20 -22Z" fill="#c95d43" fill-opacity=".55" stroke="#e08f76" stroke-width="1"/>
+                <text x="120" y="258" text-anchor="middle" font-size="15" fill="#ffb49c" font-family="serif">夜晚</text>
+                <text x="120" y="272" text-anchor="middle" font-size="10.5" fill="#8d9c9b">即时防守</text>
+              </g>
+
+              <!-- side annotations -->
+              <g font-size="10.5" fill="#6f7f7e">
+                <text x="560" y="64">夜战胜利 → 战利品</text>
+                <text x="600" y="418">商船靠岸 → 次日交易</text>
+                <text x="52" y="360">复活护符消耗</text>
+                <text x="52" y="376">死亡则本局结束</text>
+              </g>
+              <g stroke="#3f5a58" stroke-opacity=".6">
+                <path d="M556 70 h-24" /><path d="M596 412 h-24"/><path d="M120 344 v-44"/>
+              </g>
+            </g>
+          </svg>

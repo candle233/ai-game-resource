@@ -1,0 +1,104 @@
+<svg viewBox="0 0 1200 340" role="img" aria-labelledby="crewTitle crewDesc">
+            <title id="crewTitle">五位调查员剪影概念图</title>
+            <desc id="crewDesc">五个深色人物剪影并排站在雾中的海滩上，背后是一轮低垂的苍白月亮。从左到右依次是戴大檐舰长帽的舰长、戴兜帽持杖的学者、戴宽檐帽背霰弹枪的猎人、披短斗篷提灯的医师、戴焊接面罩背设备的工程师。</desc>
+            <defs>
+              <linearGradient id="crewSky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#0a1a1f"/><stop offset="70%" stop-color="#0c2227"/><stop offset="100%" stop-color="#071215"/>
+              </linearGradient>
+              <radialGradient id="crewMoon" cx="50%" cy="50%" r="50%">
+                <stop offset="0" stop-color="#e9dfc2" stop-opacity=".34"/><stop offset="60%" stop-color="#e9dfc2" stop-opacity=".10"/><stop offset="100%" stop-color="#e9dfc2" stop-opacity="0"/>
+              </radialGradient>
+              <linearGradient id="crewFog" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#8fa9a4" stop-opacity="0"/><stop offset="100%" stop-color="#8fa9a4" stop-opacity=".26"/>
+              </linearGradient>
+            </defs>
+            <rect width="1200" height="340" fill="url(#crewSky)"/>
+            <circle cx="600" cy="84" r="112" fill="url(#crewMoon)"/>
+            <circle cx="600" cy="84" r="36" fill="#ded3b4" opacity=".22"/>
+            <g stroke="#6fb8af" stroke-opacity=".13">
+              <path d="M0 300h1200"/><path d="M0 312h1200"/>
+            </g>
+            <!-- five silhouettes -->
+            <g fill="#08161a" stroke="#4d7a76" stroke-opacity=".45" stroke-width="1">
+              <!-- 1 captain -->
+              <g>
+                <path d="M176 300 L196 300 L192 246 L180 246 Z"/>
+                <path d="M156 300 L180 300 L177 250 L159 250 Z"/>
+                <path d="M142 214 C142 254 140 286 146 302 L206 302 C214 284 210 252 208 214 Z"/>
+                <path d="M142 214 C150 196 200 196 208 214"/>
+                <path d="M212 238 L228 262 L220 268 L206 250 Z"/>
+                <path d="M232 262 L236 274 L224 272 Z" fill="#08161a"/>
+                <rect x="228" y="236" width="26" height="6" rx="1"/>
+                <rect x="236" y="226" width="12" height="10" rx="1"/>
+                <circle cx="176" cy="188" r="16"/>
+                <path d="M152 182 h52 v-6 a6 6 0 0 0 -6 -6 h-40 a6 6 0 0 0 -6 6 Z"/>
+                <path d="M152 176 q26 -14 52 0" fill="none"/>
+              </g>
+              <path d="M206 214 C213 250 212 282 206 302" stroke="#dcae55" stroke-opacity=".55" fill="none"/>
+              <!-- 2 scholar -->
+              <g>
+                <path d="M372 300 L392 300 L388 250 L376 250 Z"/>
+                <path d="M356 300 L376 300 L374 252 L360 252 Z"/>
+                <path d="M346 216 C348 256 346 286 352 302 L406 302 C412 286 410 256 410 216 Z"/>
+                <path d="M346 216 C356 198 400 198 410 216"/>
+                <path d="M346 216 C342 206 344 194 352 186 C368 172 388 172 404 186 C412 194 414 206 410 216 Z" opacity=".85"/>
+                <circle cx="378" cy="190" r="13"/>
+                <path d="M418 190 L418 302" stroke-width="2.4"/>
+                <path d="M410 178 a10 10 0 1 0 16 0" fill="none"/>
+                <circle cx="418" cy="176" r="3" fill="#a892d4" stroke="none" opacity=".8"/>
+              </g>
+              <path d="M404 218 C410 254 410 282 406 302" stroke="#a892d4" stroke-opacity=".5" fill="none"/>
+              <!-- 3 hunter -->
+              <g>
+                <path d="M584 300 L604 300 L600 252 L588 252 Z"/>
+                <path d="M568 300 L588 300 L586 254 L572 254 Z"/>
+                <path d="M556 218 C558 258 556 286 562 302 L620 302 C626 286 624 258 624 218 Z"/>
+                <path d="M556 218 C566 200 614 200 624 218"/>
+                <circle cx="590" cy="192" r="15"/>
+                <path d="M552 178 h76 v5 h-76 Z"/>
+                <path d="M574 168 h32 v10 h-32 Z" opacity=".9"/>
+                <path d="M622 236 L652 214" stroke-width="3"/>
+                <path d="M640 222 L660 208" stroke-width="2"/>
+                <path d="M556 244 l-16 44 l8 2 l18 -40 Z" opacity=".9"/>
+              </g>
+              <path d="M620 220 C626 256 626 284 622 302" stroke="#c95d43" stroke-opacity=".5" fill="none"/>
+              <!-- 4 physician -->
+              <g>
+                <path d="M798 300 L818 300 L814 250 L802 250 Z"/>
+                <path d="M782 300 L802 300 L800 252 L786 252 Z"/>
+                <path d="M770 218 C772 258 770 286 776 302 L834 302 C840 286 838 258 838 218 Z"/>
+                <path d="M770 218 C780 200 828 200 838 218"/>
+                <path d="M770 218 C766 226 768 236 774 242 L766 288 L782 290 L790 244 C796 236 796 224 790 216 Z" opacity=".9"/>
+                <circle cx="804" cy="192" r="14"/>
+                <path d="M792 180 q12 -10 24 0" fill="none"/>
+                <rect x="826" y="248" width="16" height="20" rx="3"/>
+                <path d="M834 248 v-8" stroke-width="1.6"/>
+                <circle cx="834" cy="270" r="10" fill="#ffcf7d" fill-opacity=".18" stroke="none"/>
+                <path d="M760 246 a12 12 0 0 1 12 12 l-12 0 Z"/>
+              </g>
+              <path d="M832 220 C838 254 838 282 834 302" stroke="#7fae7a" stroke-opacity=".45" fill="none"/>
+              <!-- 5 engineer -->
+              <g>
+                <path d="M1010 300 L1030 300 L1026 250 L1014 250 Z"/>
+                <path d="M994 300 L1014 300 L1012 252 L998 252 Z"/>
+                <path d="M982 216 C984 256 982 286 988 302 L1046 302 C1052 286 1050 256 1050 216 Z"/>
+                <path d="M982 216 C992 200 1040 200 1050 216"/>
+                <rect x="998" y="172" width="30" height="26" rx="4"/>
+                <rect x="1004" y="180" width="18" height="4" fill="#6fb8af" stroke="none" opacity=".55"/>
+                <path d="M1048 208 L1070 234 L1062 240 L1042 220 Z"/>
+                <rect x="988" y="214" width="18" height="40" rx="3"/>
+                <path d="M1006 210 v-18" stroke-width="2"/>
+                <circle cx="1006" cy="190" r="3" fill="#6fb8af" stroke="none" opacity=".7"/>
+              </g>
+              <path d="M1044 218 C1050 254 1050 282 1046 302" stroke="#6fb8af" stroke-opacity=".55" fill="none"/>
+            </g>
+            <!-- beach foreground -->
+            <path d="M0 302 H1200 V340 H0 Z" fill="#050e11"/>
+            <rect x="0" y="286" width="1200" height="60" fill="url(#crewFog)"/>
+            <g stroke="#6fb8af" stroke-opacity=".12">
+              <path d="M120 318 q20 -6 40 0 t40 0 t40 0"/>
+              <path d="M420 326 q20 -6 40 0 t40 0 t40 0"/>
+              <path d="M760 316 q20 -6 40 0 t40 0 t40 0"/>
+              <path d="M1010 330 q20 -6 40 0 t40 0"/>
+            </g>
+          </svg>

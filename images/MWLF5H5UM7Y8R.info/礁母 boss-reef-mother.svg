@@ -1,0 +1,47 @@
+<svg viewBox="0 0 360 230" role="img" aria-labelledby="b2t">
+              <title id="b2t">礁母剪影概念图</title>
+              <defs>
+                <radialGradient id="b2glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#7fd0c4" stop-opacity=".45"/><stop offset="100%" stop-color="#7fd0c4" stop-opacity="0"/></radialGradient>
+                <linearGradient id="b2sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a1c22"/><stop offset="100%" stop-color="#061012"/></linearGradient>
+              </defs>
+              <rect width="360" height="230" fill="url(#b2sky)"/>
+              <circle cx="68" cy="46" r="20" fill="#e8dfc2" opacity=".25"/>
+              <ellipse cx="180" cy="196" rx="180" ry="44" fill="#08272b" opacity=".7"/>
+              <!-- shell mass -->
+              <path d="M58 176 C74 118 116 86 180 84 C252 82 300 120 316 178 Z" fill="#040d0f" stroke="#48746e" stroke-opacity=".55"/>
+              <path d="M92 172 C104 132 136 108 180 106 C226 104 258 128 274 172 Z" fill="#071619" stroke="#3d625e" stroke-opacity=".5"/>
+              <!-- shell ridges -->
+              <g stroke="#5d8f86" stroke-opacity=".35" fill="none">
+                <path d="M100 160 C124 132 150 120 180 118"/>
+                <path d="M118 172 C140 146 160 138 182 136"/>
+                <path d="M258 160 C236 132 212 120 182 118"/>
+              </g>
+              <!-- claws -->
+              <g fill="#040d0f" stroke="#48746e" stroke-opacity=".55">
+                <path d="M74 168 C40 160 18 138 22 116 C44 116 60 128 68 142 Z"/>
+                <path d="M286 168 C320 160 342 138 338 116 C316 116 300 128 292 142 Z"/>
+                <path d="M22 116 C12 104 18 92 30 92 C36 100 34 110 26 116 Z"/>
+                <path d="M338 116 C348 104 342 92 330 92 C324 100 326 110 334 116 Z"/>
+              </g>
+              <!-- leg spikes -->
+              <g stroke="#2f5450" stroke-width="3" fill="none">
+                <path d="M96 172 L70 200"/><path d="M130 178 L112 208"/>
+                <path d="M230 178 L248 208"/><path d="M264 172 L290 200"/>
+              </g>
+              <!-- eggs -->
+              <g fill="#8fd8cc" opacity=".7">
+                <circle cx="150" cy="188" r="4"/><circle cx="164" cy="192" r="3"/><circle cx="196" cy="190" r="4"/>
+                <circle cx="210" cy="186" r="3"/><circle cx="180" cy="194" r="3.4"/>
+              </g>
+              <circle cx="180" cy="190" r="44" fill="url(#b2glow)" opacity=".5"/>
+              <!-- eyes -->
+              <g fill="#ffd98a">
+                <circle cx="158" cy="150" r="2.6"/><circle cx="202" cy="150" r="2.6"/>
+              </g>
+              <!-- tiny investigator for scale -->
+              <g fill="#050f11" stroke="#c9a35a" stroke-opacity=".55">
+                <path d="M312 214 L318 214 L317 200 L313 200 Z"/>
+                <path d="M308 200 C308 208 308 212 310 216 L320 216 C322 212 322 208 322 200 Z"/>
+                <circle cx="315" cy="194" r="4"/>
+              </g>
+            </svg>
