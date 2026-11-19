@@ -1,0 +1,10 @@
+# Engraved Revolver PBR Material
+newmtl RevolverAtlasPBR
+Ka 0.15 0.15 0.15
+Kd 1.00 1.00 1.00
+Ks 0.65 0.65 0.65
+Ns 180.0
+illum 2
+map_Kd albedo.png
+map_Bump -bm 1.0 normal.png
+map_Ns metallic_roughness.png
