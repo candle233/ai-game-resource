@@ -1,0 +1,901 @@
+{
+  "asset_id": "char_scholar_gu",
+  "revision": "batch1-1",
+  "category": "character",
+  "project": "ai-game",
+  "style": "coastal-prototype@2",
+  "branch": "generate",
+  "files": {
+    "references/00-front.webp": "1016b34e4fc23f1314362ce62ff0196a96b11dc3980e9ce010fcba35f396f42f",
+    "references/01-side.webp": "6ae25502a1f04fc898de65c964461ea481dea74d7156a168142294bef6486cb2",
+    "references/02-back.webp": "b04779fc084a6b04c51d0eb64aba44e6f5fe3353a5846f1956f1af77d1f3ab3c",
+    "raw_model/00-scholar-gu.glb": "6b16f2a2382d42af9522ce214102c0adf851fee93dc84b9136efd03b4b03bfe0",
+    "blend/00-asset.blend": "54e7f5564c364ea67bcf216d7937c248acfe1ae409dcb8e2b730c9dafac3d6d4",
+    "preview/00-preview.png": "a14acab46283b351e4f4b47d11aa33f1f793efe4755cfd094a9996e115955b63",
+    "reimport_report/00-report.json": "1130712f2fb1f04106b3f49dedf49c62c2edcc2d51554ad06c72dcbf92194226",
+    "reimport_report/01-blender.log": "e3283d58a44e4259dccceed91a484b41cae854938df5ed7fc595912ac1293445",
+    "delivery/model.fbx": "af03db7ad9237616c3d9520705e2f451d66794b2087953b4e4d24f7d69cfd1a2",
+    "delivery/textures/tex_wizard_girl_3d_model_basecolor.jpg.png": "86ac20b60e2a0361038a5b27c65150fbbb539de8dd54f01a03924798cf1d8ec5",
+    "delivery/textures/tex_wizard_girl_3d_model_normal.png.png": "77265f0edf035f931762c76f5f6015d2ccc07d47a878da71e6815df79acd37ff",
+    "delivery/textures/tex_wizard_girl_3d_model_rm.jpg.png": "39a64c278e6d1576967d0bace48f2df82cd8aba0323e3ecbe4cbde2fcfc13c68"
+  },
+  "contract_sha256": "b6f93e408c9051abedd6b2da556fe08f5e3e5ccc8a97302e4dd239f30a5750f5",
+  "specification": {
+    "asset_id": "char_scholar_gu",
+    "revision": "batch1-1",
+    "asset_type": "character",
+    "name": "Gu Qiwu, occult scholar",
+    "use": "Playable investigator 2 of 6; third-person gameplay character for the island survival prototype",
+    "target_platform": "StandaloneWindows64",
+    "camera": "Third-person top-down action view; silhouette and profession must read at gameplay distance",
+    "style": "coastal-prototype@2",
+    "batch": "island-batch-01",
+    "synonyms": [
+      "scholar",
+      "folklorist",
+      "rune staff",
+      "hooded",
+      "1930s"
+    ],
+    "generation": {
+      "description": "1930s Chinese female folklore scholar: deep hood over a short bun, teal-dyed Moisture-proof cape over a plain high-collar dress, leather satchel with a worn investigation manual, carved rune staff Low Whisper with a violet crystal held in the right hand, round spectacles, composed restrained posture",
+      "pose": "standing in a neutral A-pose facing forward, arms slightly away from the body, feet together",
+      "model_label": "H3.1",
+      "model_input_mode": "single",
+      "model_views": [
+        "front"
+      ],
+      "image_model": "Nano Banana 2",
+      "required_views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "postprocess": [],
+      "transports": [
+        "bridge",
+        "download"
+      ],
+      "image_prompts": {
+        "front": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese female folklore scholar: deep hood over a short bun, teal-dyed Moisture-proof cape over a plain high-collar dress, leather satchel with a worn investigation manual, carved rune staff Low Whisper with a violet crystal held in the right hand, round spectacles, composed restrained posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet together\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "side": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese female folklore scholar: deep hood over a short bun, teal-dyed Moisture-proof cape over a plain high-collar dress, leather satchel with a worn investigation manual, carved rune staff Low Whisper with a violet crystal held in the right hand, round spectacles, composed restrained posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet together\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: side",
+        "back": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese female folklore scholar: deep hood over a short bun, teal-dyed Moisture-proof cape over a plain high-collar dress, leather satchel with a worn investigation manual, carved rune staff Low Whisper with a violet crystal held in the right hand, round spectacles, composed restrained posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet together\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: back"
+      },
+      "style_images": [
+        "Assets/Reference/character1.jpg",
+        "Assets/Reference/character2.jpg"
+      ]
+    },
+    "technical": {
+      "max_triangles": 15000,
+      "max_materials": 4,
+      "max_texture_size": 1024,
+      "max_textures": 4,
+      "pivot": "feet_center",
+      "forward": "-Y",
+      "rig": "humanoid",
+      "animations": [
+        "idle",
+        "walk",
+        "attack",
+        "death"
+      ],
+      "collider": "none",
+      "attachments": [],
+      "moving_parts": [],
+      "modular": false,
+      "passage": false,
+      "decimate": false,
+      "texture_mode": "preserve",
+      "height_based": false,
+      "size_m": 1.75
+    },
+    "unity_use": "player character prefab",
+    "children": [],
+    "production_use": "prototype_only",
+    "unity_target": null,
+    "references": {
+      "style": [],
+      "structure": []
+    }
+  },
+  "source": {
+    "source_step": "MODEL",
+    "source_sha256": "6b16f2a2382d42af9522ce214102c0adf851fee93dc84b9136efd03b4b03bfe0",
+    "transport": "download",
+    "remote": "/workspace/generate/3d18e5a5-2b77-4d20-9765-5f5760b67f9f",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/inbox/front.webp"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "reference_generation": {
+    "views": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/inbox/front.webp",
+      "side": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/inbox/side.webp",
+      "back": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/inbox/back.webp"
+    },
+    "image_model": "Nano Banana 2",
+    "prompts": {
+      "front": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese female folklore scholar: deep hood over a short bun, teal-dyed Moisture-proof cape over a plain high-collar dress, leather satchel with a worn investigation manual, carved rune staff Low Whisper with a violet crystal held in the right hand, round spectacles, composed restrained posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet together\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+      "side": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese female folklore scholar: deep hood over a short bun, teal-dyed Moisture-proof cape over a plain high-collar dress, leather satchel with a worn investigation manual, carved rune staff Low Whisper with a violet crystal held in the right hand, round spectacles, composed restrained posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet together\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: side",
+      "back": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese female folklore scholar: deep hood over a short bun, teal-dyed Moisture-proof cape over a plain high-collar dress, leather satchel with a worn investigation manual, carved rune staff Low Whisper with a violet crystal held in the right hand, round spectacles, composed restrained posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet together\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: back"
+    },
+    "seed": "unknown",
+    "image_attachments": {
+      "front": {
+        "inputs": {
+          "Assets/Reference/character1.jpg": "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+          "Assets/Reference/character2.jpg": "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "character1.jpg",
+            "character2.jpg"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+            "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1"
+          ],
+          "screenshot": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/0a5eeca08ab64eae871f331845e23ba9/attachments-front.png",
+          "screenshot_sha256": "ea0def84e8ad6d98cb821a2993ded7a810e501db6335fcd38d0c4429161bd174"
+        }
+      },
+      "side": {
+        "inputs": {
+          "Assets/Reference/character1.jpg": "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+          "Assets/Reference/character2.jpg": "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1",
+          "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/inbox/front.webp": "1016b34e4fc23f1314362ce62ff0196a96b11dc3980e9ce010fcba35f396f42f"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "character1.jpg",
+            "character2.jpg",
+            "front.webp"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+            "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1",
+            "1016b34e4fc23f1314362ce62ff0196a96b11dc3980e9ce010fcba35f396f42f"
+          ],
+          "screenshot": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/4fa94a21eaa843778e344b412d642734/attachments-side.png",
+          "screenshot_sha256": "b697ecde503c534b66b47414846e349a3a31d502e0e5407c0ca1655c0bf099f6"
+        }
+      },
+      "back": {
+        "inputs": {
+          "Assets/Reference/character1.jpg": "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+          "Assets/Reference/character2.jpg": "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1",
+          "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/inbox/front.webp": "1016b34e4fc23f1314362ce62ff0196a96b11dc3980e9ce010fcba35f396f42f"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "character1.jpg",
+            "character2.jpg",
+            "front.webp"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+            "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1",
+            "1016b34e4fc23f1314362ce62ff0196a96b11dc3980e9ce010fcba35f396f42f"
+          ],
+          "screenshot": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/4fa94a21eaa843778e344b412d642734/attachments-back.png",
+          "screenshot_sha256": "2506b7cfe2da5826cd67ffe8494986b49d05f00545b69d7f405639f9b54336f3"
+        }
+      }
+    }
+  },
+  "model_generation": {
+    "transport": "download",
+    "remote": "/workspace/generate/3d18e5a5-2b77-4d20-9765-5f5760b67f9f",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/inbox/front.webp"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "operations": {
+    "REFERENCE:front": {
+      "operation_id": "f816ac8f904244baa3c9ced9a39c1d5e",
+      "job_id": "job_4576b88693be472f91854847318fae1c",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "front",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Assets/Reference/character1.jpg": "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+          "Assets/Reference/character2.jpg": "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "character1.jpg",
+            "character2.jpg"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+            "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1"
+          ],
+          "screenshot": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/0a5eeca08ab64eae871f331845e23ba9/attachments-front.png",
+          "screenshot_sha256": "ea0def84e8ad6d98cb821a2993ded7a810e501db6335fcd38d0c4429161bd174"
+        },
+        "attachment_evidence_sha256": "02c13f0bc4b48985eca14f7b7bcb1a642cf2cf80828fffaaf4811f391decfd2e",
+        "model": "Nano Banana 2",
+        "button": "Generate Image",
+        "prompt": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese female folklore scholar: deep hood over a short bun, teal-dyed Moisture-proof cape over a plain high-collar dress, leather satchel with a worn investigation manual, carved rune staff Low Whisper with a violet crystal held in the right hand, round spectacles, composed restrained posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet together\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "result_marker": "One riggable figure in a neutral pose Readable silhouettes, large rounded primar",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "ecfe60805b706eb094843ef0a2a21b36d7b28529759f6ebcbe4c1b7f339fa157",
+      "intent_utc": "2026-11-22T09:02:39.363519+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/0a5eeca08ab64eae871f331845e23ba9/before-front.json",
+      "remote": "feed:8d4ccdde88b3a817",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/2f22c03a891b45e9887c99d81b01fb18/result-front.json",
+      "delivered": {
+        "file": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/inbox/front.webp",
+        "sha256": "1016b34e4fc23f1314362ce62ff0196a96b11dc3980e9ce010fcba35f396f42f"
+      }
+    },
+    "REFERENCE:side": {
+      "operation_id": "853aa961532c484ebfda0f10fe784e2d",
+      "job_id": "job_4576b88693be472f91854847318fae1c",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "side",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Assets/Reference/character1.jpg": "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+          "Assets/Reference/character2.jpg": "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1",
+          "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/inbox/front.webp": "1016b34e4fc23f1314362ce62ff0196a96b11dc3980e9ce010fcba35f396f42f"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "character1.jpg",
+            "character2.jpg",
+            "front.webp"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+            "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1",
+            "1016b34e4fc23f1314362ce62ff0196a96b11dc3980e9ce010fcba35f396f42f"
+          ],
+          "screenshot": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/4fa94a21eaa843778e344b412d642734/attachments-side.png",
+          "screenshot_sha256": "b697ecde503c534b66b47414846e349a3a31d502e0e5407c0ca1655c0bf099f6"
+        },
+        "attachment_evidence_sha256": "4b891d58bb597d7c11282dc0bdfd3a69ff44242ef18ba89983f88aa902773e87",
+        "model": "Nano Banana 2",
+        "button": "Generate Image",
+        "prompt": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese female folklore scholar: deep hood over a short bun, teal-dyed Moisture-proof cape over a plain high-collar dress, leather satchel with a worn investigation manual, carved rune staff Low Whisper with a violet crystal held in the right hand, round spectacles, composed restrained posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet together\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: side",
+        "result_marker": "One riggable figure in a neutral pose Readable silhouettes, large rounded primar",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "ecfe60805b706eb094843ef0a2a21b36d7b28529759f6ebcbe4c1b7f339fa157",
+      "intent_utc": "2026-11-22T09:12:55.876820+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/4fa94a21eaa843778e344b412d642734/before-side.json",
+      "remote": "feed:20ab2cb92d27fd74",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/4fa94a21eaa843778e344b412d642734/result-side.json",
+      "delivered": {
+        "file": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/inbox/side.webp",
+        "sha256": "6ae25502a1f04fc898de65c964461ea481dea74d7156a168142294bef6486cb2"
+      }
+    },
+    "REFERENCE:back": {
+      "operation_id": "321a331b94ac4f268764b45721df7d25",
+      "job_id": "job_4576b88693be472f91854847318fae1c",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "back",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Assets/Reference/character1.jpg": "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+          "Assets/Reference/character2.jpg": "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1",
+          "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/inbox/front.webp": "1016b34e4fc23f1314362ce62ff0196a96b11dc3980e9ce010fcba35f396f42f"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "character1.jpg",
+            "character2.jpg",
+            "front.webp"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+            "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1",
+            "1016b34e4fc23f1314362ce62ff0196a96b11dc3980e9ce010fcba35f396f42f"
+          ],
+          "screenshot": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/4fa94a21eaa843778e344b412d642734/attachments-back.png",
+          "screenshot_sha256": "2506b7cfe2da5826cd67ffe8494986b49d05f00545b69d7f405639f9b54336f3"
+        },
+        "attachment_evidence_sha256": "35d198526b892b9f19c9f33481a2010cdb27ed4b4fcfad9c7c0add21404460ab",
+        "model": "Nano Banana 2",
+        "button": "Generate Image",
+        "prompt": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese female folklore scholar: deep hood over a short bun, teal-dyed Moisture-proof cape over a plain high-collar dress, leather satchel with a worn investigation manual, carved rune staff Low Whisper with a violet crystal held in the right hand, round spectacles, composed restrained posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet together\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: back",
+        "result_marker": "One riggable figure in a neutral pose Readable silhouettes, large rounded primar",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "ecfe60805b706eb094843ef0a2a21b36d7b28529759f6ebcbe4c1b7f339fa157",
+      "intent_utc": "2026-11-22T09:13:27.971204+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/4fa94a21eaa843778e344b412d642734/before-back.json",
+      "remote": "feed:599386df6337bee3",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/84bed03801dc4e248dd038f3df2f8d35/result-back.json",
+      "delivered": {
+        "file": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/inbox/back.webp",
+        "sha256": "b04779fc084a6b04c51d0eb64aba44e6f5fe3353a5846f1956f1af77d1f3ab3c"
+      }
+    },
+    "MODEL:model": {
+      "operation_id": "5fc97f508d8b497295e6f137c2256428",
+      "job_id": "job_4576b88693be472f91854847318fae1c",
+      "step_id": "MODEL",
+      "service": "studio",
+      "key": "model",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/inbox/front.webp": "1016b34e4fc23f1314362ce62ff0196a96b11dc3980e9ce010fcba35f396f42f"
+        },
+        "model": "H3.1",
+        "button": "Generate 45",
+        "prompt": null,
+        "result_marker": "11-21",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/generate/a-glass-vial-containing-a-swirling-glowing-red-liquid-featuring-an-o-29657553-20da-43af-8122-ad8c4a049e9b",
+          "/workspace/generate/f6bd5ffe-b4b6-4f8f-a96f-ac264867a433",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "821fc813924b6c8a14f5ece2d61ca855543f1bbc876c2b3e3e4173acfde88ce2",
+      "intent_utc": "2026-11-22T10:40:42.853286+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/model/6dec1cabfc4642608bcc0b7911f01b02/before-model.json",
+      "remote": "/workspace/generate/3d18e5a5-2b77-4d20-9765-5f5760b67f9f",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/model/06324650c01e4791bbc9d1acd55f1c95/result-model.json",
+      "delivered": {
+        "file": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/model/inbox/scholar-gu.glb",
+        "sha256": "6b16f2a2382d42af9522ce214102c0adf851fee93dc84b9136efd03b4b03bfe0"
+      }
+    }
+  },
+  "processing": {
+    "stats": {
+      "dims_m": [
+        1.0961861610412598,
+        0.6370193958282471,
+        1.75
+      ],
+      "geometry_max_m": [
+        0.5480930805206299,
+        0.31850969791412354,
+        1.75
+      ],
+      "geometry_min_m": [
+        -0.5480930805206299,
+        -0.31850969791412354,
+        0.0
+      ],
+      "materials": 1,
+      "names": [
+        "tripo_node_5340d083-8814-4798-86fe-8b2cfbfd9c20"
+      ],
+      "texture_downscale": {
+        "wizard_girl_3d_model_basecolor.jpg": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "wizard_girl_3d_model_normal.png": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "wizard_girl_3d_model_rm.jpg": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        }
+      },
+      "textures": 3,
+      "triangles": 3820,
+      "vertices": 3248
+    },
+    "checks": [
+      {
+        "name": "size_feet_center",
+        "status": "pass",
+        "threshold": 1.75,
+        "value": 1.75
+      },
+      {
+        "name": "origin_feet_center",
+        "status": "pass",
+        "value": [
+          -0.5481,
+          -0.3185,
+          0.0
+        ]
+      },
+      {
+        "name": "rig_deferred",
+        "note": "skeleton, skin weights and clips are produced by the RIG stage",
+        "status": "pass",
+        "threshold": "RIG",
+        "value": "humanoid"
+      },
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 3820
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 15000,
+        "value": 3820
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 3
+      },
+      {
+        "name": "image:wizard_girl_3d_model_basecolor.jpg",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:wizard_girl_3d_model_normal.png",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:wizard_girl_3d_model_rm.jpg",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 1.75,
+        "value": 1.75
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_5340d083-8814-4798-86fe-8b2cfbfd9c20"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_5340d083-8814-4798-86fe-8b2cfbfd9c20"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "stats": {
+      "dims_m": [
+        1.0961862802505493,
+        0.6370198130607605,
+        1.750000258430081
+      ],
+      "geometry_max_m": [
+        0.5480931401252747,
+        0.31851011514663696,
+        1.750000238418579
+      ],
+      "geometry_min_m": [
+        -0.5480931401252747,
+        -0.31850969791412354,
+        -2.0011501788985697e-08
+      ],
+      "materials": 1,
+      "names": [
+        "Armature",
+        "tripo_node_5340d083-8814-4798-86fe-8b2cfbfd9c20"
+      ],
+      "textures": 2,
+      "triangles": 3820,
+      "vertices": 3248
+    },
+    "checks": [
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 3820
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 15000,
+        "value": 3820
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 2
+      },
+      {
+        "name": "image:wizard_girl_3d_model_basecolor.jpg",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:wizard_girl_3d_model_normal.png",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 1.75,
+        "value": 1.750000258430081
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          0.0,
+          2.086162567138672e-07,
+          -2.0011501788985697e-08
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "Armature",
+          "tripo_node_5340d083-8814-4798-86fe-8b2cfbfd9c20"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "Armature",
+          "tripo_node_5340d083-8814-4798-86fe-8b2cfbfd9c20"
+        ]
+      },
+      {
+        "name": "armature",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "deform_weights:tripo_node_5340d083-8814-4798-86fe-8b2cfbfd9c20",
+        "status": "pass",
+        "threshold": 0,
+        "value": 0
+      },
+      {
+        "name": "clip_file:idle",
+        "status": "pass",
+        "threshold": "duration 60 frames",
+        "value": [
+          [
+            2.0,
+            62.0
+          ]
+        ]
+      },
+      {
+        "name": "clip_file:walk",
+        "status": "pass",
+        "threshold": "duration 32 frames",
+        "value": [
+          [
+            2.0,
+            34.0
+          ]
+        ]
+      },
+      {
+        "name": "clip_file:attack",
+        "status": "pass",
+        "threshold": "duration 24 frames",
+        "value": [
+          [
+            2.0,
+            26.0
+          ]
+        ]
+      },
+      {
+        "name": "clip_file:death",
+        "status": "pass",
+        "threshold": "duration 48 frames",
+        "value": [
+          [
+            2.0,
+            50.0
+          ]
+        ]
+      },
+      {
+        "name": "required_animations",
+        "status": "pass",
+        "threshold": [
+          "idle",
+          "walk",
+          "attack",
+          "death"
+        ],
+        "value": {
+          "attack": [
+            [
+              2.0,
+              26.0
+            ]
+          ],
+          "death": [
+            [
+              2.0,
+              50.0
+            ]
+          ],
+          "idle": [
+            [
+              2.0,
+              62.0
+            ]
+          ],
+          "walk": [
+            [
+              2.0,
+              34.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "roundtrip_triangles",
+        "status": "pass",
+        "threshold": 3820,
+        "value": 3820
+      },
+      {
+        "name": "roundtrip_textures",
+        "status": "pass",
+        "threshold": 2,
+        "value": 2
+      },
+      {
+        "name": "roundtrip_dimensions",
+        "status": "pass",
+        "threshold": [
+          1.0961862802505493,
+          0.6370198130607605,
+          1.750000258430081
+        ],
+        "value": [
+          1.0961862802505493,
+          0.6370198130607605,
+          1.750000258430081
+        ]
+      }
+    ],
+    "fbx_sha256": "af03db7ad9237616c3d9520705e2f451d66794b2087953b4e4d24f7d69cfd1a2",
+    "textures_sha256": {
+      "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/rig/7da881fdab4c473c9df51818db62af00/textures/tex_wizard_girl_3d_model_basecolor.jpg.png": "86ac20b60e2a0361038a5b27c65150fbbb539de8dd54f01a03924798cf1d8ec5",
+      "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/rig/7da881fdab4c473c9df51818db62af00/textures/tex_wizard_girl_3d_model_normal.png.png": "77265f0edf035f931762c76f5f6015d2ccc07d47a878da71e6815df79acd37ff",
+      "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/rig/7da881fdab4c473c9df51818db62af00/textures/tex_wizard_girl_3d_model_rm.jpg.png": "39a64c278e6d1576967d0bace48f2df82cd8aba0323e3ecbe4cbde2fcfc13c68"
+    }
+  },
+  "review": {
+    "reviewer": "independent-ai-review",
+    "validator_version": "controlled-3d/1",
+    "checks": {
+      "silhouette": {
+        "result": "PASS",
+        "reason": "Preview shows a correctly proportioned stylized 1.75m humanoid female scholar (head roughly 1:6 of height): deep hood, shoulder cape, layered ankle-length skirt, staff extending above head height, satchel at the left hip. No missing or duplicated limbs, no floating or collapsed geometry. Measured bounds Z 0.0-1.75m, X +/-0.54809m (staff and arm span), Y +/-0.31851m, 3820 triangles; silhouette clearly matches the commissioned hooded-scholar-with-staff reference.",
+        "evidence": "preview.png",
+        "sha256": "a14acab46283b351e4f4b47d11aa33f1f793efe4755cfd094a9996e115955b63"
+      },
+      "orientation": {
+        "result": "PASS",
+        "reason": "Objective probe of the shipped rigged FBX (rig/export/model.fbx) armature rest pose computed forward = up x right from bone positions (Hips->Head up, RightUpperArm-LeftUpperArm right): forward_axis (0,-1,0), up (0,0,1), right (-1,0,0) - exactly the frozen -Y forward convention. The face and staff-hand side visible in preview.png are consistent with this facing. FBX roundtrip preserved dimensions exactly (1.096186 x 0.637020 x 1.750000m in both reports), so no axis swap was introduced by export.",
+        "evidence": "orientation_probe.json",
+        "sha256": "f48a766ffebfba7811f79fe123938ebe13a4bbc39b28ae4f71085a4ea9cc7b21"
+      },
+      "pivot": {
+        "result": "PASS",
+        "reason": "Process report: pivot_at_origin (0,0,0) with geometry spanning Z 0.0-1.75m (feet on the ground plane) and X +/-0.54809m, Y +/-0.31851m symmetric about the origin - origin sits at the feet center as required. FBX reimport pivot (0, 2.086e-07, -2.001e-08) is float epsilon; reimport size_m 1.750000258 is within tolerance of the frozen 1.75m height.",
+        "evidence": "blender_process_report.json",
+        "sha256": "df31ceef8191d610f44a4645c29e50fea5d13be047525bcb0d63679ba1bb3e8b"
+      },
+      "joint_topology": {
+        "result": "PASS",
+        "reason": "Single armature with 21 bones on the unity_humanoid_v1 profile: Hips/Spine/Chest/Neck/Head plus L/R Shoulder, UpperArm, LowerArm, Hand, UpperLeg, LowerLeg, Foot, Toes - a complete humanoid chain including toes (names and count confirmed by the probe of the shipped FBX in orientation_probe.json). Armature scaled x1.01744 to fit the mesh; longest bone 0.4375m. bone_weight_coverage 21/21 with zero_bones empty (no bone left unweighted); FBX reimport shows exactly 1 armature + 1 skinned mesh, no orphan or duplicate joints. Procedural placeholder rig per the operator-approved prototype route, judged within prototype_only scope.",
+        "evidence": "rig_report.json",
+        "sha256": "52f6efa5a2fe725b52cc65ade9cb0fac2115e8c996c426fc211026b49a26a7ff"
+      },
+      "deformation": {
+        "result": "PASS",
+        "reason": "All 3248 vertices carry deform weights (vertex_weight_coverage 3248/3248; reimport unweighted-vertex count 0) - no zero-weight regions, and all four required clips survive the FBX roundtrip with correct durations: idle 60 frames (2-62, loop), walk 32 frames (2-34, loop), attack 24 frames (2-26), death 48 frames (2-50), 87 fcurves each (see fbx_check_report.json). Limitations recorded within prototype_only scope, not treated as failures: (1) skin_method is envelope_fallback with a zero_vertex_fixup warn - 190 vertices outside every envelope received nearest-bone weights (LeftUpperLeg 90, RightUpperLeg 54, RightLowerArm 39, RightHand 7); (2) the armature rest pose is a T-pose (upper arms 90.0 degrees from vertical per orientation_probe.json) while the mesh rest pose has arms lowered (visible in preview.png) - the same T-pose-armature vs A-pose-mesh mismatch known from the pilot captain (attack-frame shoulder tearing), so similar shoulder artifacts should be expected around attack frames. Extreme-pose stress test passed: arms +/-90deg, legs +/-30deg, max displacement 0.7288m under the 1.0938m threshold.",
+        "evidence": "rig_report.json",
+        "sha256": "52f6efa5a2fe725b52cc65ade9cb0fac2115e8c996c426fc211026b49a26a7ff"
+      },
+      "attachments": {
+        "result": "PASS",
+        "reason": "All design-intent props are present and correctly placed in preview.png: carved rune staff gripped in the right hand with the violet crystal at the head, brown leather satchel worn cross-body at the left hip, round spectacles, deep hood with teal moisture-proof cape over the high-collar dress. Pipeline attachment check passed with no unexpected external attachment nodes (single skinned mesh + armature only). Note for prototype scope: props are integrated into the single mesh rather than separate skinned attachment objects, so the staff/crystal cannot later be swapped or detached without a re-export.",
+        "evidence": "preview.png",
+        "sha256": "a14acab46283b351e4f4b47d11aa33f1f793efe4755cfd094a9996e115955b63"
+      },
+      "style": {
+        "result": "PASS",
+        "reason": "Compared against the commissioned reference views (front.webp, side.webp, back.webp, copied into this review directory; the upstream REFERENCE_REVIEW passed all five of its checks): deep teal hood and cape, high-collar grey-green dress, layered skirt, brown leather satchel with buckles, carved staff topped with a violet crystal, round spectacles, brown shoes - outfit composition, palette family, and prop layout all match the reference, including the staff held in the right hand. Deviations stay within prototype tolerance: the processed palette reads lighter and less weathered than the reference's deep teal, the staff rune carvings are less pronounced, the crystal is smaller, and painterly detail is softened by the 1024px texture bake.",
+        "evidence": "front.webp",
+        "sha256": "1016b34e4fc23f1314362ce62ff0196a96b11dc3980e9ce010fcba35f396f42f"
+      },
+      "material_appearance": {
+        "result": "PASS",
+        "reason": "1 material (limit 4); 3 textures (basecolor, normal, rm) downscaled 2048 to 1024px (limit 1024); single UV set with texture_uv check passed. preview.png shows clean hand-painted painterly shading with no visible tiling, stretching, or seam artifacts at the review angle; the spectacles are baked into the face texture, which is prototype-acceptable. Observation: the FBX roundtrip binds only 2 textures (basecolor + normal) - the rm roughness/metallic map is not referenced after export, so Unity import must rebind roughness or rely on default smoothness.",
+        "evidence": "preview.png",
+        "sha256": "a14acab46283b351e4f4b47d11aa33f1f793efe4755cfd094a9996e115955b63"
+      }
+    },
+    "evidence": {
+      "silhouette": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/model_review/dd28e5b5ef364d9aac6e725d7f1d54dd/evidence-00.png",
+      "orientation": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/model_review/dd28e5b5ef364d9aac6e725d7f1d54dd/evidence-01.json",
+      "pivot": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/model_review/dd28e5b5ef364d9aac6e725d7f1d54dd/evidence-02.json",
+      "joint_topology": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/model_review/dd28e5b5ef364d9aac6e725d7f1d54dd/evidence-03.json",
+      "deformation": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/model_review/dd28e5b5ef364d9aac6e725d7f1d54dd/evidence-04.json",
+      "attachments": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/model_review/dd28e5b5ef364d9aac6e725d7f1d54dd/evidence-05.png",
+      "style": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/model_review/dd28e5b5ef364d9aac6e725d7f1d54dd/evidence-06.webp",
+      "material_appearance": "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/model_review/dd28e5b5ef364d9aac6e725d7f1d54dd/evidence-07.png"
+    }
+  },
+  "local_delivery": [
+    "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/inbox/front.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/inbox/side.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/reference/inbox/back.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/model/inbox/scholar-gu.glb",
+    "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/blender_process/1ab3333dcf3b483ba2d2f0e5f2a50e01/asset.blend",
+    "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/blender_process/1ab3333dcf3b483ba2d2f0e5f2a50e01/preview.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/fbx_check/8706412941d74b108ff97b8d5edd7bc1/report.json",
+    "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/fbx_check/8706412941d74b108ff97b8d5edd7bc1/blender.log",
+    "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/rig/7da881fdab4c473c9df51818db62af00/export/model.fbx",
+    "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/rig/7da881fdab4c473c9df51818db62af00/textures/tex_wizard_girl_3d_model_basecolor.jpg.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/rig/7da881fdab4c473c9df51818db62af00/textures/tex_wizard_girl_3d_model_normal.png.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_4576b88693be472f91854847318fae1c/rig/7da881fdab4c473c9df51818db62af00/textures/tex_wizard_girl_3d_model_rm.jpg.png"
+  ]
+}

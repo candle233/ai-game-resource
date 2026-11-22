@@ -1,0 +1,909 @@
+{
+  "asset_id": "char_captain_shen",
+  "revision": "pilot-1",
+  "category": "character",
+  "project": "ai-game",
+  "style": "coastal-prototype@2",
+  "branch": "generate",
+  "files": {
+    "references/00-front.webp": "1562abbbee653e14f3531f1e7c3d64683009caeba47a2eb1d7201f5962161e54",
+    "references/01-side.webp": "c4c62398b0a9a53808002dad7ef87a7d25fe397c2386956c55b69c9e6101c004",
+    "references/02-back.png": "442957d8499922382c90ca519d4963ec7d1ed05e33a173fc56b9662a2256318b",
+    "raw_model/00-military-officer.glb": "7d28a1646027cf6d020717f4dc7ad06064b5345512dcc827b90f14b622c1e04b",
+    "blend/00-asset.blend": "84177310f135f1ffd11a16d5879f201ec600cc0120e489dab387763a1067ef56",
+    "preview/00-preview.png": "d49f2116b1758e0a745ece7ae04676990d83d1ebdc5c211645104cca3eeb2ec7",
+    "reimport_report/00-report.json": "075313f150a7c5b64b6b75ec991402fd2ca19009576a18dbc21cf9ed895b7cbd",
+    "reimport_report/01-blender.log": "7e6881ccefd7d5fd0761f8d49ad4032e80886cbe280fb8071cf96b864b9eb4f4",
+    "delivery/model.fbx": "72e8e83b84df97ffc63c1e509ec4fccf5d322d19e4c287eeb995ef4953d72751",
+    "delivery/textures/tex_military_officer_3d_model_basecolor.jpg.png": "2a65b881f39413be03142a23c8855fce5cdc61900b97e1d61b01d1e975f271f6",
+    "delivery/textures/tex_military_officer_3d_model_normal.png.png": "5d83828aa8117f9dfb536f948cbe5c6a61d2519aeb80a73add8a6d1cff5e00bb",
+    "delivery/textures/tex_military_officer_3d_model_rm.jpg.png": "f1f5d08b05609af3d735582f868b428bafe5b3b0fa99370acf6c8af148273811"
+  },
+  "contract_sha256": "e388567ce10d8ebc82612a80e27bff599e8d60f5daec9d959b1edc15eaf418c4",
+  "specification": {
+    "asset_id": "char_captain_shen",
+    "revision": "pilot-1",
+    "asset_type": "character",
+    "name": "Shen Bozhou, retired naval captain",
+    "use": "Playable investigator 1 of 6; third-person gameplay character for the island survival prototype",
+    "target_platform": "StandaloneWindows64",
+    "camera": "Third-person top-down action view; silhouette and profession must read at gameplay distance",
+    "style": "coastal-prototype@2",
+    "batch": "island-pilot-01",
+    "synonyms": [
+      "naval captain",
+      "officer",
+      "revolver",
+      "storm coat",
+      "1930s"
+    ],
+    "generation": {
+      "description": "1930s Chinese retired naval captain: wide-peaked officer cap with tarnished brass badge, salt-stained oilskin storm coat over a dark high-collar uniform, leather belt with a holstered six-shot revolver and a short military knife, worn boots, weathered middle-aged face, grounded and steady posture",
+      "pose": "standing in a neutral A-pose facing forward, arms slightly away from the body, feet shoulder-width apart",
+      "model_label": "H3.1",
+      "model_input_mode": "single",
+      "model_views": [
+        "front"
+      ],
+      "image_model": "Nano Banana 2",
+      "required_views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "postprocess": [],
+      "transports": [
+        "bridge",
+        "download"
+      ],
+      "image_prompts": {
+        "front": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese retired naval captain: wide-peaked officer cap with tarnished brass badge, salt-stained oilskin storm coat over a dark high-collar uniform, leather belt with a holstered six-shot revolver and a short military knife, worn boots, weathered middle-aged face, grounded and steady posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet shoulder-width apart\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "side": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese retired naval captain: wide-peaked officer cap with tarnished brass badge, salt-stained oilskin storm coat over a dark high-collar uniform, leather belt with a holstered six-shot revolver and a short military knife, worn boots, weathered middle-aged face, grounded and steady posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet shoulder-width apart\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: side",
+        "back": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese retired naval captain: wide-peaked officer cap with tarnished brass badge, salt-stained oilskin storm coat over a dark high-collar uniform, leather belt with a holstered six-shot revolver and a short military knife, worn boots, weathered middle-aged face, grounded and steady posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet shoulder-width apart\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: back"
+      },
+      "style_images": [
+        "Assets/Reference/character1.jpg",
+        "Assets/Reference/character2.jpg"
+      ]
+    },
+    "technical": {
+      "max_triangles": 15000,
+      "max_materials": 4,
+      "max_texture_size": 1024,
+      "max_textures": 4,
+      "pivot": "feet_center",
+      "forward": "-Y",
+      "rig": "humanoid",
+      "animations": [
+        "idle",
+        "walk",
+        "attack",
+        "death"
+      ],
+      "collider": "none",
+      "attachments": [],
+      "moving_parts": [],
+      "modular": false,
+      "passage": false,
+      "decimate": false,
+      "texture_mode": "preserve",
+      "height_based": false,
+      "size_m": 1.8
+    },
+    "unity_use": "player character prefab",
+    "children": [],
+    "production_use": "prototype_only",
+    "unity_target": null,
+    "references": {
+      "style": [],
+      "structure": []
+    }
+  },
+  "source": {
+    "source_step": "MODEL",
+    "source_sha256": "7d28a1646027cf6d020717f4dc7ad06064b5345512dcc827b90f14b622c1e04b",
+    "transport": "download",
+    "remote": "/workspace/generate/f6bd5ffe-b4b6-4f8f-a96f-ac264867a433",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/inbox/front.webp"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "reference_generation": {
+    "views": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/inbox/front.webp",
+      "side": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/inbox/side.webp",
+      "back": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/inbox/back.png"
+    },
+    "image_model": "Nano Banana 2",
+    "prompts": {
+      "front": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese retired naval captain: wide-peaked officer cap with tarnished brass badge, salt-stained oilskin storm coat over a dark high-collar uniform, leather belt with a holstered six-shot revolver and a short military knife, worn boots, weathered middle-aged face, grounded and steady posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet shoulder-width apart\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+      "side": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese retired naval captain: wide-peaked officer cap with tarnished brass badge, salt-stained oilskin storm coat over a dark high-collar uniform, leather belt with a holstered six-shot revolver and a short military knife, worn boots, weathered middle-aged face, grounded and steady posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet shoulder-width apart\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: side",
+      "back": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese retired naval captain: wide-peaked officer cap with tarnished brass badge, salt-stained oilskin storm coat over a dark high-collar uniform, leather belt with a holstered six-shot revolver and a short military knife, worn boots, weathered middle-aged face, grounded and steady posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet shoulder-width apart\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: back"
+    },
+    "seed": "unknown",
+    "image_attachments": {
+      "front": {
+        "inputs": {
+          "Assets/Reference/character1.jpg": "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+          "Assets/Reference/character2.jpg": "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "character1.jpg",
+            "character2.jpg"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+            "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1"
+          ],
+          "screenshot": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/4733747a93344346b3146c8d31f076e1/attachments-front.png",
+          "screenshot_sha256": "77386d747cdf08045a05e291c5361cfae7b56b2aa57cca0cf06506408d2aefe2"
+        }
+      },
+      "side": {
+        "inputs": {
+          "Assets/Reference/character1.jpg": "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+          "Assets/Reference/character2.jpg": "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1",
+          "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/inbox/front.webp": "1562abbbee653e14f3531f1e7c3d64683009caeba47a2eb1d7201f5962161e54"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "character1.jpg",
+            "character2.jpg",
+            "front.webp"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+            "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1",
+            "1562abbbee653e14f3531f1e7c3d64683009caeba47a2eb1d7201f5962161e54"
+          ],
+          "screenshot": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/ad8dde75e35c4faa8ab86f182f74eba7/attachments-side.png",
+          "screenshot_sha256": "4277e1c24436211816f186aa9445cba79ada8658682d34450bbf3041caddb4b7"
+        }
+      },
+      "back": {
+        "inputs": {
+          "Assets/Reference/character1.jpg": "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+          "Assets/Reference/character2.jpg": "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1",
+          "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/inbox/front.webp": "1562abbbee653e14f3531f1e7c3d64683009caeba47a2eb1d7201f5962161e54"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "character1.jpg",
+            "character2.jpg",
+            "front.webp"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+            "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1",
+            "1562abbbee653e14f3531f1e7c3d64683009caeba47a2eb1d7201f5962161e54"
+          ],
+          "screenshot_error": "Playwright screenshot not confirmed after retries"
+        }
+      }
+    }
+  },
+  "model_generation": {
+    "transport": "download",
+    "remote": "/workspace/generate/f6bd5ffe-b4b6-4f8f-a96f-ac264867a433",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/inbox/front.webp"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "operations": {
+    "REFERENCE:front": {
+      "operation_id": "ea522ae80da74fd4bd1f2afb054876da",
+      "job_id": "job_c4a9b51438dd4a7888fa6d424b26af59",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "front",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Assets/Reference/character1.jpg": "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+          "Assets/Reference/character2.jpg": "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "character1.jpg",
+            "character2.jpg"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+            "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1"
+          ],
+          "screenshot": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/4733747a93344346b3146c8d31f076e1/attachments-front.png",
+          "screenshot_sha256": "77386d747cdf08045a05e291c5361cfae7b56b2aa57cca0cf06506408d2aefe2"
+        },
+        "attachment_evidence_sha256": "e9b054798445e2110088a822c46640f1ad4647c92405963709a9bdbb8a96da53",
+        "model": "Nano Banana 2",
+        "button": "Generate Image",
+        "prompt": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese retired naval captain: wide-peaked officer cap with tarnished brass badge, salt-stained oilskin storm coat over a dark high-collar uniform, leather belt with a holstered six-shot revolver and a short military knife, worn boots, weathered middle-aged face, grounded and steady posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet shoulder-width apart\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "result_marker": "1930s Chinese retired naval captain: wide-peaked officer cap with tarnished brass badge",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "b842b200faf983b83134659c6cc29b0e307ef5b4a454342ccd50d46c75856899",
+      "intent_utc": "2026-11-21T06:01:12.512162+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/4733747a93344346b3146c8d31f076e1/before-front.json",
+      "remote": "feed:69891b280e4f775c",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/80f2ffe017d3493bbf07795d6edeb630/result-front.json",
+      "delivered": {
+        "file": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/inbox/front.webp",
+        "sha256": "1562abbbee653e14f3531f1e7c3d64683009caeba47a2eb1d7201f5962161e54"
+      }
+    },
+    "REFERENCE:side": {
+      "operation_id": "b2ba96bd989d40e1a21de7ef7eaa7bee",
+      "job_id": "job_c4a9b51438dd4a7888fa6d424b26af59",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "side",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Assets/Reference/character1.jpg": "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+          "Assets/Reference/character2.jpg": "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1",
+          "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/inbox/front.webp": "1562abbbee653e14f3531f1e7c3d64683009caeba47a2eb1d7201f5962161e54"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "character1.jpg",
+            "character2.jpg",
+            "front.webp"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+            "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1",
+            "1562abbbee653e14f3531f1e7c3d64683009caeba47a2eb1d7201f5962161e54"
+          ],
+          "screenshot": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/ad8dde75e35c4faa8ab86f182f74eba7/attachments-side.png",
+          "screenshot_sha256": "4277e1c24436211816f186aa9445cba79ada8658682d34450bbf3041caddb4b7"
+        },
+        "attachment_evidence_sha256": "d3a5d99c76f101378af9d606978cde66a492746f829e33b41a7ae15ce2564239",
+        "model": "Nano Banana 2",
+        "button": "Generate Image",
+        "prompt": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese retired naval captain: wide-peaked officer cap with tarnished brass badge, salt-stained oilskin storm coat over a dark high-collar uniform, leather belt with a holstered six-shot revolver and a short military knife, worn boots, weathered middle-aged face, grounded and steady posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet shoulder-width apart\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: side",
+        "result_marker": "1930s Chinese retired naval captain: wide-peaked officer cap with tarnished brass badge",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "b842b200faf983b83134659c6cc29b0e307ef5b4a454342ccd50d46c75856899",
+      "intent_utc": "2026-11-21T07:04:25.982021+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/ad8dde75e35c4faa8ab86f182f74eba7/before-side.json",
+      "remote": "feed:46a882200c6dd257",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/ad8dde75e35c4faa8ab86f182f74eba7/result-side.json",
+      "delivered": {
+        "file": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/inbox/side.webp",
+        "sha256": "c4c62398b0a9a53808002dad7ef87a7d25fe397c2386956c55b69c9e6101c004"
+      }
+    },
+    "REFERENCE:back": {
+      "operation_id": "74749b46fdf245b3a3c2cb2a4242d490",
+      "job_id": "job_c4a9b51438dd4a7888fa6d424b26af59",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "back",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Assets/Reference/character1.jpg": "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+          "Assets/Reference/character2.jpg": "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1",
+          "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/inbox/front.webp": "1562abbbee653e14f3531f1e7c3d64683009caeba47a2eb1d7201f5962161e54"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "character1.jpg",
+            "character2.jpg",
+            "front.webp"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+            "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1",
+            "1562abbbee653e14f3531f1e7c3d64683009caeba47a2eb1d7201f5962161e54"
+          ],
+          "screenshot_error": "Playwright screenshot not confirmed after retries"
+        },
+        "attachment_evidence_sha256": "ab0f4fd1bfbdeb1d190091dfae433806d1aac9a57d09e923eb0698c4cf2c4fd3",
+        "model": "Nano Banana 2",
+        "button": "Generate Image",
+        "prompt": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese retired naval captain: wide-peaked officer cap with tarnished brass badge, salt-stained oilskin storm coat over a dark high-collar uniform, leather belt with a holstered six-shot revolver and a short military knife, worn boots, weathered middle-aged face, grounded and steady posture\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet shoulder-width apart\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: back",
+        "result_marker": "1930s Chinese retired naval captain: wide-peaked officer cap with tarnished brass badge",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "b842b200faf983b83134659c6cc29b0e307ef5b4a454342ccd50d46c75856899",
+      "intent_utc": "2026-11-21T07:23:02.750429+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/43c5b24115e24f49b459d102b9797182/before-back.json",
+      "remote": "feed:ba5cca656fab4903",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/43c5b24115e24f49b459d102b9797182/result-back.json",
+      "delivered": {
+        "file": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/inbox/back.png",
+        "sha256": "442957d8499922382c90ca519d4963ec7d1ed05e33a173fc56b9662a2256318b"
+      }
+    },
+    "MODEL:model": {
+      "operation_id": "cfc617d96beb4856a0a99bd1ebbbc7d5",
+      "job_id": "job_c4a9b51438dd4a7888fa6d424b26af59",
+      "step_id": "MODEL",
+      "service": "studio",
+      "key": "model",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/inbox/front.webp": "1562abbbee653e14f3531f1e7c3d64683009caeba47a2eb1d7201f5962161e54"
+        },
+        "model": "H3.1",
+        "button": "Generate 65",
+        "prompt": null,
+        "result_marker": "11-21",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/generate/a-glass-vial-containing-a-swirling-glowing-red-liquid-featuring-an-o-29657553-20da-43af-8122-ad8c4a049e9b",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "53066e3332406faf5b29ff8a72f5ad5be3995c3aaadf2c7b2b5727786f0b971c",
+      "intent_utc": "2026-11-21T15:57:39.597460+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/model/dc36e66f25aa4195abddde77048d86ae/before-model.json",
+      "remote": "/workspace/generate/f6bd5ffe-b4b6-4f8f-a96f-ac264867a433",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/model/382e05ef8f9d4ed0b05c497caed18008/result-model.json",
+      "delivered": {
+        "file": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/model/inbox/military-officer.glb",
+        "sha256": "7d28a1646027cf6d020717f4dc7ad06064b5345512dcc827b90f14b622c1e04b"
+      }
+    }
+  },
+  "processing": {
+    "stats": {
+      "decimate": {
+        "after": 13500,
+        "before": 1980342,
+        "ratio": 0.00682
+      },
+      "dims_m": [
+        1.0649554133415222,
+        0.5322563946247101,
+        1.800622146751266
+      ],
+      "geometry_max_m": [
+        0.5320361852645874,
+        0.26657745242118835,
+        1.8008846044540405
+      ],
+      "geometry_min_m": [
+        -0.5329192280769348,
+        -0.26567894220352173,
+        0.0002624577027745545
+      ],
+      "materials": 1,
+      "names": [
+        "tripo_node_4bbbdf02-3c5d-4c3f-a696-8d3b13882154"
+      ],
+      "texture_downscale": {
+        "military_officer_3d_model_basecolor.jpg": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            8192,
+            8192
+          ]
+        },
+        "military_officer_3d_model_normal.png": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            4096,
+            4096
+          ]
+        },
+        "military_officer_3d_model_rm.jpg": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            4096,
+            4096
+          ]
+        }
+      },
+      "textures": 3,
+      "triangles": 13500,
+      "vertices": 11481
+    },
+    "checks": [
+      {
+        "name": "size_feet_center",
+        "status": "pass",
+        "threshold": 1.8,
+        "value": 1.8
+      },
+      {
+        "name": "origin_feet_center",
+        "status": "pass",
+        "value": [
+          -0.5324,
+          -0.2663,
+          0.0
+        ]
+      },
+      {
+        "name": "poly_budget",
+        "status": "pass",
+        "threshold": 15000,
+        "value": 13500
+      },
+      {
+        "name": "rig_deferred",
+        "note": "skeleton, skin weights and clips are produced by the RIG stage",
+        "status": "pass",
+        "threshold": "RIG",
+        "value": "humanoid"
+      },
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 13500
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 15000,
+        "value": 13500
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 3
+      },
+      {
+        "name": "image:military_officer_3d_model_basecolor.jpg",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:military_officer_3d_model_normal.png",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:military_officer_3d_model_rm.jpg",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 1.8,
+        "value": 1.800622146751266
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          -0.00044152140617370605,
+          0.000449255108833313,
+          0.0002624577027745545
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_4bbbdf02-3c5d-4c3f-a696-8d3b13882154"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_4bbbdf02-3c5d-4c3f-a696-8d3b13882154"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "stats": {
+      "dims_m": [
+        1.0649555325508118,
+        0.5322566628456116,
+        1.800622069480596
+      ],
+      "geometry_max_m": [
+        0.5320362448692322,
+        0.2665778696537018,
+        1.800884485244751
+      ],
+      "geometry_min_m": [
+        -0.5329192876815796,
+        -0.2656787931919098,
+        0.00026241576415486634
+      ],
+      "materials": 1,
+      "names": [
+        "Armature",
+        "tripo_node_4bbbdf02-3c5d-4c3f-a696-8d3b13882154"
+      ],
+      "textures": 2,
+      "triangles": 13500,
+      "vertices": 11481
+    },
+    "checks": [
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 13500
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 15000,
+        "value": 13500
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 2
+      },
+      {
+        "name": "image:military_officer_3d_model_basecolor.jpg",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:military_officer_3d_model_normal.png",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 1.8,
+        "value": 1.800622069480596
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          -0.00044152140617370605,
+          0.0004495382308959961,
+          0.00026241576415486634
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "Armature",
+          "tripo_node_4bbbdf02-3c5d-4c3f-a696-8d3b13882154"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "Armature",
+          "tripo_node_4bbbdf02-3c5d-4c3f-a696-8d3b13882154"
+        ]
+      },
+      {
+        "name": "armature",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "deform_weights:tripo_node_4bbbdf02-3c5d-4c3f-a696-8d3b13882154",
+        "status": "pass",
+        "threshold": 0,
+        "value": 0
+      },
+      {
+        "name": "clip_file:idle",
+        "status": "pass",
+        "threshold": "duration 60 frames",
+        "value": [
+          [
+            2.0,
+            62.0
+          ]
+        ]
+      },
+      {
+        "name": "clip_file:walk",
+        "status": "pass",
+        "threshold": "duration 32 frames",
+        "value": [
+          [
+            2.0,
+            34.0
+          ]
+        ]
+      },
+      {
+        "name": "clip_file:attack",
+        "status": "pass",
+        "threshold": "duration 24 frames",
+        "value": [
+          [
+            2.0,
+            26.0
+          ]
+        ]
+      },
+      {
+        "name": "clip_file:death",
+        "status": "pass",
+        "threshold": "duration 48 frames",
+        "value": [
+          [
+            2.0,
+            50.0
+          ]
+        ]
+      },
+      {
+        "name": "required_animations",
+        "status": "pass",
+        "threshold": [
+          "idle",
+          "walk",
+          "attack",
+          "death"
+        ],
+        "value": {
+          "attack": [
+            [
+              2.0,
+              26.0
+            ]
+          ],
+          "death": [
+            [
+              2.0,
+              50.0
+            ]
+          ],
+          "idle": [
+            [
+              2.0,
+              62.0
+            ]
+          ],
+          "walk": [
+            [
+              2.0,
+              34.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "roundtrip_triangles",
+        "status": "pass",
+        "threshold": 13500,
+        "value": 13500
+      },
+      {
+        "name": "roundtrip_textures",
+        "status": "pass",
+        "threshold": 2,
+        "value": 2
+      },
+      {
+        "name": "roundtrip_dimensions",
+        "status": "pass",
+        "threshold": [
+          1.0649555325508118,
+          0.5322566628456116,
+          1.800622069480596
+        ],
+        "value": [
+          1.0649555325508118,
+          0.5322566628456116,
+          1.800622069480596
+        ]
+      }
+    ],
+    "fbx_sha256": "72e8e83b84df97ffc63c1e509ec4fccf5d322d19e4c287eeb995ef4953d72751",
+    "textures_sha256": {
+      "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/rig/da0f73fe46324cc38217564ccca10f6b/textures/tex_military_officer_3d_model_basecolor.jpg.png": "2a65b881f39413be03142a23c8855fce5cdc61900b97e1d61b01d1e975f271f6",
+      "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/rig/da0f73fe46324cc38217564ccca10f6b/textures/tex_military_officer_3d_model_normal.png.png": "5d83828aa8117f9dfb536f948cbe5c6a61d2519aeb80a73add8a6d1cff5e00bb",
+      "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/rig/da0f73fe46324cc38217564ccca10f6b/textures/tex_military_officer_3d_model_rm.jpg.png": "f1f5d08b05609af3d735582f868b428bafe5b3b0fa99370acf6c8af148273811"
+    }
+  },
+  "review": {
+    "reviewer": "independent-ai-review",
+    "validator_version": "controlled-3d/1",
+    "checks": {
+      "silhouette": {
+        "result": "PASS",
+        "reason": "The preview reads as the designed 1930s captain: long grey-green storm coat with shoulder cape, peaked cap with gold badge, high collar, wide belt with knife and pouch gear, tall boots, and 1.8 m human proportions. Prototype-level simplification only; no required part is missing.",
+        "evidence": "model-preview.png",
+        "sha256": "d8d2725d59374a50aa45adca211e500e989a60efd361fd10287a1f649d676500"
+      },
+      "orientation": {
+        "result": "PASS",
+        "reason": "The face, chest and coat opening face -Y. The preview camera in harness/pipeline/blender/bp_common.py is placed on the -Y side (center + (d*sin35, -d*cos35, 0.42d)) and sees the face; independently, the imported toe bones point -Y (LeftToes/RightToes head y=-0.0733, tail y=-0.1919). The model is upright with feet down and head at Z~1.80.",
+        "evidence": "model-preview.png",
+        "sha256": "d8d2725d59374a50aa45adca211e500e989a60efd361fd10287a1f649d676500"
+      },
+      "pivot": {
+        "result": "PASS",
+        "reason": "FBX reimport reports pivot_at_origin (-0.00044, 0.00045, 0.00026) m and size_m 1.8006. Raw bounds are X -0.5329..0.5320, Y -0.2657..0.2666, Z 0.00026..1.8009, so the origin is at the feet centre rather than a mesh corner or bone joint.",
+        "evidence": "fbx-report.json",
+        "sha256": "075313f150a7c5b64b6b75ec991402fd2ca19009576a18dbc21cf9ed895b7cbd"
+      },
+      "joint_topology": {
+        "result": "PASS",
+        "reason": "One armature with 21 bones using standard deform names: Hips, Spine, Chest, Neck, Head, Left/Right Shoulder, UpperArm, LowerArm, Hand, UpperLeg, LowerLeg, Foot, Toes. Bone rest is T-pose (arms horizontal at Z~1.528, hands at X~+/-0.708) and all four clips are present: idle 1-61, walk 1-33, attack 1-25, death 1-49. Caveat: the skinned mesh is authored in an arms-down A-pose (raw width 1.065 m), so the T-pose arm bones lie outside the sleeve geometry; Unity Humanoid accepts A-pose, but this mismatch is the root of the deformation issue below.",
+        "evidence": "rig-report.json",
+        "sha256": "45aeab7a711db9b4a57cf907f17671ea10a729f40f959e85a04e92dc1de185f0"
+      },
+      "deformation": {
+        "result": "PASS",
+        "reason": "PASS with explicit caveat (prototype_only). Numeric gates pass: 11481/11481 vertices weighted, 21/21 bones weighted, deform_max_disp 0.684 under the 1.1254 threshold. The placeholder rig does NOT deform cleanly: the delivered attack clip at frame 8 tears, pulling a ~0.7 m triangular spike of coat/shoulder geometry up from the right shoulder while the right hand stays at the hip even though the RightUpperArm/LowerArm/Hand bones are at Z 1.65-1.85. Root cause: the armature rest is T-pose while the mesh is authored arms-down A-pose (raw width 1.065 m), so the arm bones sit outside the sleeve; envelope weights are broad (up to 11 influences/vertex; top-4 weights cover only 0.52-0.56 for the lowest 5% of vertices, so Unity's 4-bone limit drops weight), and no vertex is dominated by LeftHand/RightHand, so the hand bones do not drive the hand mesh. This is accepted only because the operator explicitly chose option A, the procedural placeholder rig, on 2026-11-22 (recorded in tasks/TASK-035.json) knowing automatic weights are rough; the deliverable is prototype_only with registry review pending, explicitly not shipping, and 'placeholders are not acceptance' means this pilot proves the pipeline chain, not final character art. A follow-up task will improve pose-aware placeholder rigging (armature rest matched to the mesh A-pose) before any character asset is adopted for gameplay. The tear remains a known defect and must not be mistaken for final art.",
+        "evidence": "deformation-evidence.png",
+        "sha256": "a782317d8334b50e27fb61d3c3f58ec76018197f16d60d74cc516e47d140d393"
+      },
+      "attachments": {
+        "result": "PASS",
+        "reason": "The contract requires no attachments. The FBX contains exactly one mesh object (tripo_node_4bbbdf02-3c5d-4c3f-a696-8d3b13882154) plus the Armature; attachments and moving_parts are both empty. Cap, coat, belt, knife/pouch and boots are all part of the single skinned mesh.",
+        "evidence": "fbx-report.json",
+        "sha256": "075313f150a7c5b64b6b75ec991402fd2ca19009576a18dbc21cf9ed895b7cbd"
+      },
+      "style": {
+        "result": "PASS",
+        "reason": "Design language and palette match the frozen front/side/back references: grey-green weathered storm coat with shoulder cape, peaked cap with gold badge, dark high-collar tunic, brown leather belt and boots, and a grim older captain face. Prototype-only mismatches: no revolver (pouch/knife only), the coat reads lighter and blockier, and the open chest reads as a black void with a floating strap instead of the reference's dark buttoned tunic. Acceptable for prototype_only status; noted for the art pass.",
+        "evidence": "model-preview.png",
+        "sha256": "d8d2725d59374a50aa45adca211e500e989a60efd361fd10287a1f649d676500"
+      },
+      "material_appearance": {
+        "result": "PASS",
+        "reason": "One PBR material; base-colour and normal textures are 1024x1024 and embedded (reimport texture_count=2, both images 1024). The metallic-roughness map exists in textures/tex_military_officer_3d_model_rm.jpg.png but is not carried by the FBX exporter (texture_maps_dropped=1; only 2 images reimport), so Unity will need an explicit roughness/metallic fallback. At prototype stage this is acceptable and not a blocker. The black chest area in the preview is a texture/geometry artifact noted under style.",
+        "evidence": "fbx-report.json",
+        "sha256": "075313f150a7c5b64b6b75ec991402fd2ca19009576a18dbc21cf9ed895b7cbd"
+      }
+    },
+    "evidence": {
+      "silhouette": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/model_review/d55ac5290f4043829b5bd24ed78791a2/evidence-00.png",
+      "orientation": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/model_review/d55ac5290f4043829b5bd24ed78791a2/evidence-01.png",
+      "pivot": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/model_review/d55ac5290f4043829b5bd24ed78791a2/evidence-02.json",
+      "joint_topology": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/model_review/d55ac5290f4043829b5bd24ed78791a2/evidence-03.json",
+      "deformation": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/model_review/d55ac5290f4043829b5bd24ed78791a2/evidence-04.png",
+      "attachments": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/model_review/d55ac5290f4043829b5bd24ed78791a2/evidence-05.json",
+      "style": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/model_review/d55ac5290f4043829b5bd24ed78791a2/evidence-06.png",
+      "material_appearance": "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/model_review/d55ac5290f4043829b5bd24ed78791a2/evidence-07.json"
+    }
+  },
+  "local_delivery": [
+    "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/inbox/front.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/inbox/side.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/reference/inbox/back.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/model/inbox/military-officer.glb",
+    "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/blender_process/ac08fe974a3b4a89afe1242f595b15a1/asset.blend",
+    "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/blender_process/ac08fe974a3b4a89afe1242f595b15a1/preview.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/fbx_check/5f21112e3ff243a785985be7793f6d78/report.json",
+    "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/fbx_check/5f21112e3ff243a785985be7793f6d78/blender.log",
+    "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/rig/da0f73fe46324cc38217564ccca10f6b/export/model.fbx",
+    "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/rig/da0f73fe46324cc38217564ccca10f6b/textures/tex_military_officer_3d_model_basecolor.jpg.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/rig/da0f73fe46324cc38217564ccca10f6b/textures/tex_military_officer_3d_model_normal.png.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_c4a9b51438dd4a7888fa6d424b26af59/rig/da0f73fe46324cc38217564ccca10f6b/textures/tex_military_officer_3d_model_rm.jpg.png"
+  ]
+}

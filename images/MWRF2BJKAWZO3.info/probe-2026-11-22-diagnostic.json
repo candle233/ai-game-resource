@@ -1,0 +1,9 @@
+{
+  "files": {
+    "model": "D:/ai-game/output/rehearse-rig/rig/export/model.fbx",
+    "idle": "D:/ai-game/output/rehearse-rig/rig/export/model@idle.fbx",
+    "walk": "D:/ai-game/output/rehearse-rig/rig/export/model@walk.fbx",
+    "attack": "D:/ai-game/output/rehearse-rig/rig/export/model@attack.fbx",
+    "death": "D:/ai-game/output/rehearse-rig/rig/export/model@death.fbx"
+  }
+}
