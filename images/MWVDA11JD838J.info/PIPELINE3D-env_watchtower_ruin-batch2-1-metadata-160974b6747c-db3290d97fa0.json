@@ -1,0 +1,765 @@
+{
+  "asset_id": "env_watchtower_ruin",
+  "revision": "batch2-1",
+  "category": "environment",
+  "project": "ai-game",
+  "style": "coastal-prototype@2",
+  "branch": "generate",
+  "files": {
+    "references/00-front.webp": "52cdebe8e2f3ca0e02e39f7bae3906a5c6eeb6922bc17e745f73eb0b36de3e77",
+    "references/01-side.webp": "8a82cb91c1213b9f24dc6b98ae7871ad71e0f6a61cddab1c3f1eeedddb32b0bf",
+    "references/02-back.jpg": "db1481a0b10b608af13b35fa5d6e2169cd9d2d006fa39d183c91dbf007121be7",
+    "raw_model/00-raw_model.glb": "f279bf3ecacb45793e683fb73753086313ae4ac1a4c7658474d20d7be69d0a27",
+    "blend/00-asset.blend": "faf5b3207743f5a0e5c9f7207e043f597d829c64cc91e8886f97b11d8041bb00",
+    "preview/00-preview.png": "e9885e02b22d0cd89f42e25c0a273feb202a0c925aa9afc38c0227b6e7865faa",
+    "reimport_report/00-report.json": "581f052d1da3e780cf633c566b3c51a84cbee39290d5f5355d7461c75331ff65",
+    "reimport_report/01-blender.log": "4704378bda8c89b7c904e765cd8c215f1f8739a6490f6b739354b921a31b18cb",
+    "delivery/model.fbx": "78284dd70c0d147340b331dcfa43cf64edd52c949086fb1fdcc2841b2058c830",
+    "delivery/textures/texture_00.png": "fc3c06ecdfcac6798cc6483ed0b4797026f136663524bbe6b3298dafe89ac831",
+    "delivery/textures/texture_01.png": "530797378f66160e3d909ca90bc630406e707cfca7b1d265b11581d1dbd38ed2",
+    "delivery/textures/texture_02.png": "a6b561be5a5a09a5b619598ec952f8a3d151b797c555725b5488c99259b86827",
+    "delivery/textures/texture_03.png": "8a759a3977ca8b75223ef6cf926a2ba5289def9fdd56e4c94d238545b02b5bc4",
+    "delivery/textures/stone_tower_3d_model_rm_metallic_smoothness.png": "d2dc8664e72a160064321802aef8bc1fa8530ccccce156b7b93aa81c0c258eeb"
+  },
+  "contract_sha256": "42ac9c93caf1aa2adb02c08417190ce0a169c0c005abb1e229882b57d7434060",
+  "specification": {
+    "asset_id": "env_watchtower_ruin",
+    "revision": "batch2-1",
+    "asset_type": "environment",
+    "name": "Cliff watchtower ruin",
+    "use": "Explorable landmark and vantage module for the island survival prototype",
+    "target_platform": "StandaloneWindows64",
+    "camera": "Third-person top-down action view; the broken tower crown and doorway must read from above",
+    "style": "coastal-prototype@2",
+    "batch": "island-batch2",
+    "synonyms": [
+      "watchtower",
+      "tower ruin",
+      "ruin",
+      "lookout"
+    ],
+    "generation": {
+      "description": "A single ruined stone watchtower, tall and narrow, hand-painted with ink outlines and flat colour blocks, drawn small and centred with wide empty white margins on every side: weathered grey-brown masonry, a crenellated crown broken open on one side, a dark arched doorway at the base, one iron bracket and a rope stub high on the wall. One tower only, drawn once, nothing underneath it, at least a tenth of the picture left empty on each edge. No second tower, no wall, no ground, no other views, no layout or contact sheet.",
+      "pose": "single ruined tower standing upright, seen from a three-quarter top-down angle",
+      "model_label": "H3.1",
+      "model_input_mode": "single",
+      "model_views": [
+        "front"
+      ],
+      "views_mode": "multiview",
+      "image_model": "Nano Banana 2",
+      "required_views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "postprocess": [],
+      "transports": [
+        "bridge",
+        "download"
+      ],
+      "image_prompts": {
+        "front": "One standalone building or module\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nA single ruined stone watchtower, tall and narrow, hand-painted with ink outlines and flat colour blocks, drawn small and centred with wide empty white margins on every side: weathered grey-brown masonry, a crenellated crown broken open on one side, a dark arched doorway at the base, one iron bracket and a rope stub high on the wall. One tower only, drawn once, nothing underneath it, at least a tenth of the picture left empty on each edge. No second tower, no wall, no ground, no other views, no layout or contact sheet.\nPose: single ruined tower standing upright, seen from a three-quarter top-down angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "side": "One standalone building or module\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nA single ruined stone watchtower, tall and narrow, hand-painted with ink outlines and flat colour blocks, drawn small and centred with wide empty white margins on every side: weathered grey-brown masonry, a crenellated crown broken open on one side, a dark arched doorway at the base, one iron bracket and a rope stub high on the wall. One tower only, drawn once, nothing underneath it, at least a tenth of the picture left empty on each edge. No second tower, no wall, no ground, no other views, no layout or contact sheet.\nPose: single ruined tower standing upright, seen from a three-quarter top-down angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: side",
+        "back": "One standalone building or module\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nA single ruined stone watchtower, tall and narrow, hand-painted with ink outlines and flat colour blocks, drawn small and centred with wide empty white margins on every side: weathered grey-brown masonry, a crenellated crown broken open on one side, a dark arched doorway at the base, one iron bracket and a rope stub high on the wall. One tower only, drawn once, nothing underneath it, at least a tenth of the picture left empty on each edge. No second tower, no wall, no ground, no other views, no layout or contact sheet.\nPose: single ruined tower standing upright, seen from a three-quarter top-down angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: back"
+      },
+      "style_images": [
+        "Assets/Reference/environment1.jpg",
+        "Assets/Reference/environment2.jpg"
+      ]
+    },
+    "technical": {
+      "max_triangles": 8000,
+      "max_materials": 4,
+      "max_texture_size": 1024,
+      "max_textures": 4,
+      "pivot": "base_center",
+      "forward": "-Y",
+      "rig": "none",
+      "animations": [],
+      "collider": "mesh",
+      "attachments": [],
+      "moving_parts": [],
+      "modular": false,
+      "passage": false,
+      "decimate": false,
+      "texture_mode": "preserve",
+      "height_based": false,
+      "size_m": 9
+    },
+    "unity_use": "scene placement module",
+    "children": [],
+    "production_use": "prototype_only",
+    "unity_target": null,
+    "references": {
+      "style": [],
+      "structure": []
+    }
+  },
+  "source": {
+    "source_step": "MODEL",
+    "source_sha256": "f279bf3ecacb45793e683fb73753086313ae4ac1a4c7658474d20d7be69d0a27",
+    "transport": "download",
+    "remote": "/workspace/generate/0f2b4713-f319-4a0e-bf1d-ecaeb8fc679f",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/inbox/front.webp"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "reference_generation": {
+    "views": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/inbox/front.webp",
+      "side": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/inbox/side.webp",
+      "back": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/inbox/back.jpg"
+    },
+    "image_model": "Nano Banana 2",
+    "prompts": {
+      "front": "One standalone building or module\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nA single ruined stone watchtower, tall and narrow, hand-painted with ink outlines and flat colour blocks, drawn small and centred with wide empty white margins on every side: weathered grey-brown masonry, a crenellated crown broken open on one side, a dark arched doorway at the base, one iron bracket and a rope stub high on the wall. One tower only, drawn once, nothing underneath it, at least a tenth of the picture left empty on each edge. No second tower, no wall, no ground, no other views, no layout or contact sheet.\nPose: single ruined tower standing upright, seen from a three-quarter top-down angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front"
+    },
+    "seed": "unknown",
+    "mode": "multiview",
+    "slot_mapping": {
+      "front": "front",
+      "side": "left",
+      "back": "back"
+    },
+    "base": {
+      "operation_id": "65eee9ce52af41eca07633cb20e79c13",
+      "remote": "feed:b12ae6dece7b91d4"
+    },
+    "multiview": {
+      "operation_id": "4d30fce0d3104d0eab6b63139b443e12",
+      "remote": "multiview:feed:b12ae6dece7b91d4",
+      "slots": [
+        "front",
+        "left",
+        "right",
+        "back"
+      ]
+    }
+  },
+  "model_generation": {
+    "transport": "download",
+    "remote": "/workspace/generate/0f2b4713-f319-4a0e-bf1d-ecaeb8fc679f",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/inbox/front.webp"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "operations": {
+    "REFERENCE:base": {
+      "operation_id": "65eee9ce52af41eca07633cb20e79c13",
+      "job_id": "job_1059cdd5dcb04b7fb2b0cb38ac1a641c",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "base",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Assets/Reference/environment1.jpg": "8ec62d238ece054cabb7327a4f8b7b46f3ce032d376ff6d454c102df1ade7483",
+          "Assets/Reference/environment2.jpg": "9295201ac20e491668079fd5d68e9d55cccc2c34bdf17b84852fd6fabdc94792"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "environment1.jpg",
+            "environment2.jpg"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "8ec62d238ece054cabb7327a4f8b7b46f3ce032d376ff6d454c102df1ade7483",
+            "9295201ac20e491668079fd5d68e9d55cccc2c34bdf17b84852fd6fabdc94792"
+          ],
+          "screenshot": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/41183cfdc94f45ce9e718778a48fd757/attachments-base.png",
+          "screenshot_sha256": "666ec87ddecd7ae3836c88f37008fe01f6216207a50a64c11fc47d254e68e9ac"
+        },
+        "attachment_evidence_sha256": "8ee0be1739890a41bb72ec2375e244dde7ed6f1364f39d45451b4d4b620efe68",
+        "model": "Nano Banana 2",
+        "button": "Generate Image",
+        "prompt": "One standalone building or module\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nA single ruined stone watchtower, tall and narrow, hand-painted with ink outlines and flat colour blocks, drawn small and centred with wide empty white margins on every side: weathered grey-brown masonry, a crenellated crown broken open on one side, a dark arched doorway at the base, one iron bracket and a rope stub high on the wall. One tower only, drawn once, nothing underneath it, at least a tenth of the picture left empty on each edge. No second tower, no wall, no ground, no other views, no layout or contact sheet.\nPose: single ruined tower standing upright, seen from a three-quarter top-down angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "result_marker": "One standalone building or module Readable silhouettes, large rounded primary fo",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "d8ec947a4326415e12826e0db907528e1da00ed9aab7d17fc6683ec8516d5007",
+      "intent_utc": "2026-11-24T22:07:12.444931+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/41183cfdc94f45ce9e718778a48fd757/before-base.json",
+      "remote": "feed:b12ae6dece7b91d4",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/8c8711fbbbad46d4b8ace8ee65219b6a/result-base.json"
+    },
+    "REFERENCE:multiview": {
+      "operation_id": "4d30fce0d3104d0eab6b63139b443e12",
+      "job_id": "job_1059cdd5dcb04b7fb2b0cb38ac1a641c",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "multiview",
+      "state": "SUBMITTED",
+      "parameters": {
+        "base_remote": "feed:b12ae6dece7b91d4",
+        "action": "Multiview Image",
+        "entry": "Generate Multi-Views",
+        "slot_labels": {
+          "front": "Front",
+          "left": "Left",
+          "right": "Right",
+          "back": "Back"
+        },
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ],
+        "slot_deliveries": {
+          "front": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/inbox/front.webp",
+            "sha256": "52cdebe8e2f3ca0e02e39f7bae3906a5c6eeb6922bc17e745f73eb0b36de3e77",
+            "slot": "front"
+          },
+          "side": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/inbox/side.webp",
+            "sha256": "8a82cb91c1213b9f24dc6b98ae7871ad71e0f6a61cddab1c3f1eeedddb32b0bf",
+            "slot": "left"
+          },
+          "back": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/inbox/back.jpg",
+            "sha256": "db1481a0b10b608af13b35fa5d6e2169cd9d2d006fa39d183c91dbf007121be7",
+            "slot": "back"
+          }
+        }
+      },
+      "input_sha256": "d8ec947a4326415e12826e0db907528e1da00ed9aab7d17fc6683ec8516d5007",
+      "intent_utc": "2026-11-24T22:41:52.192283+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/8c8711fbbbad46d4b8ace8ee65219b6a/before-multiview.json",
+      "remote": "multiview:feed:b12ae6dece7b91d4",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/8c8711fbbbad46d4b8ace8ee65219b6a/result-multiview.json"
+    },
+    "MODEL:model": {
+      "operation_id": "c08051ff9b344099b1c42729fb5417c4",
+      "job_id": "job_1059cdd5dcb04b7fb2b0cb38ac1a641c",
+      "step_id": "MODEL",
+      "service": "studio",
+      "key": "model",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/inbox/front.webp": "52cdebe8e2f3ca0e02e39f7bae3906a5c6eeb6922bc17e745f73eb0b36de3e77"
+        },
+        "model": "H3.1",
+        "button": "Generate 45",
+        "prompt": null,
+        "result_marker": "11-21",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/generate/17b4a50e-e5cf-4ec9-be05-52adb8664dc1",
+          "/workspace/generate/2cd2cc37-58d7-4790-9e7b-a22404bd228f",
+          "/workspace/generate/3dc4aea8-e8d6-4c7a-978d-ca7996267fd3",
+          "/workspace/generate/449f6166-3292-48e2-b3b4-0bc34317a79d",
+          "/workspace/generate/57048a4d-9b7a-4f5d-a2f8-aa52fc0784af",
+          "/workspace/generate/5b13ce8b-9fc2-4e22-b513-418a5fddba2e",
+          "/workspace/generate/673a1237-b43e-4b46-be19-8e4637a3e7f6",
+          "/workspace/generate/7f16ae6f-8688-4acf-a587-96b38f6434d5",
+          "/workspace/generate/85db8b20-a766-48da-a027-6b92685b4371",
+          "/workspace/generate/89df113a-ae98-4f92-88e9-36e40baeae46",
+          "/workspace/generate/b8567014-e02b-420a-afef-60c1a17d9fc5",
+          "/workspace/generate/bd6bc7cb-2ce9-45d5-904f-c161031e614b",
+          "/workspace/generate/bf35ba2d-bb0d-4bbc-8cfc-4b3ae28cbd0b",
+          "/workspace/generate/cc9577e1-1a75-4c36-bc92-96d12ddaef3d",
+          "/workspace/generate/d978df8c-80e3-403c-aedd-26b8a467d465",
+          "/workspace/generate/d9b6376b-4465-4fcc-9c31-444ca9be415c",
+          "/workspace/generate/e6c4b3f2-bc6b-4b37-a622-4e33161f89d5",
+          "/workspace/generate/ec1da6a4-0596-45d5-8b42-6a201837f541",
+          "/workspace/generate/ec5adb96-9f4d-4d9b-a72e-98256d9ea7a6",
+          "/workspace/generate/f05ab28f-e6e8-4341-a73f-c51fa482bc61",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "e1adf9e625e4f19c3821091a6fe79d49c56acc66fed998edaa358f11797e1923",
+      "intent_utc": "2026-11-24T23:11:12.271999+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/model/9b55ed998706476e92d3fdff3389ac9b/before-model.json",
+      "remote": "/workspace/generate/0f2b4713-f319-4a0e-bf1d-ecaeb8fc679f",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/model/9b55ed998706476e92d3fdff3389ac9b/result-model.json",
+      "delivered": {
+        "file": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/model/inbox/raw_model.glb",
+        "sha256": "f279bf3ecacb45793e683fb73753086313ae4ac1a4c7658474d20d7be69d0a27"
+      }
+    }
+  },
+  "processing": {
+    "stats": {
+      "dims_m": [
+        3.9495303630828857,
+        6.112211227416992,
+        9.0
+      ],
+      "forward_aligned": {
+        "long_axis": "y",
+        "rotation_deg": 0.0
+      },
+      "geometry_max_m": [
+        1.9747651815414429,
+        3.056105613708496,
+        9.0
+      ],
+      "geometry_min_m": [
+        -1.9747651815414429,
+        -3.056105613708496,
+        0.0
+      ],
+      "materials": 1,
+      "names": [
+        "tripo_node_610e3257-c5b9-42b8-a630-c6b28d844995"
+      ],
+      "texture_downscale": {
+        "stone_tower_3d_model_basecolor.jpg": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "stone_tower_3d_model_normal.png": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "stone_tower_3d_model_rm.jpg": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        }
+      },
+      "texture_extra": [
+        "stone_tower_3d_model_rm_metallic_smoothness.png"
+      ],
+      "texture_roles": {
+        "stone_tower_3d_model_rm_metallic_smoothness.png": "metallic_smoothness",
+        "texture_00.png": "base",
+        "texture_01.png": "normal",
+        "texture_02.png": "metallic",
+        "texture_03.png": "roughness"
+      },
+      "texture_split": [
+        "stone_tower_3d_model_rm_metallic",
+        "stone_tower_3d_model_rm_roughness"
+      ],
+      "textures": 4,
+      "triangles": 3854,
+      "vertices": 2673
+    },
+    "checks": [
+      {
+        "name": "size_base_center",
+        "status": "pass",
+        "threshold": 9.0,
+        "value": 9.0
+      },
+      {
+        "name": "origin_base_center",
+        "status": "pass",
+        "value": [
+          -1.9748,
+          -3.0561,
+          0.0
+        ]
+      },
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 3854
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 8000,
+        "value": 3854
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "image:stone_tower_3d_model_basecolor.jpg",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:stone_tower_3d_model_rm_roughness",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:stone_tower_3d_model_rm_metallic",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:stone_tower_3d_model_normal.png",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 9,
+        "value": 9.0
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_610e3257-c5b9-42b8-a630-c6b28d844995"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_610e3257-c5b9-42b8-a630-c6b28d844995"
+        ]
+      },
+      {
+        "name": "no_armature",
+        "status": "pass",
+        "value": 0
+      }
+    ]
+  },
+  "validation": {
+    "stats": {
+      "dims_m": [
+        3.9495303630828857,
+        6.112212657928467,
+        9.000001451577077
+      ],
+      "geometry_max_m": [
+        1.9747651815414429,
+        3.0561070442199707,
+        9.000000953674316
+      ],
+      "geometry_min_m": [
+        -1.9747651815414429,
+        -3.056105613708496,
+        -4.979027607987518e-07
+      ],
+      "materials": 1,
+      "names": [
+        "tripo_node_610e3257-c5b9-42b8-a630-c6b28d844995"
+      ],
+      "textures": 4,
+      "triangles": 3854,
+      "vertices": 2673
+    },
+    "checks": [
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 3854
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 8000,
+        "value": 3854
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "image:stone_tower_3d_model_basecolor.jpg",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:stone_tower_3d_model_rm_metallic",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:stone_tower_3d_model_rm_roughness",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:stone_tower_3d_model_normal.png",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 9,
+        "value": 9.000001451577077
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          0.0,
+          7.152557373046875e-07,
+          -4.979027607987518e-07
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_610e3257-c5b9-42b8-a630-c6b28d844995"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_610e3257-c5b9-42b8-a630-c6b28d844995"
+        ]
+      },
+      {
+        "name": "no_armature",
+        "status": "pass",
+        "value": 0
+      },
+      {
+        "name": "roundtrip_triangles",
+        "status": "pass",
+        "threshold": 3854,
+        "value": 3854
+      },
+      {
+        "name": "roundtrip_textures",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "roundtrip_dimensions",
+        "status": "pass",
+        "threshold": [
+          3.9495303630828857,
+          6.112211227416992,
+          9.0
+        ],
+        "value": [
+          3.9495303630828857,
+          6.112212657928467,
+          9.000001451577077
+        ]
+      }
+    ],
+    "fbx_sha256": "78284dd70c0d147340b331dcfa43cf64edd52c949086fb1fdcc2841b2058c830",
+    "textures_sha256": {
+      "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/blender_process/24396e5c6dcc45e79cba3ed14fde5e22/textures/texture_00.png": "fc3c06ecdfcac6798cc6483ed0b4797026f136663524bbe6b3298dafe89ac831",
+      "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/blender_process/24396e5c6dcc45e79cba3ed14fde5e22/textures/texture_01.png": "530797378f66160e3d909ca90bc630406e707cfca7b1d265b11581d1dbd38ed2",
+      "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/blender_process/24396e5c6dcc45e79cba3ed14fde5e22/textures/texture_02.png": "a6b561be5a5a09a5b619598ec952f8a3d151b797c555725b5488c99259b86827",
+      "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/blender_process/24396e5c6dcc45e79cba3ed14fde5e22/textures/texture_03.png": "8a759a3977ca8b75223ef6cf926a2ba5289def9fdd56e4c94d238545b02b5bc4",
+      "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/blender_process/24396e5c6dcc45e79cba3ed14fde5e22/textures/stone_tower_3d_model_rm_metallic_smoothness.png": "d2dc8664e72a160064321802aef8bc1fa8530ccccce156b7b93aa81c0c258eeb"
+    }
+  },
+  "review": {
+    "review_ingress_sha256": "1ebd56b41c0091c5adead78ce98802a9bcd2ca04ba479c02a1971cadbf762d36",
+    "reviewer": "automated-review",
+    "validator_version": "controlled-3d/1",
+    "checks": {
+      "silhouette": {
+        "result": "PASS",
+        "reason": "One mesh only (2673 verts, 1919 welded, 3854 tris, 1 material), 9.0 m tall and upright (base-band centre 0.007/-0.032 vs crown 0.002/-0.003; 0.03 m lean, 0.2 deg). Required reads present: the crenellated crown is broken open over a contiguous 50 deg sector at azimuth 250-300 deg on the -Y side (35 deg at z 7.9-8.4); the dark arched doorway is at the base on -Y (x -1.11..1.08, y -1.95..-1.55, z 0.22-2.62) with a closed wooden door; the iron bracket with rope stub is high on the -Y wall (68 verts, y -3.056..-2.383, z 4.853-6.276). Deviation: a second mirrored bracket is on +Y (82 verts, y 2.256..3.056, same z), so there are two brackets where the request says one and the approved back reference has none; each arm projects about 1.47 m from the 1.58 m wall. The tower still reads correctly and no ground, second tower or other object is present.",
+        "evidence": "preview.png",
+        "sha256": "e9885e02b22d0cd89f42e25c0a273feb202a0c925aa9afc38c0227b6e7865faa"
+      },
+      "orientation": {
+        "result": "PASS",
+        "reason": "Contract forward is -Y and the doorway faces -Y: the door recess and panel occupy y -1.952..-1.551, opening centred near x 0, and the front orthographic render from (0,-30,4.5) shows the door while the +Y render does not. The crown break is also on -Y (rim gap 250-300 deg, centre 275). The object transform is identity (loc 0,0,0; rot 0; scale 1), the process report records forward_aligned long_axis y and rotation 0.0, and the 3.92 x 3.74 m round base means the 6.112 m Y bbox is the two symmetric brackets, not an elongated body, so the narrower-end yaw heuristic correctly did not turn it. FBX reimport bounds are identical (3.9495 x 6.1122 x 9.000001 m).",
+        "evidence": "preview.png",
+        "sha256": "e9885e02b22d0cd89f42e25c0a273feb202a0c925aa9afc38c0227b6e7865faa"
+      },
+      "pivot": {
+        "result": "PASS",
+        "reason": "Identity transform; world bbox min (-1.9748, -3.0561, 0.0), max (1.9748, 3.0561, 9.0). The lowest geometry touches z 0.0 (40 lowest vertices at z <= 0.003 span x -1.767..1.847, y -1.717..1.771) and the base-band (z 0-0.3) centre is (0.007, -0.032), within 0.04 m of the origin; the model xy bbox centre is exactly (0,0). The process report records origin_base_center (-1.9748, -3.0561, 0.0) and pivot_at_origin (0,0,0); FBX reimport records pivot_at_origin (0, 7.2e-7, -5.0e-7) and dims 3.9495 x 6.1122 x 9.000001.",
+        "evidence": "preview.png",
+        "sha256": "e9885e02b22d0cd89f42e25c0a273feb202a0c925aa9afc38c0227b6e7865faa"
+      },
+      "grid_alignment": {
+        "result": "PASS",
+        "reason": "Not applicable by contract: technical.modular is false and no grid_m is declared, so there is no module cell or grid snap to meet; the Inspector runs a grid test only for modular assets. For the record the asset is 3.9495 x 6.1122 x 9.0 m, with the Y extent created by the two brackets and the tower body about 3.95 m round; pivot at the base centre. unity_use scene placement module does not imply a modular kit.",
+        "evidence": "preview.png",
+        "sha256": "e9885e02b22d0cd89f42e25c0a273feb202a0c925aa9afc38c0227b6e7865faa"
+      },
+      "seams": {
+        "result": "PASS",
+        "reason": "One mesh, one material and one 1024 atlas; modular false, so there are no inter-module seams. Welding the 2673 vertices at coincident positions gives 1919 unique vertices, 5781 edges and 3854 faces forming one connected component with 0 boundary edges, 0 non-manifold edges, 0 degenerate faces and signed volume 67.698 m3, i.e. a closed shell with no cracks or open slits. Orthographic front/side/back/top renders show continuous masonry, the door and the crown break with no see-through gaps or z-fighting; dark lines are painted mortar in texture_00. UV islands exist by design, but no visible texture seam.",
+        "evidence": "preview.png",
+        "sha256": "e9885e02b22d0cd89f42e25c0a273feb202a0c925aa9afc38c0227b6e7865faa"
+      },
+      "collision": {
+        "result": "PASS",
+        "reason": "Contract collider is mesh. The deliverable is a single closed watertight shell: 3854 triangles, 1 material, 0 boundary and 0 non-manifold edges and 0 degenerate faces after welding coincident vertices, signed volume 67.698 m3, a valid source for a non-convex MeshCollider covering tower, plinth and fittings. The FBX_CHECK reimport carries 3854 triangles and 4 textures at 3.9495 x 6.1122 x 9.000001 m. The thin bracket and rope are part of the same mesh and also collide, acceptable for a static landmark. Unity collider baking and player collision remain UNITY and playtest gates, not verified here.",
+        "evidence": "preview.png",
+        "sha256": "e9885e02b22d0cd89f42e25c0a273feb202a0c925aa9afc38c0227b6e7865faa"
+      },
+      "passage": {
+        "result": "PASS",
+        "reason": "technical.passage is false and unity_use is scene placement module, so no walk-through is required. The doorway is a closed recessed wooden door on the -Y wall (x -1.11..1.08, y -1.95..-1.55, z 0.22-2.62) inside a watertight single shell of 67.698 m3 with 0 boundary edges, so no opening connects outside to an interior; the tower cannot be entered. No passage claim is made.",
+        "evidence": "preview.png",
+        "sha256": "e9885e02b22d0cd89f42e25c0a273feb202a0c925aa9afc38c0227b6e7865faa"
+      },
+      "style": {
+        "result": "PASS",
+        "reason": "The 1024 albedo (texture_00.png) and the 3/4 preview show hand-painted weathered masonry: pale grey/cream stone blocks with painted mortar lines, cracked faces, dark-green moss patches, a dark iron bracket and a banded wooden door, with large rounded primary masses and restrained fitting detail, matching coastal-prototype@2 stone, wood and iron at game-camera density. Lit tower pixels in preview.png (mean sRGB 137.5/136.5/112.3) measure hue mean 57.1 deg (median 49.7), saturation 0.202 and value 0.547; the approved reference views measure hue mean 49.5/50.6/51.0 deg (median 42.9/42.2/43.2), saturation 0.237/0.245/0.235 and value 0.379/0.371/0.359. Hue is within 6.1-7.6 deg (median 6.5-7.5) and saturation within 0.033-0.043; the higher value is the preview sun key light, not an albedo shift. Risk, not a palette failure: the stone is paler and the moss more yellow-green than the reference, and there is no drawn ink contour.",
+        "evidence": "preview.png",
+        "sha256": "e9885e02b22d0cd89f42e25c0a273feb202a0c925aa9afc38c0227b6e7865faa"
+      },
+      "material_appearance": {
+        "result": "PASS",
+        "reason": "The combined map stone_tower_3d_model_rm_metallic_smoothness.png is 1024x1024 RGBA. R equals texture_02.png (the metallic map) exactly: mean abs diff 0.000, max 0, 0 of 1048576 texels differ by more than 2. A equals 255 minus texture_03.png (roughness) exactly: mean abs diff 0.000, max 0, 0 texels differ by more than 2. G and B are 0 everywhere, matching the R-metallic and A=1-roughness packing. Neither map is constant: R spans 0-65 (56 unique, mean 2.61, median 1, p95 11, std 3.84) and A spans 0-133 (104 unique, mean 6.20, median 6, p95 11, std 4.29); albedo channel std is 30.0-38.4 and normal std is 9.1/9.4/5.6 with 239/237/90 unique values. Risk, not a packing failure: the source maps are near-flat - roughness 0.96-1.0 over about 90 pct of texels (mean 248.8 of 255, min 122) and metallic never exceeds 0.255 - so the iron bracket renders matte and non-metallic and the asset reads as painted stone. The pack is faithful and non-constant.",
+        "evidence": "stone_tower_3d_model_rm_metallic_smoothness.png",
+        "sha256": "d2dc8664e72a160064321802aef8bc1fa8530ccccce156b7b93aa81c0c258eeb"
+      }
+    },
+    "evidence": {
+      "silhouette": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/model_review/b282c178c5d84149a7962116fc088567/evidence-00.png",
+      "orientation": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/model_review/b282c178c5d84149a7962116fc088567/evidence-01.png",
+      "pivot": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/model_review/b282c178c5d84149a7962116fc088567/evidence-02.png",
+      "grid_alignment": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/model_review/b282c178c5d84149a7962116fc088567/evidence-03.png",
+      "seams": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/model_review/b282c178c5d84149a7962116fc088567/evidence-04.png",
+      "collision": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/model_review/b282c178c5d84149a7962116fc088567/evidence-05.png",
+      "passage": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/model_review/b282c178c5d84149a7962116fc088567/evidence-06.png",
+      "style": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/model_review/b282c178c5d84149a7962116fc088567/evidence-07.png",
+      "material_appearance": "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/model_review/b282c178c5d84149a7962116fc088567/evidence-08.png"
+    }
+  },
+  "local_delivery": [
+    "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/inbox/front.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/inbox/side.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/reference/inbox/back.jpg",
+    "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/model/inbox/raw_model.glb",
+    "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/blender_process/24396e5c6dcc45e79cba3ed14fde5e22/asset.blend",
+    "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/blender_process/24396e5c6dcc45e79cba3ed14fde5e22/preview.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/fbx_check/41fb10acc9f341e4b675fbce4948fc5b/report.json",
+    "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/fbx_check/41fb10acc9f341e4b675fbce4948fc5b/blender.log",
+    "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/blender_process/24396e5c6dcc45e79cba3ed14fde5e22/model.fbx",
+    "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/blender_process/24396e5c6dcc45e79cba3ed14fde5e22/textures/texture_00.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/blender_process/24396e5c6dcc45e79cba3ed14fde5e22/textures/texture_01.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/blender_process/24396e5c6dcc45e79cba3ed14fde5e22/textures/texture_02.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/blender_process/24396e5c6dcc45e79cba3ed14fde5e22/textures/texture_03.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_1059cdd5dcb04b7fb2b0cb38ac1a641c/blender_process/24396e5c6dcc45e79cba3ed14fde5e22/textures/stone_tower_3d_model_rm_metallic_smoothness.png"
+  ]
+}

@@ -1,0 +1,829 @@
+{
+  "asset_id": "char_physician_wen",
+  "revision": "batch1-7",
+  "category": "character",
+  "project": "ai-game",
+  "style": "coastal-prototype@2",
+  "branch": "generate",
+  "files": {
+    "references/00-front.jpg": "8e926dd133a8266595bf217091583a7c78795bb334f11fbedcf32893188ea2a9",
+    "references/01-side.jpg": "56c0dfe8f8e0a7aee8203c9c20c6cddebe0ea857cb99052a14b97e4e056d102a",
+    "references/02-back-rear.jpg": "4309ffcf184f0a45232b8190927887099cb1c0c2152153232fd147d0be2a1d0e",
+    "raw_model/00-char_physician_wen.fbx": "461520af6a1252068dadbb8833ead822f9ccd399fd351bcd1a7e77c73096703b",
+    "blend/00-asset.blend": "3b59bb85c67f15df4c510fef6dd580514f447740fb2867ab22e29c57c00e8f9a",
+    "preview/00-preview.png": "1fdfcad98daffae13063f538c59778428d52ffb31a8ff43800fe0d200388491c",
+    "reimport_report/00-report.json": "6dadb648ce73adf0deadb84fdbd1a0777f6afc5947b7067efbc3d5c96f49235c",
+    "reimport_report/01-blender.log": "b8ef620374693dce41960f06a6340fe6d74f6db06f69568184346de338563333",
+    "delivery/model.fbx": "62ac28536f74a65080578ccbbdf958bae1e4e7c35733d3c12d25a3bc120c6a44",
+    "delivery/textures/tex_doctor_character_3d_model_basecolor.png": "b89e47ce17e155170655b644a766fc70f0a5b8290fb81cc24e845ad32da12dff",
+    "delivery/textures/tex_doctor_character_3d_model_metallic.png": "8c46f3df17c33eba3e5bf55231ce9765c62be45fedd2319b81b4f5302373f324",
+    "delivery/textures/tex_doctor_character_3d_model_normal.png": "113968b240ec484f347033ff55bc02c4f8ae61db9347c1a51ddbc90a2f380a4b",
+    "delivery/textures/tex_doctor_character_3d_model_roughness.png": "36f43438d68ac497c4f4882ae4fa3aebb77e79558b1d577c4421c6cc411c7bb2"
+  },
+  "contract_sha256": "631230c43f4966f2cff971c028fbd379281f08eeb87e17afbe1183af4217d18d",
+  "specification": {
+    "asset_id": "char_physician_wen",
+    "revision": "batch1-7",
+    "asset_type": "character",
+    "name": "Wen Yan, field physician",
+    "use": "Playable investigator 4 of 6; third-person gameplay character for the island survival prototype",
+    "target_platform": "StandaloneWindows64",
+    "camera": "Third-person top-down action view; silhouette and profession must read at gameplay distance",
+    "style": "coastal-prototype@2",
+    "batch": "island-batch-01",
+    "synonyms": [
+      "physician",
+      "medic",
+      "first aid",
+      "white cape",
+      "1930s"
+    ],
+    "generation": {
+      "description": "1930s Chinese field physician: short white canvas half-cape over a grey suit, standard service revolver holstered on the hip, leather first-aid case with a white cross strapped to the chest, round wire glasses, calm tired face with stubble, gloves in the left hand, practical flat cap Multiview regeneration: one consistent character design, palette and props across all views.",
+      "pose": "standing in a neutral A-pose facing forward, arms slightly away from the body, feet together",
+      "model_label": "H3.1",
+      "model_input_mode": "single",
+      "model_views": [
+        "front"
+      ],
+      "views_mode": "multiview",
+      "image_model": "Nano Banana 2",
+      "required_views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "postprocess": [],
+      "transports": [
+        "bridge",
+        "download"
+      ],
+      "image_prompts": {
+        "front": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese field physician: short white canvas half-cape over a grey suit, standard service revolver holstered on the hip, leather first-aid case with a white cross strapped to the chest, round wire glasses, calm tired face with stubble, gloves in the left hand, practical flat cap Multiview regeneration: one consistent character design, palette and props across all views.\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet together\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "side": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese field physician: short white canvas half-cape over a grey suit, standard service revolver holstered on the hip, leather first-aid case with a white cross strapped to the chest, round wire glasses, calm tired face with stubble, gloves in the left hand, practical flat cap Multiview regeneration: one consistent character design, palette and props across all views.\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet together\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: side",
+        "back": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese field physician: short white canvas half-cape over a grey suit, standard service revolver holstered on the hip, leather first-aid case with a white cross strapped to the chest, round wire glasses, calm tired face with stubble, gloves in the left hand, practical flat cap Multiview regeneration: one consistent character design, palette and props across all views.\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet together\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: back"
+      },
+      "style_images": [
+        "Assets/Reference/character1.jpg",
+        "Assets/Reference/character2.jpg"
+      ]
+    },
+    "technical": {
+      "max_triangles": 15000,
+      "max_materials": 4,
+      "max_texture_size": 1024,
+      "max_textures": 4,
+      "pivot": "feet_center",
+      "forward": "-Y",
+      "rig": "humanoid",
+      "animations": [
+        "idle",
+        "walk",
+        "attack",
+        "death"
+      ],
+      "collider": "none",
+      "attachments": [],
+      "moving_parts": [],
+      "modular": false,
+      "passage": false,
+      "decimate": false,
+      "texture_mode": "preserve",
+      "height_based": false,
+      "size_m": 1.75
+    },
+    "unity_use": "player character prefab",
+    "children": [],
+    "production_use": "prototype_only",
+    "unity_target": null,
+    "references": {
+      "style": [],
+      "structure": []
+    }
+  },
+  "source": {
+    "source_step": "MODEL",
+    "source_sha256": "461520af6a1252068dadbb8833ead822f9ccd399fd351bcd1a7e77c73096703b",
+    "transport": "download",
+    "remote": "/workspace/generate/e6c4b3f2-bc6b-4b37-a622-4e33161f89d5",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/reference/inbox/front.jpg"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "reference_generation": {
+    "views": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/reference/inbox/front.jpg",
+      "side": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/reference/inbox/side.jpg",
+      "back": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/reference/inbox/back-rear.jpg"
+    },
+    "image_model": "Nano Banana 2",
+    "prompts": {
+      "front": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese field physician: short white canvas half-cape over a grey suit, standard service revolver holstered on the hip, leather first-aid case with a white cross strapped to the chest, round wire glasses, calm tired face with stubble, gloves in the left hand, practical flat cap Multiview regeneration: one consistent character design, palette and props across all views.\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet together\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front"
+    },
+    "seed": "unknown",
+    "mode": "multiview",
+    "slot_mapping": {
+      "front": "front",
+      "side": "left",
+      "back": "back"
+    },
+    "base": {
+      "operation_id": "b826151b880049a084d6bbfa794394a8",
+      "remote": "feed:bf8ca13ea565218e"
+    },
+    "multiview": {
+      "operation_id": "13b0123aaf114ae29a93d6b531c94043",
+      "remote": "multiview:feed:bf8ca13ea565218e",
+      "slots": [
+        "front",
+        "left",
+        "right",
+        "back"
+      ]
+    }
+  },
+  "model_generation": {
+    "transport": "download",
+    "remote": "/workspace/generate/e6c4b3f2-bc6b-4b37-a622-4e33161f89d5",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/reference/inbox/front.jpg"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "operations": {
+    "REFERENCE:base": {
+      "operation_id": "b826151b880049a084d6bbfa794394a8",
+      "job_id": "job_73fb2878909f4695a3ca54c2c58505d2",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "base",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Assets/Reference/character1.jpg": "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+          "Assets/Reference/character2.jpg": "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "character1.jpg",
+            "character2.jpg"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "f3d5095825064159e90987b58df4ce4e0b692a3e9d8d35ff25a829e210e22e8c",
+            "cf7c5cb803c41c456ffb44bccc2a86b2e0dcf94472cf1b524210070d2f43d1c1"
+          ],
+          "screenshot_error": "Playwright screenshot not confirmed"
+        },
+        "attachment_evidence_sha256": "a91f4e6d55090db00fce9496e62f3a6968daf765201dc07fe10dfcc47c768acc",
+        "model": "Nano Banana 2",
+        "button": "Generate Image",
+        "prompt": "One riggable figure in a neutral pose\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s Chinese field physician: short white canvas half-cape over a grey suit, standard service revolver holstered on the hip, leather first-aid case with a white cross strapped to the chest, round wire glasses, calm tired face with stubble, gloves in the left hand, practical flat cap Multiview regeneration: one consistent character design, palette and props across all views.\nPose: standing in a neutral A-pose facing forward, arms slightly away from the body, feet together\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "result_marker": "One riggable figure in a neutral pose Readable silhouettes, large rounded primar",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "ab3831c2ca2bdcaf525f7ced9608a2b65c585e01d1423b0da645e2fdaa9f1ad3",
+      "intent_utc": "2026-11-23T03:40:02.403537+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/reference/11f50f0804164960bf4c88eda98ba672/before-base.json",
+      "remote": "feed:bf8ca13ea565218e",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/reference/bbf81218b00449dfb7023902ea316ede/result-base.json"
+    },
+    "REFERENCE:multiview": {
+      "operation_id": "13b0123aaf114ae29a93d6b531c94043",
+      "job_id": "job_73fb2878909f4695a3ca54c2c58505d2",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "multiview",
+      "state": "SUBMITTED",
+      "parameters": {
+        "base_remote": "feed:bf8ca13ea565218e",
+        "action": "Multiview Image",
+        "entry": "Generate Multi-Views",
+        "slot_labels": {
+          "front": "Front",
+          "left": "Left",
+          "right": "Right",
+          "back": "Back"
+        },
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ],
+        "slot_deliveries": {
+          "front": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/reference/inbox/front.jpg",
+            "sha256": "8e926dd133a8266595bf217091583a7c78795bb334f11fbedcf32893188ea2a9",
+            "slot": "front"
+          },
+          "side": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/reference/inbox/side.jpg",
+            "sha256": "56c0dfe8f8e0a7aee8203c9c20c6cddebe0ea857cb99052a14b97e4e056d102a",
+            "slot": "left"
+          },
+          "back": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/reference/inbox/back-rear.jpg",
+            "sha256": "4309ffcf184f0a45232b8190927887099cb1c0c2152153232fd147d0be2a1d0e",
+            "slot": "back"
+          }
+        }
+      },
+      "input_sha256": "ab3831c2ca2bdcaf525f7ced9608a2b65c585e01d1423b0da645e2fdaa9f1ad3",
+      "intent_utc": "2026-11-23T03:57:26.976564+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/reference/fa4cd169f40b4c8e98598a43263c8851/before-multiview.json",
+      "remote": "multiview:feed:bf8ca13ea565218e",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/reference/35db7a75ab3c49ef8dc5b10ffc3aad17/result-multiview.json"
+    },
+    "MODEL:model": {
+      "operation_id": "b44de96f731542d58cce05aab1520c0d",
+      "job_id": "job_73fb2878909f4695a3ca54c2c58505d2",
+      "step_id": "MODEL",
+      "service": "studio",
+      "key": "model",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/reference/inbox/front.jpg": "8e926dd133a8266595bf217091583a7c78795bb334f11fbedcf32893188ea2a9"
+        },
+        "model": "H3.1",
+        "button": "Generate 45",
+        "prompt": null,
+        "result_marker": "11-21",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/generate/3d18e5a5-2b77-4d20-9765-5f5760b67f9f",
+          "/workspace/generate/3dc4aea8-e8d6-4c7a-978d-ca7996267fd3",
+          "/workspace/generate/673a1237-b43e-4b46-be19-8e4637a3e7f6",
+          "/workspace/generate/85db8b20-a766-48da-a027-6b92685b4371",
+          "/workspace/generate/a-glass-vial-containing-a-swirling-glowing-red-liquid-featuring-an-o-29657553-20da-43af-8122-ad8c4a049e9b",
+          "/workspace/generate/ec5adb96-9f4d-4d9b-a72e-98256d9ea7a6",
+          "/workspace/generate/f6bd5ffe-b4b6-4f8f-a96f-ac264867a433",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "d0e4751a494f0e95584e5f378360bb4e9530a6fcdf4804b20c9709b7a1622bf5",
+      "intent_utc": "2026-11-23T11:01:57.403575+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/model/4e3eb4adc2c74b4f813891f173f820a1/before-model.json",
+      "remote": "/workspace/generate/e6c4b3f2-bc6b-4b37-a622-4e33161f89d5",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/model/4e3eb4adc2c74b4f813891f173f820a1/result-model.json",
+      "delivered": {
+        "file": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/model/inbox/char_physician_wen.fbx",
+        "sha256": "461520af6a1252068dadbb8833ead822f9ccd399fd351bcd1a7e77c73096703b"
+      }
+    }
+  },
+  "processing": {
+    "stats": {
+      "dims_m": [
+        0.965362548828125,
+        0.4841044247150421,
+        1.75
+      ],
+      "geometry_max_m": [
+        0.4826812744140625,
+        0.24205221235752106,
+        1.75
+      ],
+      "geometry_min_m": [
+        -0.4826812744140625,
+        -0.24205221235752106,
+        0.0
+      ],
+      "materials": 1,
+      "names": [
+        "tripo_node_4f31c9a1"
+      ],
+      "texture_downscale": {
+        "doctor_character_3d_model_basecolor": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "doctor_character_3d_model_metallic": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "doctor_character_3d_model_normal": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "doctor_character_3d_model_roughness": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        }
+      },
+      "textures": 4,
+      "triangles": 3861,
+      "vertices": 1909
+    },
+    "checks": [
+      {
+        "name": "size_feet_center",
+        "status": "pass",
+        "threshold": 1.75,
+        "value": 1.75
+      },
+      {
+        "name": "origin_feet_center",
+        "status": "pass",
+        "value": [
+          -0.4827,
+          -0.2421,
+          0.0
+        ]
+      },
+      {
+        "name": "rig_deferred",
+        "note": "skeleton, skin weights and clips are produced by the RIG stage",
+        "status": "pass",
+        "threshold": "RIG",
+        "value": "humanoid"
+      },
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 3861
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 15000,
+        "value": 3861
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "image:doctor_character_3d_model_basecolor",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:doctor_character_3d_model_metallic",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:doctor_character_3d_model_roughness",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:doctor_character_3d_model_normal",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 1.75,
+        "value": 1.75
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_4f31c9a1"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_4f31c9a1"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "stats": {
+      "dims_m": [
+        0.965362548828125,
+        0.4841046631336212,
+        1.7500002524724527
+      ],
+      "geometry_max_m": [
+        0.4826812744140625,
+        0.24205249547958374,
+        1.750000238418579
+      ],
+      "geometry_min_m": [
+        -0.4826812744140625,
+        -0.24205216765403748,
+        -1.4053873620412105e-08
+      ],
+      "materials": 1,
+      "names": [
+        "Armature",
+        "tripo_node_4f31c9a1"
+      ],
+      "textures": 4,
+      "triangles": 3861,
+      "vertices": 1909
+    },
+    "checks": [
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 3861
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 15000,
+        "value": 3861
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "image:doctor_character_3d_model_basecolor",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:doctor_character_3d_model_normal",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:doctor_character_3d_model_roughness",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:doctor_character_3d_model_metallic",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 1.75,
+        "value": 1.7500002524724527
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          0.0,
+          1.6391277313232422e-07,
+          -1.4053873620412105e-08
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "Armature",
+          "tripo_node_4f31c9a1"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "Armature",
+          "tripo_node_4f31c9a1"
+        ]
+      },
+      {
+        "name": "armature",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "deform_weights:tripo_node_4f31c9a1",
+        "status": "pass",
+        "threshold": 0,
+        "value": 0
+      },
+      {
+        "name": "clip_file:idle",
+        "status": "pass",
+        "threshold": "duration 60 frames",
+        "value": [
+          [
+            2.0,
+            62.0
+          ]
+        ]
+      },
+      {
+        "name": "clip_file:walk",
+        "status": "pass",
+        "threshold": "duration 32 frames",
+        "value": [
+          [
+            2.0,
+            34.0
+          ]
+        ]
+      },
+      {
+        "name": "clip_file:attack",
+        "status": "pass",
+        "threshold": "duration 24 frames",
+        "value": [
+          [
+            2.0,
+            26.0
+          ]
+        ]
+      },
+      {
+        "name": "clip_file:death",
+        "status": "pass",
+        "threshold": "duration 48 frames",
+        "value": [
+          [
+            2.0,
+            50.0
+          ]
+        ]
+      },
+      {
+        "name": "required_animations",
+        "status": "pass",
+        "threshold": [
+          "idle",
+          "walk",
+          "attack",
+          "death"
+        ],
+        "value": {
+          "attack": [
+            [
+              2.0,
+              26.0
+            ]
+          ],
+          "death": [
+            [
+              2.0,
+              50.0
+            ]
+          ],
+          "idle": [
+            [
+              2.0,
+              62.0
+            ]
+          ],
+          "walk": [
+            [
+              2.0,
+              34.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "roundtrip_triangles",
+        "status": "pass",
+        "threshold": 3861,
+        "value": 3861
+      },
+      {
+        "name": "roundtrip_textures",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "roundtrip_dimensions",
+        "status": "pass",
+        "threshold": [
+          0.965362548828125,
+          0.4841046631336212,
+          1.7500002524724527
+        ],
+        "value": [
+          0.965362548828125,
+          0.4841046631336212,
+          1.7500002524724527
+        ]
+      }
+    ],
+    "fbx_sha256": "62ac28536f74a65080578ccbbdf958bae1e4e7c35733d3c12d25a3bc120c6a44",
+    "textures_sha256": {
+      "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/rig/30d96552e4d54831bd92aa33d9cd8186/textures/tex_doctor_character_3d_model_basecolor.png": "b89e47ce17e155170655b644a766fc70f0a5b8290fb81cc24e845ad32da12dff",
+      "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/rig/30d96552e4d54831bd92aa33d9cd8186/textures/tex_doctor_character_3d_model_metallic.png": "8c46f3df17c33eba3e5bf55231ce9765c62be45fedd2319b81b4f5302373f324",
+      "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/rig/30d96552e4d54831bd92aa33d9cd8186/textures/tex_doctor_character_3d_model_normal.png": "113968b240ec484f347033ff55bc02c4f8ae61db9347c1a51ddbc90a2f380a4b",
+      "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/rig/30d96552e4d54831bd92aa33d9cd8186/textures/tex_doctor_character_3d_model_roughness.png": "36f43438d68ac497c4f4882ae4fa3aebb77e79558b1d577c4421c6cc411c7bb2"
+    }
+  },
+  "review": {
+    "reviewer": "automated-review",
+    "validator_version": "controlled-3d/1",
+    "checks": {
+      "silhouette": {
+        "result": "PASS",
+        "reason": "Against reference-front.jpg the 3861-triangle render keeps the concept outline - flat cap, white shoulder half-cape, cross case bulge at the left hip, holster at the right hip and a 1.75 m standing build - so the character reads as the physician at gameplay distance. Limits: the fixed 3/4 camera crops the cap crown and both boot soles (silhouette pixels reach rows 0 and 719 of the 720-row frame) and the hands are simplified fused wedges, so crown, sole and finger outlines are only partly visible.",
+        "evidence": "blender_process-preview.png",
+        "sha256": "1fdfcad98daffae13063f538c59778428d52ffb31a8ff43800fe0d200388491c"
+      },
+      "orientation": {
+        "result": "PASS",
+        "reason": "Determined from the fixed preview camera, which sits on the -Y side (center + d*(sin35, -cos35, 0.42)) and renders the face, glasses, collar, cape front and cross case toward the lens while the holster stays on the far hip, so the model's forward is -Y. Up is +Z: the 1.7500 m dimension runs along Z with geometry starting at z = -1.4e-08 (feet plane) and the head at the top of the render; the process and FBX reports store no forward-axis value, so the render is the basis.",
+        "evidence": "blender_process-preview.png",
+        "sha256": "1fdfcad98daffae13063f538c59778428d52ffb31a8ff43800fe0d200388491c"
+      },
+      "pivot": {
+        "result": "PASS",
+        "reason": "pivot_at_origin is (0.0, 0.0, 0.0) in the process report and (0.0, 1.64e-07, -1.41e-08) after the FBX reimport, inside the 0.006 m tolerance, with geometry spanning x -0.4827..+0.4827, y -0.2421..+0.2421 and z 0.0000..1.7500, so the origin lies on the feet plane at the horizontal bounding-box centre. The report's separate origin_feet_center value is the bbox minimum, not a centre, so pivot_at_origin is the value I relied on.",
+        "evidence": "blender_process-report.json",
+        "sha256": "d3d128aecea3b85c9f9ed2bdd3d85e3be56bb0b98e8d444ecca65b4c6dd18455"
+      },
+      "joint_topology": {
+        "result": "PASS",
+        "reason": "rig-report.json records 21 bones on the unity_humanoid_v1 profile (the 21-bone Unity humanoid set), 21/21 bones weighted, 1909/1909 vertices weighted, zero_bones [] and four clips (idle 61, walk 33, attack 25, death 49 frames); the FBX reimport keeps one armature and 0 unweighted vertices of 1909. The hierarchy itself is accepted from the named 21-bone profile because the pack does not enumerate bone names or parenting; there are no finger bones, so the hands are rigid.",
+        "evidence": "rig-report.json",
+        "sha256": "9318c25e5c6a5e03e5aa197b600195ff31b7ac516c4830b37e840e25f348131e"
+      },
+      "deformation": {
+        "result": "PASS",
+        "reason": "deform_check passed the extreme pose (arms +/-90deg, legs +/-30deg): max vertex displacement 0.5053 m against the 1.0938 m cap (2.5 x longest bone 0.4375 m) with all 1909 vertices weighted, so the skin follows the test pose without exploded vertices. I relied on that numeric check because the rig-stage render is still the bind pose: rig-preview.png differs from blender_process-preview.png by at most 1/255 on 9 of 921600 pixels, so crease/collapse quality at elbows, knees and shoulders is not visually demonstrated.",
+        "evidence": "rig-report.json",
+        "sha256": "9318c25e5c6a5e03e5aa197b600195ff31b7ac516c4830b37e840e25f348131e"
+      },
+      "attachments": {
+        "result": "PASS",
+        "reason": "All five concept props are attached in their concept positions on the single joined mesh: white canvas half-cape over the shoulders with collar, cross-marked leather case at the left hip with the strap over the right shoulder, revolver holster with steel grip at the right hip, flat cap, and dark gloves held in the left hand. Fidelity caveats seen at 5x/8x: the gloves read as a thin dark flap rather than a modeled glove pair, and the wire glasses render as opaque dark lenses with a thin frame strip that stands off the ear.",
+        "evidence": "blender_process-preview.png",
+        "sha256": "1fdfcad98daffae13063f538c59778428d52ffb31a8ff43800fe0d200388491c"
+      },
+      "style": {
+        "result": "PASS",
+        "reason": "The render shows a painted, non-photographic treatment: soft brush-like shading, canvas and leather colour variation, faint pinstripes, painted hair and stubble and simplified forms, consistent with the stylized hand-painted concept. It is paler and lower-contrast than reference-front.jpg, with the suit stripes and leather scuffs much softer, but it is clearly stylized rather than photoreal or flat grey.",
+        "evidence": "blender_process-preview.png",
+        "sha256": "1fdfcad98daffae13063f538c59778428d52ffb31a8ff43800fe0d200388491c"
+      },
+      "material_appearance": {
+        "result": "PASS",
+        "reason": "One material with a UV layer and four 1024x1024 maps (basecolor, metallic, roughness, normal) that all load from both the processed scene and the FBX reimport, inside the 4-material/4-texture/1024 budget; the render shows cape, pinstripe suit, leather case and skin carrying texture with no missing or black regions and no obvious UV seam on the visible surfaces. The four map files are not in the review pack, so black-value and seam checks beyond this one 3/4 render were not possible.",
+        "evidence": "blender_process-report.json",
+        "sha256": "d3d128aecea3b85c9f9ed2bdd3d85e3be56bb0b98e8d444ecca65b4c6dd18455"
+      }
+    },
+    "evidence": {
+      "silhouette": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/model_review/ec2a16099e074972add15a82eefac3a8/evidence-00.png",
+      "orientation": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/model_review/ec2a16099e074972add15a82eefac3a8/evidence-01.png",
+      "pivot": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/model_review/ec2a16099e074972add15a82eefac3a8/evidence-02.json",
+      "joint_topology": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/model_review/ec2a16099e074972add15a82eefac3a8/evidence-03.json",
+      "deformation": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/model_review/ec2a16099e074972add15a82eefac3a8/evidence-04.json",
+      "attachments": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/model_review/ec2a16099e074972add15a82eefac3a8/evidence-05.png",
+      "style": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/model_review/ec2a16099e074972add15a82eefac3a8/evidence-06.png",
+      "material_appearance": "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/model_review/ec2a16099e074972add15a82eefac3a8/evidence-07.json"
+    }
+  },
+  "local_delivery": [
+    "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/reference/inbox/front.jpg",
+    "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/reference/inbox/side.jpg",
+    "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/reference/inbox/back-rear.jpg",
+    "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/model/inbox/char_physician_wen.fbx",
+    "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/blender_process/451dc29e70d74d98aeb0bcc89d7fe7c8/asset.blend",
+    "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/blender_process/451dc29e70d74d98aeb0bcc89d7fe7c8/preview.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/fbx_check/debf5e3537014e4095b168a12dd7a485/report.json",
+    "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/fbx_check/debf5e3537014e4095b168a12dd7a485/blender.log",
+    "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/rig/30d96552e4d54831bd92aa33d9cd8186/export/model.fbx",
+    "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/rig/30d96552e4d54831bd92aa33d9cd8186/textures/tex_doctor_character_3d_model_basecolor.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/rig/30d96552e4d54831bd92aa33d9cd8186/textures/tex_doctor_character_3d_model_metallic.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/rig/30d96552e4d54831bd92aa33d9cd8186/textures/tex_doctor_character_3d_model_normal.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_73fb2878909f4695a3ca54c2c58505d2/rig/30d96552e4d54831bd92aa33d9cd8186/textures/tex_doctor_character_3d_model_roughness.png"
+  ]
+}

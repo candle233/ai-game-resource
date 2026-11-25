@@ -1,0 +1,777 @@
+{
+  "asset_id": "env_santa_anna_wreck",
+  "revision": "batch2-7",
+  "category": "environment",
+  "project": "ai-game",
+  "style": "coastal-prototype@2",
+  "branch": "generate",
+  "files": {
+    "references/00-front.webp": "30a83649e86284883b574a491c1e8ad349a709277f3712d6972a4db3d24f4121",
+    "references/01-side.webp": "1622208f6a6e24cd137efdda542e317e71e66c3d178e5b62f82e0f6154fdcc32",
+    "references/02-back.webp": "2e2b3301cfeb68cdb5274e9cf5718a86b946dad566aefeed3fa2ade3e0900eb9",
+    "raw_model/00-raw_model.glb": "7dc983bcd574f035aae83a07091d0264392dfc65ad5d25201a717660692a1a2c",
+    "blend/00-asset.blend": "c61d1996d1be689156352c0802b5f7085f8cbb172c1a00e19881795181d1d393",
+    "preview/00-preview.png": "436e09a541f58840ff16ae18ccec2b9ce4768a5ff892f427067c2884ec877eb5",
+    "reimport_report/00-report.json": "1d44ef1f86cd2537967f54e58c74dd82dc109a1fd87878837794df2f86040f30",
+    "reimport_report/01-blender.log": "52b1ea0fc82681ab564760cde9375ae3449697f7d1816b37bdd61b3d08b9bf22",
+    "delivery/model.fbx": "7b68a48905dcd7fbf12e701de26ee259aaba0b658c85dd039cd4bfba41c45e62",
+    "delivery/textures/texture_00.png": "eb3fc9e5057a4b787dd7c3fa2b2e1a653d2ec30732e8b76b2d60c71a5bced76b",
+    "delivery/textures/texture_01.png": "e046a7340e94ed25db8f13fe61090d99c5a9fce829df1e6ca415eaec710d5093",
+    "delivery/textures/texture_02.png": "4f58e7bb0b23101970c2ed17692cd7fcf1a9e812afe315cd364f872478e783db",
+    "delivery/textures/texture_03.png": "9bfb77bcd2541919e6396a3a9df594deb610f173a41aa58ebe2a86cb4fe59b68",
+    "delivery/textures/old_wooden_ship_3d_model_rm_metallic_smoothness.png": "7c7e4433f3cec7dabf0d6217e32627c7c20f24981f59cbf9621caf2b42691554"
+  },
+  "contract_sha256": "a44c8abeae13d064ceb9c0c9f6b8ae898fdb1a867a04806cab59db672da9daaf",
+  "specification": {
+    "asset_id": "env_santa_anna_wreck",
+    "revision": "batch2-7",
+    "asset_type": "environment",
+    "name": "Santa Anna wreck",
+    "use": "Explorable shipwreck landmark module for the island survival prototype",
+    "target_platform": "StandaloneWindows64",
+    "camera": "Third-person top-down action view; hull silhouette, deck opening and broken masts must read from above",
+    "style": "coastal-prototype@2",
+    "batch": "island-batch2",
+    "synonyms": [
+      "shipwreck",
+      "wreck",
+      "hull",
+      "stranded ship",
+      "whaler"
+    ],
+    "generation": {
+      "description": "One stranded 1740s whaling ship hull, whole and upright on its keel with nothing underneath it: warm sun-bleached honey-brown planking with grey weathering worked into the seams and butt ends, one row of open gunwale ribs along the top edge, a snapped mainmast stump and one standing mizzen carrying torn canvas strips, a stepped quarterdeck with a broken rail, a brass-capped bowsprit and one empty hawse hole with no chain. No ground, no rock, no sand, no water: the hull is the only object.\nMultiview consistency: one single whole hull, the same warm planking tone, the same two masts in the same positions, the same deck openings and rib count in every view. No anchor chain, no second ship, no figures, no animals, no sails blown full.\nOne picture, one ship: draw exactly one ship once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three ships, never draw several views side by side, never draw a turnaround sheet or a composite sheet.",
+      "pose": "single whole stranded hull standing upright on its keel with nothing underneath it, bow facing the camera, seen from a top-down third-person angle",
+      "model_label": "H3.1",
+      "model_input_mode": "single",
+      "model_views": [
+        "front"
+      ],
+      "views_mode": "multiview",
+      "image_model": "Nano Banana 2",
+      "required_views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "postprocess": [],
+      "transports": [
+        "bridge",
+        "download"
+      ],
+      "image_prompts": {
+        "front": "One standalone building or module\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nOne stranded 1740s whaling ship hull, whole and upright on its keel with nothing underneath it: warm sun-bleached honey-brown planking with grey weathering worked into the seams and butt ends, one row of open gunwale ribs along the top edge, a snapped mainmast stump and one standing mizzen carrying torn canvas strips, a stepped quarterdeck with a broken rail, a brass-capped bowsprit and one empty hawse hole with no chain. No ground, no rock, no sand, no water: the hull is the only object.\nMultiview consistency: one single whole hull, the same warm planking tone, the same two masts in the same positions, the same deck openings and rib count in every view. No anchor chain, no second ship, no figures, no animals, no sails blown full.\nOne picture, one ship: draw exactly one ship once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three ships, never draw several views side by side, never draw a turnaround sheet or a composite sheet.\nPose: single whole stranded hull standing upright on its keel with nothing underneath it, bow facing the camera, seen from a top-down third-person angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "side": "One standalone building or module\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nOne stranded 1740s whaling ship hull, whole and upright on its keel with nothing underneath it: warm sun-bleached honey-brown planking with grey weathering worked into the seams and butt ends, one row of open gunwale ribs along the top edge, a snapped mainmast stump and one standing mizzen carrying torn canvas strips, a stepped quarterdeck with a broken rail, a brass-capped bowsprit and one empty hawse hole with no chain. No ground, no rock, no sand, no water: the hull is the only object.\nMultiview consistency: one single whole hull, the same warm planking tone, the same two masts in the same positions, the same deck openings and rib count in every view. No anchor chain, no second ship, no figures, no animals, no sails blown full.\nOne picture, one ship: draw exactly one ship once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three ships, never draw several views side by side, never draw a turnaround sheet or a composite sheet.\nPose: single whole stranded hull standing upright on its keel with nothing underneath it, bow facing the camera, seen from a top-down third-person angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: side",
+        "back": "One standalone building or module\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nOne stranded 1740s whaling ship hull, whole and upright on its keel with nothing underneath it: warm sun-bleached honey-brown planking with grey weathering worked into the seams and butt ends, one row of open gunwale ribs along the top edge, a snapped mainmast stump and one standing mizzen carrying torn canvas strips, a stepped quarterdeck with a broken rail, a brass-capped bowsprit and one empty hawse hole with no chain. No ground, no rock, no sand, no water: the hull is the only object.\nMultiview consistency: one single whole hull, the same warm planking tone, the same two masts in the same positions, the same deck openings and rib count in every view. No anchor chain, no second ship, no figures, no animals, no sails blown full.\nOne picture, one ship: draw exactly one ship once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three ships, never draw several views side by side, never draw a turnaround sheet or a composite sheet.\nPose: single whole stranded hull standing upright on its keel with nothing underneath it, bow facing the camera, seen from a top-down third-person angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: back"
+      },
+      "style_images": [
+        "Assets/Reference/environment1.jpg",
+        "Assets/Reference/environment2.jpg"
+      ]
+    },
+    "technical": {
+      "max_triangles": 12000,
+      "max_materials": 4,
+      "max_texture_size": 1024,
+      "max_textures": 4,
+      "pivot": "base_center",
+      "forward": "-Y",
+      "rig": "none",
+      "animations": [],
+      "collider": "mesh",
+      "attachments": [],
+      "moving_parts": [],
+      "modular": false,
+      "passage": false,
+      "decimate": false,
+      "texture_mode": "preserve",
+      "height_based": false,
+      "size_m": 20
+    },
+    "unity_use": "scene placement module",
+    "children": [],
+    "production_use": "prototype_only",
+    "unity_target": null,
+    "references": {
+      "style": [],
+      "structure": []
+    }
+  },
+  "source": {
+    "source_step": "MODEL",
+    "source_sha256": "7dc983bcd574f035aae83a07091d0264392dfc65ad5d25201a717660692a1a2c",
+    "transport": "download",
+    "remote": "/workspace/generate/d978df8c-80e3-403c-aedd-26b8a467d465",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/inbox/front.webp"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "reference_generation": {
+    "views": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/inbox/front.webp",
+      "side": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/inbox/side.webp",
+      "back": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/inbox/back.webp"
+    },
+    "image_model": "Nano Banana 2",
+    "prompts": {
+      "front": "One standalone building or module\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nOne stranded 1740s whaling ship hull, whole and upright on its keel with nothing underneath it: warm sun-bleached honey-brown planking with grey weathering worked into the seams and butt ends, one row of open gunwale ribs along the top edge, a snapped mainmast stump and one standing mizzen carrying torn canvas strips, a stepped quarterdeck with a broken rail, a brass-capped bowsprit and one empty hawse hole with no chain. No ground, no rock, no sand, no water: the hull is the only object.\nMultiview consistency: one single whole hull, the same warm planking tone, the same two masts in the same positions, the same deck openings and rib count in every view. No anchor chain, no second ship, no figures, no animals, no sails blown full.\nOne picture, one ship: draw exactly one ship once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three ships, never draw several views side by side, never draw a turnaround sheet or a composite sheet.\nPose: single whole stranded hull standing upright on its keel with nothing underneath it, bow facing the camera, seen from a top-down third-person angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front"
+    },
+    "seed": "unknown",
+    "mode": "multiview",
+    "slot_mapping": {
+      "front": "front",
+      "side": "left",
+      "back": "back"
+    },
+    "base": {
+      "operation_id": "a252d305b57c490683d20a3f7fe4ba0f",
+      "remote": "feed:9d4bcdb1ad070431"
+    },
+    "multiview": {
+      "operation_id": "993646924a034debb3353c5d174eee9d",
+      "remote": "multiview:feed:9d4bcdb1ad070431",
+      "slots": [
+        "front",
+        "left",
+        "right",
+        "back"
+      ]
+    }
+  },
+  "model_generation": {
+    "transport": "download",
+    "remote": "/workspace/generate/d978df8c-80e3-403c-aedd-26b8a467d465",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/inbox/front.webp"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "operations": {
+    "REFERENCE:base": {
+      "operation_id": "a252d305b57c490683d20a3f7fe4ba0f",
+      "job_id": "job_c7e4926c95d7459684f3ce40946324c3",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "base",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Assets/Reference/environment1.jpg": "8ec62d238ece054cabb7327a4f8b7b46f3ce032d376ff6d454c102df1ade7483",
+          "Assets/Reference/environment2.jpg": "9295201ac20e491668079fd5d68e9d55cccc2c34bdf17b84852fd6fabdc94792"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "environment1.jpg",
+            "environment2.jpg"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "8ec62d238ece054cabb7327a4f8b7b46f3ce032d376ff6d454c102df1ade7483",
+            "9295201ac20e491668079fd5d68e9d55cccc2c34bdf17b84852fd6fabdc94792"
+          ],
+          "screenshot": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/38e40800537c4df99515ccacb2c364a0/attachments-base.png",
+          "screenshot_sha256": "0fe7924d65acd0e499c8ca587f2d2212bfacdddf5e1c5bea74e9fb188a72f60a"
+        },
+        "attachment_evidence_sha256": "8715df2ff2ef943e9b9ad5688f4c5f67867d3b1116190253034cf4131097863b",
+        "model": "Nano Banana 2",
+        "button": "Generate Image",
+        "prompt": "One standalone building or module\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nOne stranded 1740s whaling ship hull, whole and upright on its keel with nothing underneath it: warm sun-bleached honey-brown planking with grey weathering worked into the seams and butt ends, one row of open gunwale ribs along the top edge, a snapped mainmast stump and one standing mizzen carrying torn canvas strips, a stepped quarterdeck with a broken rail, a brass-capped bowsprit and one empty hawse hole with no chain. No ground, no rock, no sand, no water: the hull is the only object.\nMultiview consistency: one single whole hull, the same warm planking tone, the same two masts in the same positions, the same deck openings and rib count in every view. No anchor chain, no second ship, no figures, no animals, no sails blown full.\nOne picture, one ship: draw exactly one ship once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three ships, never draw several views side by side, never draw a turnaround sheet or a composite sheet.\nPose: single whole stranded hull standing upright on its keel with nothing underneath it, bow facing the camera, seen from a top-down third-person angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "result_marker": "One standalone building or module Readable silhouettes, large rounded primary fo",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "59cdeb3f30ea394061c2862ea90d08835b87f0d348a6160305cc8b3d6a23f919",
+      "intent_utc": "2026-11-24T13:32:23.377332+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/38e40800537c4df99515ccacb2c364a0/before-base.json",
+      "remote": "feed:9d4bcdb1ad070431",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/22dd9086e3214c71bbbbff3a281e0e1b/result-base.json"
+    },
+    "REFERENCE:multiview": {
+      "operation_id": "993646924a034debb3353c5d174eee9d",
+      "job_id": "job_c7e4926c95d7459684f3ce40946324c3",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "multiview",
+      "state": "SUBMITTED",
+      "parameters": {
+        "base_remote": "feed:9d4bcdb1ad070431",
+        "action": "Multiview Image",
+        "entry": "Generate Multi-Views",
+        "slot_labels": {
+          "front": "Front",
+          "left": "Left",
+          "right": "Right",
+          "back": "Back"
+        },
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ],
+        "slot_deliveries": {
+          "front": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/inbox/front.webp",
+            "sha256": "30a83649e86284883b574a491c1e8ad349a709277f3712d6972a4db3d24f4121",
+            "slot": "front"
+          },
+          "side": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/inbox/side.webp",
+            "sha256": "1622208f6a6e24cd137efdda542e317e71e66c3d178e5b62f82e0f6154fdcc32",
+            "slot": "left"
+          },
+          "back": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/inbox/back.webp",
+            "sha256": "2e2b3301cfeb68cdb5274e9cf5718a86b946dad566aefeed3fa2ade3e0900eb9",
+            "slot": "back"
+          }
+        }
+      },
+      "input_sha256": "59cdeb3f30ea394061c2862ea90d08835b87f0d348a6160305cc8b3d6a23f919",
+      "intent_utc": "2026-11-24T13:33:44.306426+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/22dd9086e3214c71bbbbff3a281e0e1b/before-multiview.json",
+      "remote": "multiview:feed:9d4bcdb1ad070431",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/cbbf9a40378544b99aacb2ff0fbaa3c8/result-multiview.json"
+    },
+    "MODEL:model": {
+      "operation_id": "fcec79dd875a43f68dc03eb74999352d",
+      "job_id": "job_c7e4926c95d7459684f3ce40946324c3",
+      "step_id": "MODEL",
+      "service": "studio",
+      "key": "model",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/inbox/front.webp": "30a83649e86284883b574a491c1e8ad349a709277f3712d6972a4db3d24f4121"
+        },
+        "model": "H3.1",
+        "button": "Generate 45",
+        "prompt": null,
+        "result_marker": "11-21",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/generate/17b4a50e-e5cf-4ec9-be05-52adb8664dc1",
+          "/workspace/generate/2cd2cc37-58d7-4790-9e7b-a22404bd228f",
+          "/workspace/generate/3d18e5a5-2b77-4d20-9765-5f5760b67f9f",
+          "/workspace/generate/3dc4aea8-e8d6-4c7a-978d-ca7996267fd3",
+          "/workspace/generate/5b13ce8b-9fc2-4e22-b513-418a5fddba2e",
+          "/workspace/generate/673a1237-b43e-4b46-be19-8e4637a3e7f6",
+          "/workspace/generate/7f16ae6f-8688-4acf-a587-96b38f6434d5",
+          "/workspace/generate/85db8b20-a766-48da-a027-6b92685b4371",
+          "/workspace/generate/89df113a-ae98-4f92-88e9-36e40baeae46",
+          "/workspace/generate/a-glass-vial-containing-a-swirling-glowing-red-liquid-featuring-an-o-29657553-20da-43af-8122-ad8c4a049e9b",
+          "/workspace/generate/bf35ba2d-bb0d-4bbc-8cfc-4b3ae28cbd0b",
+          "/workspace/generate/cc9577e1-1a75-4c36-bc92-96d12ddaef3d",
+          "/workspace/generate/d9b6376b-4465-4fcc-9c31-444ca9be415c",
+          "/workspace/generate/e6c4b3f2-bc6b-4b37-a622-4e33161f89d5",
+          "/workspace/generate/ec5adb96-9f4d-4d9b-a72e-98256d9ea7a6",
+          "/workspace/generate/f6bd5ffe-b4b6-4f8f-a96f-ac264867a433",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "3013b6e24ae87963271f3af793986cc1165297bc58dae3c013b9f7566b03f546",
+      "intent_utc": "2026-11-24T14:12:28.840133+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/model/c5a72099946843859fb96a44591cd7bf/before-model.json",
+      "remote": "/workspace/generate/d978df8c-80e3-403c-aedd-26b8a467d465",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/model/c5a72099946843859fb96a44591cd7bf/result-model.json",
+      "delivered": {
+        "file": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/model/inbox/raw_model.glb",
+        "sha256": "7dc983bcd574f035aae83a07091d0264392dfc65ad5d25201a717660692a1a2c"
+      }
+    }
+  },
+  "processing": {
+    "stats": {
+      "dims_m": [
+        8.515734672546387,
+        20.0,
+        15.302372932434082
+      ],
+      "forward_aligned": {
+        "dims_after_m": [
+          8.5157,
+          20.0,
+          15.3024
+        ],
+        "end_widths_m": [
+          1.0054,
+          3.024
+        ],
+        "long_axis": "x",
+        "rotation_deg": 90.0
+      },
+      "geometry_max_m": [
+        4.257867336273193,
+        10.0,
+        15.302372932434082
+      ],
+      "geometry_min_m": [
+        -4.257867336273193,
+        -10.0,
+        0.0
+      ],
+      "materials": 1,
+      "names": [
+        "tripo_node_74391752-c62b-4e08-a543-31b9bbe7fbf9"
+      ],
+      "texture_downscale": {
+        "old_wooden_ship_3d_model_basecolor.jpg": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "old_wooden_ship_3d_model_normal.png": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "old_wooden_ship_3d_model_rm.jpg": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        }
+      },
+      "texture_extra": [
+        "old_wooden_ship_3d_model_rm_metallic_smoothness.png"
+      ],
+      "texture_roles": {
+        "old_wooden_ship_3d_model_rm_metallic_smoothness.png": "metallic_smoothness",
+        "texture_00.png": "base",
+        "texture_01.png": "normal",
+        "texture_02.png": "metallic",
+        "texture_03.png": "roughness"
+      },
+      "texture_split": [
+        "old_wooden_ship_3d_model_rm_metallic",
+        "old_wooden_ship_3d_model_rm_roughness"
+      ],
+      "textures": 4,
+      "triangles": 3701,
+      "vertices": 3572
+    },
+    "checks": [
+      {
+        "name": "size_base_center",
+        "status": "pass",
+        "threshold": 20.0,
+        "value": 20.0
+      },
+      {
+        "name": "origin_base_center",
+        "status": "pass",
+        "value": [
+          -10.0,
+          -4.2579,
+          0.0
+        ]
+      },
+      {
+        "name": "forward_aligned",
+        "status": "pass",
+        "threshold": "long axis onto Y, bow toward -Y",
+        "value": 90.0
+      },
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 3701
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 12000,
+        "value": 3701
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "image:old_wooden_ship_3d_model_basecolor.jpg",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:old_wooden_ship_3d_model_normal.png",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:old_wooden_ship_3d_model_rm_metallic",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:old_wooden_ship_3d_model_rm_roughness",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 20,
+        "value": 20.0
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_74391752-c62b-4e08-a543-31b9bbe7fbf9"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_74391752-c62b-4e08-a543-31b9bbe7fbf9"
+        ]
+      },
+      {
+        "name": "no_armature",
+        "status": "pass",
+        "value": 0
+      }
+    ]
+  },
+  "validation": {
+    "stats": {
+      "dims_m": [
+        8.515734672546387,
+        20.00000286102295,
+        15.30237646898945
+      ],
+      "geometry_max_m": [
+        4.257867336273193,
+        10.00000286102295,
+        15.302374839782715
+      ],
+      "geometry_min_m": [
+        -4.257867336273193,
+        -10.0,
+        -1.6292067357426276e-06
+      ],
+      "materials": 1,
+      "names": [
+        "tripo_node_74391752-c62b-4e08-a543-31b9bbe7fbf9"
+      ],
+      "textures": 4,
+      "triangles": 3701,
+      "vertices": 3572
+    },
+    "checks": [
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 3701
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 12000,
+        "value": 3701
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "image:old_wooden_ship_3d_model_basecolor.jpg",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:old_wooden_ship_3d_model_rm_metallic",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:old_wooden_ship_3d_model_rm_roughness",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:old_wooden_ship_3d_model_normal.png",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 20,
+        "value": 20.00000286102295
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          0.0,
+          1.430511474609375e-06,
+          -1.6292067357426276e-06
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_74391752-c62b-4e08-a543-31b9bbe7fbf9"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_74391752-c62b-4e08-a543-31b9bbe7fbf9"
+        ]
+      },
+      {
+        "name": "no_armature",
+        "status": "pass",
+        "value": 0
+      },
+      {
+        "name": "roundtrip_triangles",
+        "status": "pass",
+        "threshold": 3701,
+        "value": 3701
+      },
+      {
+        "name": "roundtrip_textures",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "roundtrip_dimensions",
+        "status": "pass",
+        "threshold": [
+          8.515734672546387,
+          20.0,
+          15.302372932434082
+        ],
+        "value": [
+          8.515734672546387,
+          20.00000286102295,
+          15.30237646898945
+        ]
+      }
+    ],
+    "fbx_sha256": "7b68a48905dcd7fbf12e701de26ee259aaba0b658c85dd039cd4bfba41c45e62",
+    "textures_sha256": {
+      "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/blender_process/d3aeb813200d468e922eab2ef4e8bd96/textures/texture_00.png": "eb3fc9e5057a4b787dd7c3fa2b2e1a653d2ec30732e8b76b2d60c71a5bced76b",
+      "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/blender_process/d3aeb813200d468e922eab2ef4e8bd96/textures/texture_01.png": "e046a7340e94ed25db8f13fe61090d99c5a9fce829df1e6ca415eaec710d5093",
+      "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/blender_process/d3aeb813200d468e922eab2ef4e8bd96/textures/texture_02.png": "4f58e7bb0b23101970c2ed17692cd7fcf1a9e812afe315cd364f872478e783db",
+      "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/blender_process/d3aeb813200d468e922eab2ef4e8bd96/textures/texture_03.png": "9bfb77bcd2541919e6396a3a9df594deb610f173a41aa58ebe2a86cb4fe59b68",
+      "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/blender_process/d3aeb813200d468e922eab2ef4e8bd96/textures/old_wooden_ship_3d_model_rm_metallic_smoothness.png": "7c7e4433f3cec7dabf0d6217e32627c7c20f24981f59cbf9621caf2b42691554"
+    }
+  },
+  "review": {
+    "review_ingress_sha256": "f547dbcb58d270266ff116693121e354a1180e2a40869a0d90c4c3aabdbda4f0",
+    "reviewer": "automated-review",
+    "validator_version": "controlled-3d/1",
+    "checks": {
+      "silhouette": {
+        "result": "PASS",
+        "reason": "One hull only, a single mesh, in the new preview.png and in fresh orthographic front, side, back and top renders of the current asset.blend: 8.5157 x 20.0000 x 15.3024 m, 3701 triangles, 1 material. The required reads are present: open deck with planking and one row of open gunwale ribs; a narrow bow stem ending in a brass-capped bowsprit, the extreme -Y slab holding 17 vertices in an x-span of 0.738 m at z 6.625 to 7.509 m; a snapped mainmast stump topping at 10.36 m at y -1.70 to -0.65; a standing mizzen with yard and torn canvas strips topping at 15.30 m, top vertex y +5.13; a stepped quarterdeck aft with a broken rail, the area-weighted upward faces rising from 4.50 m at y 0 to 6.37 m at y +4 and 7.41 m at y +9; one hawse hole per bow side and no chain. Nothing beneath it: the lowest 21 vertices at z at or below 0.05 span 0.705 x 7.857 m, a keel strip, with no ground, rock, sand, water, figures or second ship, and min z per 2 m bin is about 0 from y -6 to +6, rising to 2.75 at y -8 and 5.62 at the bow. The hull is beamier than the reference at 8.52 m over 20 m, but the frozen request sets no beam target and the silhouette reads from above in the top view.",
+        "evidence": "preview.png",
+        "sha256": "436e09a541f58840ff16ae18ccec2b9ce4768a5ff892f427067c2884ec877eb5"
+      },
+      "orientation": {
+        "result": "PASS",
+        "reason": "The bow now faces -Y. In the current asset.blend and in the reimported model.fbx the extreme -Y metre (y -10.0 to -9.0) holds 17 vertices in a 0.738 m x-span at z 6.625 to 7.509 m, the narrow bowsprit with its brass tip; the extreme +Y metre (y +9.0 to +10.0) holds 223 vertices in a 4.897 m x-span at z 4.355 to 8.450 m, the wide stern with the quarterdeck. The standing mizzen tops at 15.30 m at y +5.13, aft, and the snapped stump tops at 10.36 m at y -1.70 to -0.65, forward, matching this revision reference. The orthographic side render from +X shows the brass-capped bowsprit at -Y and the transom with quarterdeck at +Y; the top view shows the bowsprit projecting past the stem at -Y. The blender report records forward_aligned long_axis x, rotation_deg 90.0, end_widths_m [1.0054, 3.024]; the corrected Rz(+90) sends -X to -Y and the narrower -X end is the bow, so the bow lands on -Y. FBX reimport bbox and both end slabs are identical, so the artifact Unity consumes is also bow at -Y. This replaces the prior FAIL where the bow sat at +Y.",
+        "evidence": "preview.png",
+        "sha256": "436e09a541f58840ff16ae18ccec2b9ce4768a5ff892f427067c2884ec877eb5"
+      },
+      "pivot": {
+        "result": "PASS",
+        "reason": "Object transform is identity: location 0,0,0, rotation 0,0,0, scale 1,1,1. The geometry bbox is x -4.2579 to +4.2579, y -10.0000 to +10.0000, z 0.0000 to 15.3024, so the origin is the base centre: z 0 at the keel bottom and x and y centred to under 0.0001 m. The FBX_CHECK reimport reports pivot_at_origin [0.0, 1.43e-06, -1.63e-06] with roundtrip dims 8.515735 x 20.000003 x 15.302376, so the pivot survives export.",
+        "evidence": "preview.png",
+        "sha256": "436e09a541f58840ff16ae18ccec2b9ce4768a5ff892f427067c2884ec877eb5"
+      },
+      "grid_alignment": {
+        "result": "PASS",
+        "reason": "Not applicable by contract: technical.modular is false and no grid_m is declared, so there is no module cell or grid snap to meet. Measured for the record: 8.5157 x 20.0000 x 15.3024 m, the long horizontal axis exactly 20.0 m on Y, pivot at the base centre. The request asks for a scene placement module of a 1740s hull, not a modular kit.",
+        "evidence": "preview.png",
+        "sha256": "436e09a541f58840ff16ae18ccec2b9ce4768a5ff892f427067c2884ec877eb5"
+      },
+      "seams": {
+        "result": "PASS",
+        "reason": "Standalone non-modular hull, so seams mean visible cracks or z-fighting where parts meet. Four fresh orthographic renders from the current blend show continuous hull, deck and rail surfaces, and the dark lines are the intended plank seams and butt joints. Topology is unchanged from the previously passed revision: 2857 boundary edges, 0 degenerate faces, 3572 vertices, 3701 faces. The open edges are the layered plank, rib and rail shells and none shows a see-through gap or coplanar shimmer at render scale.",
+        "evidence": "preview.png",
+        "sha256": "436e09a541f58840ff16ae18ccec2b9ce4768a5ff892f427067c2884ec877eb5"
+      },
+      "collision": {
+        "result": "PASS",
+        "reason": "Contract collider is mesh. The reimported model.fbx carries the full 3701 triangles, 1 material and 4 textures at the same dimensions, roundtrip 8.515735 x 20.000003 x 15.302376, and passes every FBX_CHECK reimport check. Hull sides and the walkable deck are continuous, so Unity can bake a non-convex MeshCollider covering the hull and deck. There are 0 degenerate or zero-area faces; the mesh is open with 2857 boundary edges and MeshCollider accepts open shells. Actual collider baking and player traversal remain UNITY and playtest gates and are not verified here.",
+        "evidence": "preview.png",
+        "sha256": "436e09a541f58840ff16ae18ccec2b9ce4768a5ff892f427067c2884ec877eb5"
+      },
+      "passage": {
+        "result": "PASS",
+        "reason": "Not applicable by contract: technical.passage is false and unity_use is scene placement module, so no walk-through corridor, door or clearance is required. The deck is modelled and open from above, which suits visual placement; no passage claim is made or needed.",
+        "evidence": "preview.png",
+        "sha256": "436e09a541f58840ff16ae18ccec2b9ce4768a5ff892f427067c2884ec877eb5"
+      },
+      "style": {
+        "result": "PASS",
+        "reason": "The delivered albedo texture_00.png is byte-identical to the previously passed revision, sha256 eb3fc9e5, and still matches the warm target of this revision: channel medians give hue 28.2 deg with p5 22.6 and p95 35.3, saturation 0.459, value 0.361. The three reference views give hue medians 29.3, 28.4 and 29.0 deg with saturation 0.449, 0.464 and 0.488 for front, side and back, so hue sits inside the reference band and saturation is a match rather than a mismatch. Grey weathering reads as desaturated seam and butt-end strips in the albedo and in the renders, the bowsprit tip reads brass, and deck, ribs and masts share the same restrained hand-painted plank detail. No text, foreign subject or scenery.",
+        "evidence": "texture_00.png",
+        "sha256": "eb3fc9e5057a4b787dd7c3fa2b2e1a653d2ec30732e8b76b2d60c71a5bced76b"
+      },
+      "material_appearance": {
+        "result": "PASS",
+        "reason": "Re-verified on the re-staged bytes. The combined map old_wooden_ship_3d_model_rm_metallic_smoothness.png is a correct Unity metallic and smoothness pack: channel R equals texture_02, the metallic map, bit for bit with max abs difference 0 and 100 percent of pixels within 1; channel A equals 255 minus texture_03, the roughness map, bit for bit with max abs difference 0 and 100 percent within 1. G and B are all 0 by design. No map is constant: albedo channel std 41.0, 34.9 and 29.0 with 248 unique saturation values; normal std 9.6, 10.8 and 5.8 with 241, 238 and 90 unique; metallic range 0 to 255, mean 3.69, std 11.22, 250 unique, with 0.221 percent of pixels above 128 at the brass and iron fittings; roughness range 5 to 239, mean 152.36, std 19.05, 188 unique. One material and four 1024 px maps stay inside the 4-material and 1024 px limits.",
+        "evidence": "old_wooden_ship_3d_model_rm_metallic_smoothness.png",
+        "sha256": "7c7e4433f3cec7dabf0d6217e32627c7c20f24981f59cbf9621caf2b42691554"
+      }
+    },
+    "evidence": {
+      "silhouette": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/model_review/9098d71232cb4ee5be3c4d04e2a74066/evidence-00.png",
+      "orientation": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/model_review/9098d71232cb4ee5be3c4d04e2a74066/evidence-01.png",
+      "pivot": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/model_review/9098d71232cb4ee5be3c4d04e2a74066/evidence-02.png",
+      "grid_alignment": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/model_review/9098d71232cb4ee5be3c4d04e2a74066/evidence-03.png",
+      "seams": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/model_review/9098d71232cb4ee5be3c4d04e2a74066/evidence-04.png",
+      "collision": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/model_review/9098d71232cb4ee5be3c4d04e2a74066/evidence-05.png",
+      "passage": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/model_review/9098d71232cb4ee5be3c4d04e2a74066/evidence-06.png",
+      "style": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/model_review/9098d71232cb4ee5be3c4d04e2a74066/evidence-07.png",
+      "material_appearance": "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/model_review/9098d71232cb4ee5be3c4d04e2a74066/evidence-08.png"
+    }
+  },
+  "local_delivery": [
+    "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/inbox/front.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/inbox/side.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/reference/inbox/back.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/model/inbox/raw_model.glb",
+    "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/blender_process/d3aeb813200d468e922eab2ef4e8bd96/asset.blend",
+    "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/blender_process/d3aeb813200d468e922eab2ef4e8bd96/preview.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/fbx_check/a5ac9d1db6684d1186f44478fa79245f/report.json",
+    "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/fbx_check/a5ac9d1db6684d1186f44478fa79245f/blender.log",
+    "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/blender_process/d3aeb813200d468e922eab2ef4e8bd96/model.fbx",
+    "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/blender_process/d3aeb813200d468e922eab2ef4e8bd96/textures/texture_00.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/blender_process/d3aeb813200d468e922eab2ef4e8bd96/textures/texture_01.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/blender_process/d3aeb813200d468e922eab2ef4e8bd96/textures/texture_02.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/blender_process/d3aeb813200d468e922eab2ef4e8bd96/textures/texture_03.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_c7e4926c95d7459684f3ce40946324c3/blender_process/d3aeb813200d468e922eab2ef4e8bd96/textures/old_wooden_ship_3d_model_rm_metallic_smoothness.png"
+  ]
+}

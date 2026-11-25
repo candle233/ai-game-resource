@@ -1,0 +1,735 @@
+{
+  "asset_id": "con_whale_oil_lamp",
+  "revision": "batch2-5",
+  "category": "prop",
+  "project": "ai-game",
+  "style": "coastal-prototype@2",
+  "branch": "generate",
+  "files": {
+    "references/00-front.webp": "d593c45af7ae76c00d0d5066dbd0d90335efb7359af1646eabfd81c1d602711d",
+    "references/01-side.webp": "ac953eef6c01d87750359da81cd1fc5979edb263f704a2be9288a1a9c51b2d18",
+    "references/02-back.jpg": "5ac0d5316d8d578a4206df40ba9ea6fa326ead7697885306afe885f6d83d0d72",
+    "raw_model/00-raw_model.glb": "e58bcf88eb1cfa4b64419aa12d0c85d33179f89efcff10d3db009fa7d0f5bf3c",
+    "blend/00-asset.blend": "f07389a55e03efdab0192fd371f004cb347cf72aa1f7ec97cc2f0372b86a98ac",
+    "preview/00-preview.png": "9d465ff20f40f58bf8b20ef7447bb0bf92784091787cfa1192897ad22d39190d",
+    "reimport_report/00-report.json": "97baea1b7678a781e899930bb39a43ffba18a482cfa2cc25911eccc1736f7368",
+    "reimport_report/01-blender.log": "f4cef89847a82b897d6889b3ef58dde96021b59a092b92eb3fa1f3b16bb42812",
+    "delivery/model.fbx": "c799e5fb882f3672f6ca9cc61f6e3e1f41be3a4e42b1515977b0a0ce93d4fbea",
+    "delivery/textures/texture_00.png": "ffe9647b6c87a2985c514fdb0d6242e85b8014fa8cb7218b7910758383db29ea",
+    "delivery/textures/texture_01.png": "db6a97a8146576a4a87c966b36506cb6d170ed4df30c632f94f0ba8813072ffd",
+    "delivery/textures/texture_02.png": "bcd80f5a8c903000fb20bbbe813b194b30715d0a6cb37b0ab6cf77c38fbd2701",
+    "delivery/textures/texture_03.png": "b0d73ca0cf3783e0665b95192b29540073ec5ea3814bf28f864e6fe2d9d7ca65",
+    "delivery/textures/vintage_lantern_3d_model_rm_metallic_smoothness.png": "766c6b7c0fc51307f573cded3a0c0353f550ef2ab1c1ec03d044c52283a760f4"
+  },
+  "contract_sha256": "b5ed9ed8ac3388ef1e270f1ce91bfff549cae1bd20877181ee447f3435aad32f",
+  "specification": {
+    "asset_id": "con_whale_oil_lamp",
+    "revision": "batch2-5",
+    "asset_type": "prop",
+    "name": "Whale-oil lantern",
+    "use": "Consumable light source prop and inventory icon for the island survival prototype",
+    "target_platform": "StandaloneWindows64",
+    "camera": "Close third-person and inventory inspection; brass lantern silhouette must read at thumbnail size",
+    "style": "coastal-prototype@2",
+    "batch": "island-batch2",
+    "synonyms": [
+      "lantern",
+      "oil lamp",
+      "whale oil",
+      "light source",
+      "brass lamp"
+    ],
+    "generation": {
+      "description": "1930s whale-oil hand lantern: dented brass body, hoop carry handle, smoked dark glass panes with a warm amber glow behind them, rope-wrapped base, salt corrosion and pale grey salt bloom on the brass\nMultiview: one single lantern, identical shape, brass tone and wear in every view; no hands, no table, no second lamp.\nOne picture, one object: draw exactly one lantern once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three lanterns, never draw several views side by side, never draw a turnaround sheet or a composite sheet.",
+      "pose": "single object standing on an implied flat surface, upright, three-quarter view",
+      "model_label": "H3.1",
+      "model_input_mode": "single",
+      "model_views": [
+        "front"
+      ],
+      "views_mode": "multiview",
+      "image_model": "Nano Banana 2",
+      "required_views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "postprocess": [],
+      "transports": [
+        "bridge",
+        "download"
+      ],
+      "image_prompts": {
+        "front": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s whale-oil hand lantern: dented brass body, hoop carry handle, smoked dark glass panes with a warm amber glow behind them, rope-wrapped base, salt corrosion and pale grey salt bloom on the brass\nMultiview: one single lantern, identical shape, brass tone and wear in every view; no hands, no table, no second lamp.\nOne picture, one object: draw exactly one lantern once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three lanterns, never draw several views side by side, never draw a turnaround sheet or a composite sheet.\nPose: single object standing on an implied flat surface, upright, three-quarter view\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "side": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s whale-oil hand lantern: dented brass body, hoop carry handle, smoked dark glass panes with a warm amber glow behind them, rope-wrapped base, salt corrosion and pale grey salt bloom on the brass\nMultiview: one single lantern, identical shape, brass tone and wear in every view; no hands, no table, no second lamp.\nOne picture, one object: draw exactly one lantern once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three lanterns, never draw several views side by side, never draw a turnaround sheet or a composite sheet.\nPose: single object standing on an implied flat surface, upright, three-quarter view\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: side",
+        "back": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s whale-oil hand lantern: dented brass body, hoop carry handle, smoked dark glass panes with a warm amber glow behind them, rope-wrapped base, salt corrosion and pale grey salt bloom on the brass\nMultiview: one single lantern, identical shape, brass tone and wear in every view; no hands, no table, no second lamp.\nOne picture, one object: draw exactly one lantern once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three lanterns, never draw several views side by side, never draw a turnaround sheet or a composite sheet.\nPose: single object standing on an implied flat surface, upright, three-quarter view\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: back"
+      },
+      "style_images": [
+        "Assets/Reference/prop1.jpg",
+        "Assets/Reference/prop2.jpg"
+      ]
+    },
+    "technical": {
+      "max_triangles": 4000,
+      "max_materials": 4,
+      "max_texture_size": 1024,
+      "max_textures": 4,
+      "pivot": "base_center",
+      "forward": "-Y",
+      "rig": "none",
+      "animations": [],
+      "collider": "none",
+      "attachments": [],
+      "moving_parts": [],
+      "modular": false,
+      "passage": false,
+      "decimate": false,
+      "texture_mode": "preserve",
+      "height_based": false,
+      "size_m": 0.35
+    },
+    "unity_use": "carried lantern prop whose glow is provided at run time by a scene light and an emissive material state",
+    "children": [],
+    "production_use": "prototype_only",
+    "unity_target": null,
+    "references": {
+      "style": [],
+      "structure": []
+    }
+  },
+  "source": {
+    "source_step": "MODEL",
+    "source_sha256": "e58bcf88eb1cfa4b64419aa12d0c85d33179f89efcff10d3db009fa7d0f5bf3c",
+    "transport": "download",
+    "remote": "/workspace/generate/cc9577e1-1a75-4c36-bc92-96d12ddaef3d",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/inbox/front.webp"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "reference_generation": {
+    "views": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/inbox/front.webp",
+      "side": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/inbox/side.webp",
+      "back": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/inbox/back.jpg"
+    },
+    "image_model": "Nano Banana 2",
+    "prompts": {
+      "front": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s whale-oil hand lantern: dented brass body, hoop carry handle, smoked dark glass panes with a warm amber glow behind them, rope-wrapped base, salt corrosion and pale grey salt bloom on the brass\nMultiview: one single lantern, identical shape, brass tone and wear in every view; no hands, no table, no second lamp.\nOne picture, one object: draw exactly one lantern once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three lanterns, never draw several views side by side, never draw a turnaround sheet or a composite sheet.\nPose: single object standing on an implied flat surface, upright, three-quarter view\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front"
+    },
+    "seed": "unknown",
+    "mode": "multiview",
+    "slot_mapping": {
+      "front": "front",
+      "side": "left",
+      "back": "back"
+    },
+    "base": {
+      "operation_id": "50d7aab249e74715bf2fcee05e7325af",
+      "remote": "feed:561a2ac298f15901"
+    },
+    "multiview": {
+      "operation_id": "33835ce82e87423fa82c367f9391069f",
+      "remote": "multiview:feed:561a2ac298f15901",
+      "slots": [
+        "front",
+        "left",
+        "right",
+        "back"
+      ]
+    }
+  },
+  "model_generation": {
+    "transport": "download",
+    "remote": "/workspace/generate/cc9577e1-1a75-4c36-bc92-96d12ddaef3d",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/inbox/front.webp"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "operations": {
+    "REFERENCE:base": {
+      "operation_id": "50d7aab249e74715bf2fcee05e7325af",
+      "job_id": "job_1c67e4603ada4977a938b26572a918f0",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "base",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Assets/Reference/prop1.jpg": "88d0d395461038eff81f664fcfdd814909d5614cb32086ea0e371b7d40357b86",
+          "Assets/Reference/prop2.jpg": "761dcfa914f4b715f286eec55da6ad475a49b65c9e070e6621375b76e4a22ae9"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "prop1.jpg",
+            "prop2.jpg"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "88d0d395461038eff81f664fcfdd814909d5614cb32086ea0e371b7d40357b86",
+            "761dcfa914f4b715f286eec55da6ad475a49b65c9e070e6621375b76e4a22ae9"
+          ],
+          "screenshot": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/7de4d92b2c6f4b45b72b55add66562ea/attachments-base.png",
+          "screenshot_sha256": "93899706f74b57821f9dfdbf17b58eb82def84387a88a1bbfa1705475fa97f16"
+        },
+        "attachment_evidence_sha256": "f70bcbfb17c15949a47bd4a08c2552dce60ea1c1bf0ae79c2613fe366c839ff7",
+        "model": "Nano Banana 2",
+        "button": "Generate Image",
+        "prompt": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\n1930s whale-oil hand lantern: dented brass body, hoop carry handle, smoked dark glass panes with a warm amber glow behind them, rope-wrapped base, salt corrosion and pale grey salt bloom on the brass\nMultiview: one single lantern, identical shape, brass tone and wear in every view; no hands, no table, no second lamp.\nOne picture, one object: draw exactly one lantern once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three lanterns, never draw several views side by side, never draw a turnaround sheet or a composite sheet.\nPose: single object standing on an implied flat surface, upright, three-quarter view\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "result_marker": "One distinct prop Readable silhouettes, large rounded primary forms, restrained ",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "5a672e1f92fe8c9411f4cb875aeb39bc2e7a9e65de59960b43a8657a3af78ab3",
+      "intent_utc": "2026-11-24T07:31:22.042508+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/7de4d92b2c6f4b45b72b55add66562ea/before-base.json",
+      "remote": "feed:561a2ac298f15901",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/57f16c7452d2473db9d36999c3aa9af7/result-base.json"
+    },
+    "REFERENCE:multiview": {
+      "operation_id": "33835ce82e87423fa82c367f9391069f",
+      "job_id": "job_1c67e4603ada4977a938b26572a918f0",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "multiview",
+      "state": "SUBMITTED",
+      "parameters": {
+        "base_remote": "feed:561a2ac298f15901",
+        "action": "Multiview Image",
+        "entry": "Generate Multi-Views",
+        "slot_labels": {
+          "front": "Front",
+          "left": "Left",
+          "right": "Right",
+          "back": "Back"
+        },
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ],
+        "slot_deliveries": {
+          "front": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/inbox/front.webp",
+            "sha256": "d593c45af7ae76c00d0d5066dbd0d90335efb7359af1646eabfd81c1d602711d",
+            "slot": "front"
+          },
+          "side": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/inbox/side.webp",
+            "sha256": "ac953eef6c01d87750359da81cd1fc5979edb263f704a2be9288a1a9c51b2d18",
+            "slot": "left"
+          },
+          "back": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/inbox/back.jpg",
+            "sha256": "5ac0d5316d8d578a4206df40ba9ea6fa326ead7697885306afe885f6d83d0d72",
+            "slot": "back"
+          }
+        }
+      },
+      "input_sha256": "5a672e1f92fe8c9411f4cb875aeb39bc2e7a9e65de59960b43a8657a3af78ab3",
+      "intent_utc": "2026-11-24T08:23:34.168799+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/6eee4de294db43aaa761eb605b4f6635/before-multiview.json",
+      "remote": "multiview:feed:561a2ac298f15901",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/6eee4de294db43aaa761eb605b4f6635/result-multiview.json"
+    },
+    "MODEL:model": {
+      "operation_id": "904582df6b2c485fae736d8a836476ed",
+      "job_id": "job_1c67e4603ada4977a938b26572a918f0",
+      "step_id": "MODEL",
+      "service": "studio",
+      "key": "model",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/inbox/front.webp": "d593c45af7ae76c00d0d5066dbd0d90335efb7359af1646eabfd81c1d602711d"
+        },
+        "model": "H3.1",
+        "button": "Generate 45",
+        "prompt": null,
+        "result_marker": "11-21",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/generate/17b4a50e-e5cf-4ec9-be05-52adb8664dc1",
+          "/workspace/generate/2cd2cc37-58d7-4790-9e7b-a22404bd228f",
+          "/workspace/generate/3d18e5a5-2b77-4d20-9765-5f5760b67f9f",
+          "/workspace/generate/3dc4aea8-e8d6-4c7a-978d-ca7996267fd3",
+          "/workspace/generate/5b13ce8b-9fc2-4e22-b513-418a5fddba2e",
+          "/workspace/generate/673a1237-b43e-4b46-be19-8e4637a3e7f6",
+          "/workspace/generate/7f16ae6f-8688-4acf-a587-96b38f6434d5",
+          "/workspace/generate/85db8b20-a766-48da-a027-6b92685b4371",
+          "/workspace/generate/89df113a-ae98-4f92-88e9-36e40baeae46",
+          "/workspace/generate/a-glass-vial-containing-a-swirling-glowing-red-liquid-featuring-an-o-29657553-20da-43af-8122-ad8c4a049e9b",
+          "/workspace/generate/bf35ba2d-bb0d-4bbc-8cfc-4b3ae28cbd0b",
+          "/workspace/generate/d9b6376b-4465-4fcc-9c31-444ca9be415c",
+          "/workspace/generate/e6c4b3f2-bc6b-4b37-a622-4e33161f89d5",
+          "/workspace/generate/ec5adb96-9f4d-4d9b-a72e-98256d9ea7a6",
+          "/workspace/generate/f6bd5ffe-b4b6-4f8f-a96f-ac264867a433",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "29617cd3631831036959d59466af216dd873cdce8995b17f6804759b7ce0245a",
+      "intent_utc": "2026-11-24T08:52:21.234171+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/model/f2d1edfb51824a439d8c4032f33d4736/before-model.json",
+      "remote": "/workspace/generate/cc9577e1-1a75-4c36-bc92-96d12ddaef3d",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/model/f2d1edfb51824a439d8c4032f33d4736/result-model.json",
+      "delivered": {
+        "file": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/model/inbox/raw_model.glb",
+        "sha256": "e58bcf88eb1cfa4b64419aa12d0c85d33179f89efcff10d3db009fa7d0f5bf3c"
+      }
+    }
+  },
+  "processing": {
+    "stats": {
+      "dims_m": [
+        0.18769478797912598,
+        0.17915326356887817,
+        0.3499999940395355
+      ],
+      "geometry_max_m": [
+        0.09384739398956299,
+        0.08957663178443909,
+        0.3499999940395355
+      ],
+      "geometry_min_m": [
+        -0.09384739398956299,
+        -0.08957663178443909,
+        0.0
+      ],
+      "materials": 1,
+      "names": [
+        "tripo_node_b6150bb2-613a-47ba-8c2e-1bdd3b2b1f76"
+      ],
+      "texture_downscale": {
+        "vintage_lantern_3d_model_basecolor.jpg": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "vintage_lantern_3d_model_normal.png": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "vintage_lantern_3d_model_rm.jpg": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        }
+      },
+      "texture_extra": [
+        "vintage_lantern_3d_model_rm_metallic_smoothness.png"
+      ],
+      "texture_roles": {
+        "texture_00.png": "base",
+        "texture_01.png": "normal",
+        "texture_02.png": "metallic",
+        "texture_03.png": "roughness"
+      },
+      "texture_split": [
+        "vintage_lantern_3d_model_rm_metallic",
+        "vintage_lantern_3d_model_rm_roughness"
+      ],
+      "textures": 4,
+      "triangles": 3872,
+      "vertices": 3070
+    },
+    "checks": [
+      {
+        "name": "size_base_center",
+        "status": "pass",
+        "threshold": 0.35,
+        "value": 0.35
+      },
+      {
+        "name": "origin_base_center",
+        "status": "pass",
+        "value": [
+          -0.0938,
+          -0.0896,
+          0.0
+        ]
+      },
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 3872
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 4000,
+        "value": 3872
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "image:vintage_lantern_3d_model_basecolor.jpg",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:vintage_lantern_3d_model_rm_roughness",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:vintage_lantern_3d_model_rm_metallic",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:vintage_lantern_3d_model_normal.png",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 0.35,
+        "value": 0.3499999940395355
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_b6150bb2-613a-47ba-8c2e-1bdd3b2b1f76"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_b6150bb2-613a-47ba-8c2e-1bdd3b2b1f76"
+        ]
+      },
+      {
+        "name": "no_armature",
+        "status": "pass",
+        "value": 0
+      }
+    ]
+  },
+  "validation": {
+    "stats": {
+      "dims_m": [
+        0.18769478797912598,
+        0.17915332317352295,
+        0.35000000863342073
+      ],
+      "geometry_max_m": [
+        0.09384739398956299,
+        0.08957669138908386,
+        0.3499999940395355
+      ],
+      "geometry_min_m": [
+        -0.09384739398956299,
+        -0.08957663178443909,
+        -1.4593885211411362e-08
+      ],
+      "materials": 1,
+      "names": [
+        "tripo_node_b6150bb2-613a-47ba-8c2e-1bdd3b2b1f76"
+      ],
+      "textures": 4,
+      "triangles": 3872,
+      "vertices": 3070
+    },
+    "checks": [
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 3872
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 4000,
+        "value": 3872
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "image:vintage_lantern_3d_model_basecolor.jpg",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:vintage_lantern_3d_model_rm_metallic",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:vintage_lantern_3d_model_rm_roughness",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:vintage_lantern_3d_model_normal.png",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 0.35,
+        "value": 0.35000000863342073
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          0.0,
+          2.9802322387695312e-08,
+          -1.4593885211411362e-08
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_b6150bb2-613a-47ba-8c2e-1bdd3b2b1f76"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_b6150bb2-613a-47ba-8c2e-1bdd3b2b1f76"
+        ]
+      },
+      {
+        "name": "no_armature",
+        "status": "pass",
+        "value": 0
+      },
+      {
+        "name": "roundtrip_triangles",
+        "status": "pass",
+        "threshold": 3872,
+        "value": 3872
+      },
+      {
+        "name": "roundtrip_textures",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "roundtrip_dimensions",
+        "status": "pass",
+        "threshold": [
+          0.18769478797912598,
+          0.17915326356887817,
+          0.3499999940395355
+        ],
+        "value": [
+          0.18769478797912598,
+          0.17915332317352295,
+          0.35000000863342073
+        ]
+      }
+    ],
+    "fbx_sha256": "c799e5fb882f3672f6ca9cc61f6e3e1f41be3a4e42b1515977b0a0ce93d4fbea",
+    "textures_sha256": {
+      "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/blender_process/379d9286e56844ea820eeeb4d6023740/textures/texture_00.png": "ffe9647b6c87a2985c514fdb0d6242e85b8014fa8cb7218b7910758383db29ea",
+      "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/blender_process/379d9286e56844ea820eeeb4d6023740/textures/texture_01.png": "db6a97a8146576a4a87c966b36506cb6d170ed4df30c632f94f0ba8813072ffd",
+      "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/blender_process/379d9286e56844ea820eeeb4d6023740/textures/texture_02.png": "bcd80f5a8c903000fb20bbbe813b194b30715d0a6cb37b0ab6cf77c38fbd2701",
+      "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/blender_process/379d9286e56844ea820eeeb4d6023740/textures/texture_03.png": "b0d73ca0cf3783e0665b95192b29540073ec5ea3814bf28f864e6fe2d9d7ca65",
+      "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/blender_process/379d9286e56844ea820eeeb4d6023740/textures/vintage_lantern_3d_model_rm_metallic_smoothness.png": "766c6b7c0fc51307f573cded3a0c0353f550ef2ab1c1ec03d044c52283a760f4"
+    }
+  },
+  "review": {
+    "review_ingress_sha256": "ea2c09c0d69fc166ed13b1a95e7742274ba4f7b1c8e2946f6cde1afc7239fcf9",
+    "reviewer": "automated-review",
+    "validator_version": "controlled-3d/1",
+    "checks": {
+      "silhouette": {
+        "result": "PASS",
+        "reason": "Reads as the revision concept lantern at 0.35 m: a 20-band width profile of the -Y orthographic render (480 x 896 px at 0.390625 mm/px) against the approved front reference (454 x 914 px) correlates r=0.947 with MAD 0.050; aspect 0.536 versus 0.497 (7.9 percent wider, extra width in the cage band). All key parts present in order: closed bail, small vent cap, domed shoulder, four-post cage with side guard bars, rope-wrapped base. 3872 triangles, 1 material, 4 textures.",
+        "evidence": "preview.png",
+        "sha256": "9d465ff20f40f58bf8b20ef7447bb0bf92784091787cfa1192897ad22d39190d"
+      },
+      "orientation": {
+        "result": "PASS",
+        "reason": "Upright on +Z with a flat base at z=0.0000 and crown at z=0.3500 m (fresh BLENDER_PROCESS 2026-11-24T10:04:13Z; reimport z min -1.46e-08). Forward -Y: the -Y orthographic view shows the reference front burner side-arm on image-right, matching the approved front; plan extents 0.18769 m X by 0.17915 m Y, X 4.8 percent wider as in the concept front; FBX reimport keeps 0.3500000086 m height and the same plan sizes.",
+        "evidence": "preview.png",
+        "sha256": "9d465ff20f40f58bf8b20ef7447bb0bf92784091787cfa1192897ad22d39190d"
+      },
+      "pivot": {
+        "result": "PASS",
+        "reason": "Origin at base centre: object matrix_world is identity, location (0,0,0), world bbox min (-0.093847,-0.089577,0.000000) and max (+0.093847,+0.089577,+0.350000); XY bbox centre (0.0000,0.0000), base plane z=0. FBX reimport pivot (0.0, 2.98e-08, -1.46e-08) and size 0.3500000086 m, so no offset or scale drift.",
+        "evidence": "preview.png",
+        "sha256": "9d465ff20f40f58bf8b20ef7447bb0bf92784091787cfa1192897ad22d39190d"
+      },
+      "interaction": {
+        "result": "PASS",
+        "reason": "The bail is a closed hoop joined at both ends to the cap: the enclosed background region survives binary_fill_holes in the staged preview and in a -Y orthographic render. The opening is 229 x 166 px = 89.5 x 64.8 mm at 0.390625 mm/px (preview-corrected 85.6 x 65.6 mm), versus the concept opening 197 x 150 px = 75.4 x 57.4 mm; no cage or cap geometry crosses it. No armature, attachments or moving parts reported, so a hand, hook or strap passes freely.",
+        "evidence": "preview.png",
+        "sha256": "9d465ff20f40f58bf8b20ef7447bb0bf92784091787cfa1192897ad22d39190d"
+      },
+      "style": {
+        "result": "PASS",
+        "reason": "Brass hue and saturation match the revision reference: on the 1280 x 720 preview the brass pixels (69.6 percent of 81,114 foreground) have median hue 31.1 deg and saturation 0.478 versus 32.5 deg and 0.478 on the approved front (65.4 percent of 289,722 foreground). texture_00 has mean RGB 90.2/70.4/46.6, sd 46.0/35.8/24.0, 104,511 distinct colours, with pale grey salt bloom (5.33 percent of preview foreground versus 1.08 percent reference) and verdigris (hue 120-240 deg, S above 0.15, V above 0.10: 0.51 percent versus 1.19 percent). Bloom is heavier and verdigris about half, but both read as salt-corroded brass rather than the copper-orange batch2-4 failure.",
+        "evidence": "texture_00.png",
+        "sha256": "ffe9647b6c87a2985c514fdb0d6242e85b8014fa8cb7218b7910758383db29ea"
+      },
+      "material_appearance": {
+        "result": "PASS",
+        "reason": "The combined map matches the role maps exactly: vintage_lantern_3d_model_rm_metallic_smoothness.png is 1024 x 1024 RGBA; R is byte-identical to texture_02 (max abs diff 0 over 1,048,576 px) and A is byte-identical to 255 minus texture_03 (max abs diff 0), so metallic is in R and 1-roughness in A; G=B=0 is intentional packing. No map is constant: base 104,511 unique colours (sd 46.0/35.8/24.0), normal 31,900 unique (mean 127.11/126.90/254.01, sd 7.87/8.77/4.56), metallic 256 levels (mean 74.21, sd 52.09, 0-255), roughness 185 levels (mean 67.36, sd 37.99, 0-215). The Blender material links texture_02 to Metallic and texture_03 to Roughness.",
+        "evidence": "vintage_lantern_3d_model_rm_metallic_smoothness.png",
+        "sha256": "766c6b7c0fc51307f573cded3a0c0353f550ef2ab1c1ec03d044c52283a760f4"
+      }
+    },
+    "evidence": {
+      "silhouette": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/model_review/8edd9557295b4195ba37b2b6ff8f3313/evidence-00.png",
+      "orientation": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/model_review/8edd9557295b4195ba37b2b6ff8f3313/evidence-01.png",
+      "pivot": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/model_review/8edd9557295b4195ba37b2b6ff8f3313/evidence-02.png",
+      "interaction": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/model_review/8edd9557295b4195ba37b2b6ff8f3313/evidence-03.png",
+      "style": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/model_review/8edd9557295b4195ba37b2b6ff8f3313/evidence-04.png",
+      "material_appearance": "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/model_review/8edd9557295b4195ba37b2b6ff8f3313/evidence-05.png"
+    }
+  },
+  "local_delivery": [
+    "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/inbox/front.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/inbox/side.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/reference/inbox/back.jpg",
+    "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/model/inbox/raw_model.glb",
+    "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/blender_process/379d9286e56844ea820eeeb4d6023740/asset.blend",
+    "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/blender_process/379d9286e56844ea820eeeb4d6023740/preview.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/fbx_check/de5c95bd757547ddb86572a0cc8e8f1a/report.json",
+    "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/fbx_check/de5c95bd757547ddb86572a0cc8e8f1a/blender.log",
+    "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/blender_process/379d9286e56844ea820eeeb4d6023740/model.fbx",
+    "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/blender_process/379d9286e56844ea820eeeb4d6023740/textures/texture_00.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/blender_process/379d9286e56844ea820eeeb4d6023740/textures/texture_01.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/blender_process/379d9286e56844ea820eeeb4d6023740/textures/texture_02.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/blender_process/379d9286e56844ea820eeeb4d6023740/textures/texture_03.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_1c67e4603ada4977a938b26572a918f0/blender_process/379d9286e56844ea820eeeb4d6023740/textures/vintage_lantern_3d_model_rm_metallic_smoothness.png"
+  ]
+}

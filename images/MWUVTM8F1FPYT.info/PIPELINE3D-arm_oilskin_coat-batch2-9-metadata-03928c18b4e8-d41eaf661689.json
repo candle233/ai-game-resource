@@ -1,0 +1,738 @@
+{
+  "asset_id": "arm_oilskin_coat",
+  "revision": "batch2-9",
+  "category": "prop",
+  "project": "ai-game",
+  "style": "coastal-prototype@2",
+  "branch": "generate",
+  "files": {
+    "references/00-front.webp": "fe394ac9b7d562f909554eb3cf51ddfb3c9087b777042a1abb3275596e37b11d",
+    "references/01-side.webp": "cab7ae2298748ee804424433581d257ffd7d2922c69e2096b59966cf0c098228",
+    "references/02-back.webp": "a05bfbddb26dc2ab34ef6371fe3674034653774c0e7980b522b1d8a0745b4bda",
+    "raw_model/00-raw_model.glb": "d2ebc0fda37f3787e74a6f97ded4574c8422d4da32f67c56816c1cd47196bf37",
+    "blend/00-asset.blend": "af37452b485a86f0ccbbb11cebb132130b2888f4a1416baea2afdbe75cf5dd23",
+    "preview/00-preview.png": "31433d0ccce44c6236e3cb293dd836b187120f0f635b876c07a7b36fabfe2f97",
+    "reimport_report/00-report.json": "bf57feeb77f99ce920bec878cabcb9d1b91992c57b3a07be5e41e3365d848b76",
+    "reimport_report/01-blender.log": "935abebe7be7b21c0e04d5a487c5675fa6d7b3cc2174681f55349e8e22681767",
+    "delivery/model.fbx": "7887011cbb4a10266af10441aacb52e8fa2e7b11f20dc4b595ac05194f0db191",
+    "delivery/textures/texture_00.png": "201aa6eac678fb30340e96e03395019375b5075ed60b5e35f8e48fdfacdd616f",
+    "delivery/textures/texture_01.png": "05b8c68052ab25171cffe27de8a500f2edc6cfdde1aa42647e8deefb1f771a13",
+    "delivery/textures/texture_02.png": "5a9e8ac11a3e39e2bdfe149ab846ca7921c41f603619a8a85c8eb9e8a3e783fb",
+    "delivery/textures/texture_03.png": "fc4b2fc8ffa5e7dab811dca89c7de2c1d4733575c72a2b3972e096ee9afd023c",
+    "delivery/textures/black_trench_coat_3d_model_rm_metallic_smoothness.png": "a64115dd6370a141f0432793166584c1e4efb793194173337c292bf48bcebbb2"
+  },
+  "contract_sha256": "cf3efdfbe1a03161fd02bab99c720659160cd0e6925a5221fb920607b22423d7",
+  "specification": {
+    "asset_id": "arm_oilskin_coat",
+    "revision": "batch2-9",
+    "asset_type": "prop",
+    "name": "Oilskin rain coat",
+    "use": "Body armour piece worn by the player; inventory icon source for the island survival prototype",
+    "target_platform": "StandaloneWindows64",
+    "camera": "Inventory inspection and worn third-person view; coat silhouette and shoulder cape must read at gameplay distance",
+    "style": "coastal-prototype@2",
+    "batch": "island-batch2",
+    "synonyms": [
+      "rain coat",
+      "oilskin",
+      "slicker",
+      "armour",
+      "coat"
+    ],
+    "generation": {
+      "description": "Heavy 1930s oilskin rain coat shown empty and buttoned, clean new waxed canvas with an even waxy sheen: tar-black body with a short shoulder cape, tall corduroy-lined collar, two deep flap pockets each fastened with a brass stud, five brass buttons down the placket, a wide black waist belt closed with a square brass buckle at the centre, and a buttoned strap on each cuff\nMultiview consistency: one single coat, same cut, the same belt and square brass buckle, the same five placket buttons, the same two pockets and the same cuff straps in every view. No wearer, no mannequin, no second garment.\nOne picture, one garment: draw exactly one coat once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three coats, never draw several views side by side, never draw a hanger, a turnaround sheet or a composite sheet.\nThird delivery: identical design and hardware; the reference set is regenerated only because the previous submission landed twice.",
+      "pose": "single coat hanging open at the shoulders, collar up, sleeves hanging, front facing the camera",
+      "model_label": "H3.1",
+      "model_input_mode": "single",
+      "model_views": [
+        "front"
+      ],
+      "views_mode": "multiview",
+      "image_model": "Nano Banana 2",
+      "required_views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "postprocess": [],
+      "transports": [
+        "bridge",
+        "download"
+      ],
+      "image_prompts": {
+        "front": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nHeavy 1930s oilskin rain coat shown empty and buttoned, clean new waxed canvas with an even waxy sheen: tar-black body with a short shoulder cape, tall corduroy-lined collar, two deep flap pockets each fastened with a brass stud, five brass buttons down the placket, a wide black waist belt closed with a square brass buckle at the centre, and a buttoned strap on each cuff\nMultiview consistency: one single coat, same cut, the same belt and square brass buckle, the same five placket buttons, the same two pockets and the same cuff straps in every view. No wearer, no mannequin, no second garment.\nOne picture, one garment: draw exactly one coat once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three coats, never draw several views side by side, never draw a hanger, a turnaround sheet or a composite sheet.\nThird delivery: identical design and hardware; the reference set is regenerated only because the previous submission landed twice.\nPose: single coat hanging open at the shoulders, collar up, sleeves hanging, front facing the camera\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "side": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nHeavy 1930s oilskin rain coat shown empty and buttoned, clean new waxed canvas with an even waxy sheen: tar-black body with a short shoulder cape, tall corduroy-lined collar, two deep flap pockets each fastened with a brass stud, five brass buttons down the placket, a wide black waist belt closed with a square brass buckle at the centre, and a buttoned strap on each cuff\nMultiview consistency: one single coat, same cut, the same belt and square brass buckle, the same five placket buttons, the same two pockets and the same cuff straps in every view. No wearer, no mannequin, no second garment.\nOne picture, one garment: draw exactly one coat once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three coats, never draw several views side by side, never draw a hanger, a turnaround sheet or a composite sheet.\nThird delivery: identical design and hardware; the reference set is regenerated only because the previous submission landed twice.\nPose: single coat hanging open at the shoulders, collar up, sleeves hanging, front facing the camera\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: side",
+        "back": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nHeavy 1930s oilskin rain coat shown empty and buttoned, clean new waxed canvas with an even waxy sheen: tar-black body with a short shoulder cape, tall corduroy-lined collar, two deep flap pockets each fastened with a brass stud, five brass buttons down the placket, a wide black waist belt closed with a square brass buckle at the centre, and a buttoned strap on each cuff\nMultiview consistency: one single coat, same cut, the same belt and square brass buckle, the same five placket buttons, the same two pockets and the same cuff straps in every view. No wearer, no mannequin, no second garment.\nOne picture, one garment: draw exactly one coat once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three coats, never draw several views side by side, never draw a hanger, a turnaround sheet or a composite sheet.\nThird delivery: identical design and hardware; the reference set is regenerated only because the previous submission landed twice.\nPose: single coat hanging open at the shoulders, collar up, sleeves hanging, front facing the camera\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: back"
+      },
+      "style_images": [
+        "Assets/Reference/prop1.jpg",
+        "Assets/Reference/prop2.jpg"
+      ]
+    },
+    "technical": {
+      "max_triangles": 6000,
+      "max_materials": 4,
+      "max_texture_size": 1024,
+      "max_textures": 4,
+      "pivot": "base_center",
+      "forward": "-Y",
+      "rig": "none",
+      "animations": [],
+      "collider": "none",
+      "attachments": [],
+      "moving_parts": [],
+      "modular": false,
+      "passage": false,
+      "decimate": false,
+      "texture_mode": "preserve",
+      "height_based": false,
+      "size_m": 1.2
+    },
+    "unity_use": "worn body armour piece",
+    "children": [],
+    "production_use": "prototype_only",
+    "unity_target": null,
+    "references": {
+      "style": [],
+      "structure": []
+    }
+  },
+  "source": {
+    "source_step": "MODEL",
+    "source_sha256": "d2ebc0fda37f3787e74a6f97ded4574c8422d4da32f67c56816c1cd47196bf37",
+    "transport": "download",
+    "remote": "/workspace/generate/b8567014-e02b-420a-afef-60c1a17d9fc5",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/inbox/front.webp"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "reference_generation": {
+    "views": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/inbox/front.webp",
+      "side": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/inbox/side.webp",
+      "back": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/inbox/back.webp"
+    },
+    "image_model": "Nano Banana 2",
+    "prompts": {
+      "front": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nHeavy 1930s oilskin rain coat shown empty and buttoned, clean new waxed canvas with an even waxy sheen: tar-black body with a short shoulder cape, tall corduroy-lined collar, two deep flap pockets each fastened with a brass stud, five brass buttons down the placket, a wide black waist belt closed with a square brass buckle at the centre, and a buttoned strap on each cuff\nMultiview consistency: one single coat, same cut, the same belt and square brass buckle, the same five placket buttons, the same two pockets and the same cuff straps in every view. No wearer, no mannequin, no second garment.\nOne picture, one garment: draw exactly one coat once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three coats, never draw several views side by side, never draw a hanger, a turnaround sheet or a composite sheet.\nThird delivery: identical design and hardware; the reference set is regenerated only because the previous submission landed twice.\nPose: single coat hanging open at the shoulders, collar up, sleeves hanging, front facing the camera\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front"
+    },
+    "seed": "unknown",
+    "mode": "multiview",
+    "slot_mapping": {
+      "front": "front",
+      "side": "left",
+      "back": "back"
+    },
+    "base": {
+      "operation_id": "8e2496e0919c4b71b09a9338edec46ad",
+      "remote": "feed:a4a09c2313a143ca"
+    },
+    "multiview": {
+      "operation_id": "bf75d49a06c3463f86d36f356bbc869e",
+      "remote": "multiview:feed:a4a09c2313a143ca",
+      "slots": [
+        "front",
+        "left",
+        "right",
+        "back"
+      ]
+    }
+  },
+  "model_generation": {
+    "transport": "download",
+    "remote": "/workspace/generate/b8567014-e02b-420a-afef-60c1a17d9fc5",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/inbox/front.webp"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "operations": {
+    "REFERENCE:base": {
+      "operation_id": "8e2496e0919c4b71b09a9338edec46ad",
+      "job_id": "job_863f317b92e84255be49eaf6c488770a",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "base",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Assets/Reference/prop1.jpg": "88d0d395461038eff81f664fcfdd814909d5614cb32086ea0e371b7d40357b86",
+          "Assets/Reference/prop2.jpg": "761dcfa914f4b715f286eec55da6ad475a49b65c9e070e6621375b76e4a22ae9"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "prop1.jpg",
+            "prop2.jpg"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "88d0d395461038eff81f664fcfdd814909d5614cb32086ea0e371b7d40357b86",
+            "761dcfa914f4b715f286eec55da6ad475a49b65c9e070e6621375b76e4a22ae9"
+          ],
+          "screenshot": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/6a2b85c1ec5b4e398207628aded41d13/attachments-base.png",
+          "screenshot_sha256": "a4477da72d5a86d60a84b634dd0e2c88af56cdb37488abb15a926106d0a483d0"
+        },
+        "attachment_evidence_sha256": "70ba1813fb2175344882d074be9b1c18ebfdf006db2cea776511da0480f8cd32",
+        "model": "Nano Banana 2",
+        "button": "Generate Image",
+        "prompt": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nHeavy 1930s oilskin rain coat shown empty and buttoned, clean new waxed canvas with an even waxy sheen: tar-black body with a short shoulder cape, tall corduroy-lined collar, two deep flap pockets each fastened with a brass stud, five brass buttons down the placket, a wide black waist belt closed with a square brass buckle at the centre, and a buttoned strap on each cuff\nMultiview consistency: one single coat, same cut, the same belt and square brass buckle, the same five placket buttons, the same two pockets and the same cuff straps in every view. No wearer, no mannequin, no second garment.\nOne picture, one garment: draw exactly one coat once, seen from a single viewpoint, filling the frame without touching its edges. Never draw two or three coats, never draw several views side by side, never draw a hanger, a turnaround sheet or a composite sheet.\nThird delivery: identical design and hardware; the reference set is regenerated only because the previous submission landed twice.\nPose: single coat hanging open at the shoulders, collar up, sleeves hanging, front facing the camera\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "result_marker": "One distinct prop Readable silhouettes, large rounded primary forms, restrained ",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "98084570230caf4484a11d8563f8fea99e0dfd448162bd7c16c49b0c05b817dc",
+      "intent_utc": "2026-11-24T13:43:57.334915+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/6a2b85c1ec5b4e398207628aded41d13/before-base.json",
+      "remote": "feed:a4a09c2313a143ca",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/655a22f7fef641b88b78c26caa073bb1/result-base.json"
+    },
+    "REFERENCE:multiview": {
+      "operation_id": "bf75d49a06c3463f86d36f356bbc869e",
+      "job_id": "job_863f317b92e84255be49eaf6c488770a",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "multiview",
+      "state": "SUBMITTED",
+      "parameters": {
+        "base_remote": "feed:a4a09c2313a143ca",
+        "action": "Multiview Image",
+        "entry": "Generate Multi-Views",
+        "slot_labels": {
+          "front": "Front",
+          "left": "Left",
+          "right": "Right",
+          "back": "Back"
+        },
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ],
+        "slot_deliveries": {
+          "front": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/inbox/front.webp",
+            "sha256": "fe394ac9b7d562f909554eb3cf51ddfb3c9087b777042a1abb3275596e37b11d",
+            "slot": "front"
+          },
+          "side": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/inbox/side.webp",
+            "sha256": "cab7ae2298748ee804424433581d257ffd7d2922c69e2096b59966cf0c098228",
+            "slot": "left"
+          },
+          "back": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/inbox/back.webp",
+            "sha256": "a05bfbddb26dc2ab34ef6371fe3674034653774c0e7980b522b1d8a0745b4bda",
+            "slot": "back"
+          }
+        }
+      },
+      "input_sha256": "98084570230caf4484a11d8563f8fea99e0dfd448162bd7c16c49b0c05b817dc",
+      "intent_utc": "2026-11-24T14:14:13.046350+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/655a22f7fef641b88b78c26caa073bb1/before-multiview.json",
+      "remote": "multiview:feed:a4a09c2313a143ca",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/655a22f7fef641b88b78c26caa073bb1/result-multiview.json"
+    },
+    "MODEL:model": {
+      "operation_id": "cbe61423109b46f492b0059601a5ec9d",
+      "job_id": "job_863f317b92e84255be49eaf6c488770a",
+      "step_id": "MODEL",
+      "service": "studio",
+      "key": "model",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/inbox/front.webp": "fe394ac9b7d562f909554eb3cf51ddfb3c9087b777042a1abb3275596e37b11d"
+        },
+        "model": "H3.1",
+        "button": "Generate 45",
+        "prompt": null,
+        "result_marker": "11-21",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/generate/17b4a50e-e5cf-4ec9-be05-52adb8664dc1",
+          "/workspace/generate/2cd2cc37-58d7-4790-9e7b-a22404bd228f",
+          "/workspace/generate/3d18e5a5-2b77-4d20-9765-5f5760b67f9f",
+          "/workspace/generate/3dc4aea8-e8d6-4c7a-978d-ca7996267fd3",
+          "/workspace/generate/5b13ce8b-9fc2-4e22-b513-418a5fddba2e",
+          "/workspace/generate/673a1237-b43e-4b46-be19-8e4637a3e7f6",
+          "/workspace/generate/7f16ae6f-8688-4acf-a587-96b38f6434d5",
+          "/workspace/generate/85db8b20-a766-48da-a027-6b92685b4371",
+          "/workspace/generate/89df113a-ae98-4f92-88e9-36e40baeae46",
+          "/workspace/generate/a-glass-vial-containing-a-swirling-glowing-red-liquid-featuring-an-o-29657553-20da-43af-8122-ad8c4a049e9b",
+          "/workspace/generate/bf35ba2d-bb0d-4bbc-8cfc-4b3ae28cbd0b",
+          "/workspace/generate/cc9577e1-1a75-4c36-bc92-96d12ddaef3d",
+          "/workspace/generate/d978df8c-80e3-403c-aedd-26b8a467d465",
+          "/workspace/generate/d9b6376b-4465-4fcc-9c31-444ca9be415c",
+          "/workspace/generate/e6c4b3f2-bc6b-4b37-a622-4e33161f89d5",
+          "/workspace/generate/ec5adb96-9f4d-4d9b-a72e-98256d9ea7a6",
+          "/workspace/generate/f6bd5ffe-b4b6-4f8f-a96f-ac264867a433",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "0793cb644aae64b1d47ffa1458bddbb6f1dc0c3640b8cf8ff90f28bdb88ccbdd",
+      "intent_utc": "2026-11-24T15:01:24.413777+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/model/53390292c0cd402baa3862eb1462e5df/before-model.json",
+      "remote": "/workspace/generate/b8567014-e02b-420a-afef-60c1a17d9fc5",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/model/53390292c0cd402baa3862eb1462e5df/result-model.json",
+      "delivered": {
+        "file": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/model/inbox/raw_model.glb",
+        "sha256": "d2ebc0fda37f3787e74a6f97ded4574c8422d4da32f67c56816c1cd47196bf37"
+      }
+    }
+  },
+  "processing": {
+    "stats": {
+      "dims_m": [
+        1.0320965051651,
+        0.5703336596488953,
+        1.2000000476837158
+      ],
+      "geometry_max_m": [
+        0.51604825258255,
+        0.28516682982444763,
+        1.2000000476837158
+      ],
+      "geometry_min_m": [
+        -0.51604825258255,
+        -0.28516682982444763,
+        0.0
+      ],
+      "materials": 1,
+      "names": [
+        "tripo_node_d1574bcf-f98c-49cf-b894-7e0fb593c5ca"
+      ],
+      "texture_downscale": {
+        "black_trench_coat_3d_model_basecolor.jpg": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "black_trench_coat_3d_model_normal.png": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "black_trench_coat_3d_model_rm.jpg": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        }
+      },
+      "texture_extra": [
+        "black_trench_coat_3d_model_rm_metallic_smoothness.png"
+      ],
+      "texture_roles": {
+        "black_trench_coat_3d_model_rm_metallic_smoothness.png": "metallic_smoothness",
+        "texture_00.png": "base",
+        "texture_01.png": "normal",
+        "texture_02.png": "metallic",
+        "texture_03.png": "roughness"
+      },
+      "texture_split": [
+        "black_trench_coat_3d_model_rm_metallic",
+        "black_trench_coat_3d_model_rm_roughness"
+      ],
+      "textures": 4,
+      "triangles": 3684,
+      "vertices": 2721
+    },
+    "checks": [
+      {
+        "name": "size_base_center",
+        "status": "pass",
+        "threshold": 1.2,
+        "value": 1.2
+      },
+      {
+        "name": "origin_base_center",
+        "status": "pass",
+        "value": [
+          -0.516,
+          -0.2852,
+          0.0
+        ]
+      },
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 3684
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 6000,
+        "value": 3684
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "image:black_trench_coat_3d_model_basecolor.jpg",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:black_trench_coat_3d_model_normal.png",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:black_trench_coat_3d_model_rm_roughness",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:black_trench_coat_3d_model_rm_metallic",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 1.2,
+        "value": 1.2000000476837158
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_d1574bcf-f98c-49cf-b894-7e0fb593c5ca"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_d1574bcf-f98c-49cf-b894-7e0fb593c5ca"
+        ]
+      },
+      {
+        "name": "no_armature",
+        "status": "pass",
+        "value": 0
+      }
+    ]
+  },
+  "validation": {
+    "stats": {
+      "dims_m": [
+        1.0320965051651,
+        0.570333868265152,
+        1.200000094143288
+      ],
+      "geometry_max_m": [
+        0.51604825258255,
+        0.28516703844070435,
+        1.2000000476837158
+      ],
+      "geometry_min_m": [
+        -0.51604825258255,
+        -0.28516682982444763,
+        -4.645957218940566e-08
+      ],
+      "materials": 1,
+      "names": [
+        "tripo_node_d1574bcf-f98c-49cf-b894-7e0fb593c5ca"
+      ],
+      "textures": 4,
+      "triangles": 3684,
+      "vertices": 2721
+    },
+    "checks": [
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 3684
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 6000,
+        "value": 3684
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "image:black_trench_coat_3d_model_basecolor.jpg",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:black_trench_coat_3d_model_rm_metallic",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:black_trench_coat_3d_model_rm_roughness",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:black_trench_coat_3d_model_normal.png",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 1.2,
+        "value": 1.200000094143288
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          0.0,
+          1.043081283569336e-07,
+          -4.645957218940566e-08
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_d1574bcf-f98c-49cf-b894-7e0fb593c5ca"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_d1574bcf-f98c-49cf-b894-7e0fb593c5ca"
+        ]
+      },
+      {
+        "name": "no_armature",
+        "status": "pass",
+        "value": 0
+      },
+      {
+        "name": "roundtrip_triangles",
+        "status": "pass",
+        "threshold": 3684,
+        "value": 3684
+      },
+      {
+        "name": "roundtrip_textures",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "roundtrip_dimensions",
+        "status": "pass",
+        "threshold": [
+          1.0320965051651,
+          0.5703336596488953,
+          1.2000000476837158
+        ],
+        "value": [
+          1.0320965051651,
+          0.570333868265152,
+          1.200000094143288
+        ]
+      }
+    ],
+    "fbx_sha256": "7887011cbb4a10266af10441aacb52e8fa2e7b11f20dc4b595ac05194f0db191",
+    "textures_sha256": {
+      "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/blender_process/f39655c8f82a4e488397d240f89d03d4/textures/texture_00.png": "201aa6eac678fb30340e96e03395019375b5075ed60b5e35f8e48fdfacdd616f",
+      "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/blender_process/f39655c8f82a4e488397d240f89d03d4/textures/texture_01.png": "05b8c68052ab25171cffe27de8a500f2edc6cfdde1aa42647e8deefb1f771a13",
+      "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/blender_process/f39655c8f82a4e488397d240f89d03d4/textures/texture_02.png": "5a9e8ac11a3e39e2bdfe149ab846ca7921c41f603619a8a85c8eb9e8a3e783fb",
+      "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/blender_process/f39655c8f82a4e488397d240f89d03d4/textures/texture_03.png": "fc4b2fc8ffa5e7dab811dca89c7de2c1d4733575c72a2b3972e096ee9afd023c",
+      "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/blender_process/f39655c8f82a4e488397d240f89d03d4/textures/black_trench_coat_3d_model_rm_metallic_smoothness.png": "a64115dd6370a141f0432793166584c1e4efb793194173337c292bf48bcebbb2"
+    }
+  },
+  "review": {
+    "review_ingress_sha256": "735b4199ccd3a2e6600c1ac68c03c11069c2376fbf64be5745c003d6d7594732",
+    "reviewer": "automated-review",
+    "validator_version": "controlled-3d/1",
+    "checks": {
+      "silhouette": {
+        "result": "PASS",
+        "reason": "PASS. Headless EEVEE renders of the delivered asset.blend at 1024x1024 (50 mm, camera fit 2.78 m) from -Y, +Y, +X and -X give bbox-normalised silhouette IoU against this revision reference of 0.8945 front, 0.8751 back and 0.9036 side. The front bbox is 522x649 px (aspect 0.804) against reference front 727x943 (0.771), so the render is 4.3 percent wider relative to height; side depth over height is 0.570/1.200 = 0.4753, identical to the reference side 442/930 = 0.4753. Front against mirrored back is 0.927 (0.9228 unmirrored), so the garment is near symmetric. Dimensions are 1.032 x 0.570 x 1.200 m. The staged preview (1280x720) has one foreground component of 104854 px in a 334x456 bbox, 11.38 percent of frame, on a uniform 82/94/98 background, and reads as one closed coat with a short shoulder cape, tall stand collar, two flap pockets, belt and hanging sleeves. No missing or extra garment.",
+        "evidence": "preview.png",
+        "sha256": "31433d0ccce44c6236e3cb293dd836b187120f0f635b876c07a7b36fabfe2f97"
+      },
+      "orientation": {
+        "result": "PASS",
+        "reason": "PASS. Forward is -Y. Mesh bounds are X -0.516048..+0.516048, Y -0.285167..+0.285167, Z 0.0..1.2 with object rotation 0 and scale 1. Sampling texture_02 at triangle UV centroids marks 84 of 3684 faces as brass (metallic above 0.5): 83 of them at Y below 0 with mean Y -0.2083 (Y range -0.2768..+0.0031), grouped as five placket buttons at z 0.916/0.747/0.564/0.369/0.194 (absolute X below 0.02), the buckle ring at z 0.42..0.52 (absolute X below 0.10), two pocket studs at (+/-0.23, -0.19, 0.33) and cuff-strap studs at X +/-0.50. A -Y render shows the five placket buttons and the square buckle; the +Y render shows zero brass, only the plain back and belt band; in the +X render the buckle edge and placket sit on the screen-left -Y side (coat bbox x372..654, buckle x380..389). The FBX reimport keeps 1.03210 x 0.57033 x 1.20000 m and the same placement.",
+        "evidence": "texture_02.png",
+        "sha256": "5a9e8ac11a3e39e2bdfe149ab846ca7921c41f603619a8a85c8eb9e8a3e783fb"
+      },
+      "pivot": {
+        "result": "PASS",
+        "reason": "PASS. Origin is the base centre. The .blend object is at location (0,0,0), rotation (0,0,0), scale (1,1,1); geometry min (-0.516048,-0.285167,0.0) and max (+0.516048,+0.285167,+1.200000), so Z min = 0, no vertex lies below 0, and the XY bounding-box centre is (0,0). The BLENDER_PROCESS report records size_base_center 1.2, origin_base_center [-0.516,-0.2852,0.0] and pivot_at_origin [0,0,0]; the FBX reimport repeats pivot_at_origin (0.0, 1.04e-07, -4.65e-08) with size_m 1.20000009 and unchanged dimensions. This is the requested base_center pivot.",
+        "evidence": "preview.png",
+        "sha256": "31433d0ccce44c6236e3cb293dd836b187120f0f635b876c07a7b36fabfe2f97"
+      },
+      "interaction": {
+        "result": "PASS",
+        "reason": "PASS for a static worn-armour prop. Single mesh object with 1 material, 2721 vertices and 3684 triangles (request 6000), no armature, no animations, no collider, 0 degenerate faces and 0 non-manifold edges. The requested hardware is modelled and separated: five placket buttons, a belt with square buckle 64x62 px (bbox 482..545 x 571..632, aspect 1.0323, centre x513.5 against coat centre x510.5, 0.6 percent of width), two pocket studs at (392,668.5) and (635,671.5) px (symmetric +/-123 px), and cuff straps on both cuffs with studs at (256,663) and (769,665) px. The garment is empty and closed with no wearer or mannequin, and each view is a single foreground component. Non-blocking: the mesh is 92 vertex-connected shells with 1574 boundary edges, i.e. separate panels and hardware plus open hem/cuff/collar rims, normal for this static shell garment and not an interaction defect.",
+        "evidence": "preview.png",
+        "sha256": "31433d0ccce44c6236e3cb293dd836b187120f0f635b876c07a7b36fabfe2f97"
+      },
+      "style": {
+        "result": "PASS",
+        "reason": "PASS against the clean target. Body is tar-black: texture_00 body median RGB (32,32,34) over 97.7 percent of the map (reference medians 47,46,49 / 43,43,47 / 50,49,54), with luminance p50 32.9, p95 68.6, p99 97.1 and 0.309 percent of texels in L 140..240, the same order as the 0.34/0.16/0.19 percent waxy-sheen band measured on the reference, so the surface is clean and unweathered as this revision requires. Brass covers 11024 texels at median RGB (149,121,54) in the bronze palette family A9834F/8C6844. The renders show the short shoulder cape, tall collar with visible vertical corduroy lining, two deep flap pockets with brass studs, the five brass placket buttons, the wide belt with square buckle at the centre and a buttoned strap on each cuff, matching the reference design at silhouette scale. The lit preview reads glossier than the reference because the preview uses sun energy 9.0, but the maps keep the sheen even (canvas smoothness 0.620 sd 0.056, metallic at or below 0.063 on 95.25 percent of texels).",
+        "evidence": "preview.png",
+        "sha256": "31433d0ccce44c6236e3cb293dd836b187120f0f635b876c07a7b36fabfe2f97"
+      },
+      "material_appearance": {
+        "result": "PASS",
+        "reason": "PASS, and the delivered files satisfy a URP Lit material with base, normal and metallic-gloss. All maps are 1024x1024 and non-constant: texture_00 (base, sRGB) median RGB (32,32,34) with 246/232/184 levels; texture_01 (normal) mean RGB 127.05/126.97/254.47, 207/220/77 levels and blue minimum 174, a valid tangent-space normal; texture_02 (metallic) 256 levels, mean 8.49/255 with 1.269 percent above 0.5; texture_03 (roughness) 186 levels, mean 96.58/255 sd 14.18. The tagged combined map is exact packing: over all 1048576 texels R equals texture_02 R and A equals 255 minus texture_03 with maximum absolute error 0 and 100 percent exact equality, G and B are 0 and A spans 51..238. The masks follow the hardware: brass texels are 86 percent metallic above 0.5 with median metallic 0.894 and roughness 0.1875, canvas is 95.25 percent at or below 0.063 metallic with roughness 0.3804. texture_02 and texture_03 equal the delivered RM source B and G channels (MAE 0.18 and 0.17 of 255 after 2048 to 1024 box downscale) and texture_00/01 match base and normal (MAE 0.27 and 0.07), so the split is faithful. Import base as sRGB and normal/combined as Non-Color; URP Lit takes metallic from R and smoothness from A of the metallic-gloss map, so no channel fix-up is needed at binding. The zero G/B in the combined map is expected for MetallicGlossMap; only reusing it as an occlusion or mask map would need G data.",
+        "evidence": "black_trench_coat_3d_model_rm_metallic_smoothness.png",
+        "sha256": "a64115dd6370a141f0432793166584c1e4efb793194173337c292bf48bcebbb2"
+      }
+    },
+    "evidence": {
+      "silhouette": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/model_review/bb42e5671d5b453d82a8b6834f3234da/evidence-00.png",
+      "orientation": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/model_review/bb42e5671d5b453d82a8b6834f3234da/evidence-01.png",
+      "pivot": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/model_review/bb42e5671d5b453d82a8b6834f3234da/evidence-02.png",
+      "interaction": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/model_review/bb42e5671d5b453d82a8b6834f3234da/evidence-03.png",
+      "style": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/model_review/bb42e5671d5b453d82a8b6834f3234da/evidence-04.png",
+      "material_appearance": "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/model_review/bb42e5671d5b453d82a8b6834f3234da/evidence-05.png"
+    }
+  },
+  "local_delivery": [
+    "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/inbox/front.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/inbox/side.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/reference/inbox/back.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/model/inbox/raw_model.glb",
+    "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/blender_process/f39655c8f82a4e488397d240f89d03d4/asset.blend",
+    "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/blender_process/f39655c8f82a4e488397d240f89d03d4/preview.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/fbx_check/7700d4844fbe4c64b2bc49c89799012a/report.json",
+    "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/fbx_check/7700d4844fbe4c64b2bc49c89799012a/blender.log",
+    "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/blender_process/f39655c8f82a4e488397d240f89d03d4/model.fbx",
+    "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/blender_process/f39655c8f82a4e488397d240f89d03d4/textures/texture_00.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/blender_process/f39655c8f82a4e488397d240f89d03d4/textures/texture_01.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/blender_process/f39655c8f82a4e488397d240f89d03d4/textures/texture_02.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/blender_process/f39655c8f82a4e488397d240f89d03d4/textures/texture_03.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_863f317b92e84255be49eaf6c488770a/blender_process/f39655c8f82a4e488397d240f89d03d4/textures/black_trench_coat_3d_model_rm_metallic_smoothness.png"
+  ]
+}
