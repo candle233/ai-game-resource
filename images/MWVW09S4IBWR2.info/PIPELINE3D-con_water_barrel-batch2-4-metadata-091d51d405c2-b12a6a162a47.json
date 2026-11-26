@@ -1,0 +1,740 @@
+{
+  "asset_id": "con_water_barrel",
+  "revision": "batch2-4",
+  "category": "prop",
+  "project": "ai-game",
+  "style": "coastal-prototype@2",
+  "branch": "generate",
+  "files": {
+    "references/00-front.jpg": "397a93028c46b4f020105529857b6aac60616778d3ec8c4a172ef2103b5e1f51",
+    "references/01-side.jpg": "6115d29294d48c84d49dd7910ae4819212dc702390f89b05c8db1c3f0ab3f31c",
+    "references/02-back.jpg": "d1f19c41c8329e67c8926ab5cfd29fbc6de4bf8a7a718f79e2fa2179fb6f231d",
+    "raw_model/00-raw_model.glb": "3187a476e7e1383c5ddc9c5b6617d6449ddb85b0f82102054f5860f686e70a20",
+    "blend/00-asset.blend": "0178cf3ae29bef4138278c172d21e71bc558617cc43ebd506ea7e269265b075e",
+    "preview/00-preview.png": "b3160795db1175c5d879428b98ce5c136ccbbae128f47fc07406fae81b80f827",
+    "reimport_report/00-report.json": "f1dc2085fcb1ac197cafe525e3afad1f378c44dc8809c7fe47b76a6d7fa278cc",
+    "reimport_report/01-blender.log": "e550e0d4d278597ed8c6b5886da5971f8c51f50369d257bedfc24a55981d9531",
+    "delivery/model.fbx": "1adfa1dafa603e7d7634219c479094af9bdcb66768902ca4d5c8c229157438cd",
+    "delivery/textures/texture_00.png": "2ec73e48b1a75115ba3ba939ec9a9859fda1d3db91ea5c6df4ce3c82abfedb04",
+    "delivery/textures/texture_01.png": "ae9d94b43ce3148b60c21a5f655710e3fcdb278e54ea8ce71b8bd9a0601a8436",
+    "delivery/textures/texture_02.png": "c319b38f820dadb68a1c0598ebfa793c1946ea60f90d1824aaff69e2cdb6c994",
+    "delivery/textures/texture_03.png": "90f46f3177e10f2d3c97768ac42e4ed912a288649231844102b5d55ed9f8b2f2",
+    "delivery/textures/wooden_barrel_3d_model_rm_metallic_smoothness.png": "1073213d4274949f40f5ce715bb9db4ff06674b41743eb2879e29537489268e6"
+  },
+  "contract_sha256": "22366961ec0e85c715a0b2c22fe26236ee8de7e55c4818a209939dd0558174cb",
+  "specification": {
+    "asset_id": "con_water_barrel",
+    "revision": "batch2-4",
+    "asset_type": "prop",
+    "name": "Water barrel",
+    "use": "Placed supply cache prop and inventory icon for the island survival prototype",
+    "target_platform": "StandaloneWindows64",
+    "camera": "Close third-person and inventory inspection; barrel silhouette and hoop bands must read at thumbnail size",
+    "style": "coastal-prototype@2",
+    "batch": "island-batch2",
+    "synonyms": [
+      "barrel",
+      "water barrel",
+      "cask",
+      "supply"
+    ],
+    "generation": {
+      "description": "A single 1740s ship's water barrel, hand-painted concept art with ink outlines and flat colour blocks: coopered oak staves in warm honey-brown with clear vertical seams between the staves, four plain smooth iron hoops with no rivets and no studs, and nothing else at all — no bung, no tap, no handles, no cleats, no straps. The barrel is perfectly rotationally symmetric so every side looks the same. One barrel only, drawn once, centred on plain white. No second barrel, no other views, no layout or contact sheet.",
+      "pose": "single barrel standing upright on an implied flat surface, seen from a three-quarter angle",
+      "model_label": "H3.1",
+      "model_input_mode": "single",
+      "model_views": [
+        "front"
+      ],
+      "views_mode": "multiview",
+      "image_model": "Nano Banana 2",
+      "required_views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "postprocess": [],
+      "transports": [
+        "bridge",
+        "download"
+      ],
+      "image_prompts": {
+        "front": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nA single 1740s ship's water barrel, hand-painted concept art with ink outlines and flat colour blocks: coopered oak staves in warm honey-brown with clear vertical seams between the staves, four plain smooth iron hoops with no rivets and no studs, and nothing else at all — no bung, no tap, no handles, no cleats, no straps. The barrel is perfectly rotationally symmetric so every side looks the same. One barrel only, drawn once, centred on plain white. No second barrel, no other views, no layout or contact sheet.\nPose: single barrel standing upright on an implied flat surface, seen from a three-quarter angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "side": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nA single 1740s ship's water barrel, hand-painted concept art with ink outlines and flat colour blocks: coopered oak staves in warm honey-brown with clear vertical seams between the staves, four plain smooth iron hoops with no rivets and no studs, and nothing else at all — no bung, no tap, no handles, no cleats, no straps. The barrel is perfectly rotationally symmetric so every side looks the same. One barrel only, drawn once, centred on plain white. No second barrel, no other views, no layout or contact sheet.\nPose: single barrel standing upright on an implied flat surface, seen from a three-quarter angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: side",
+        "back": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nA single 1740s ship's water barrel, hand-painted concept art with ink outlines and flat colour blocks: coopered oak staves in warm honey-brown with clear vertical seams between the staves, four plain smooth iron hoops with no rivets and no studs, and nothing else at all — no bung, no tap, no handles, no cleats, no straps. The barrel is perfectly rotationally symmetric so every side looks the same. One barrel only, drawn once, centred on plain white. No second barrel, no other views, no layout or contact sheet.\nPose: single barrel standing upright on an implied flat surface, seen from a three-quarter angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: back"
+      },
+      "style_images": [
+        "Assets/Reference/prop1.jpg",
+        "Assets/Reference/prop2.jpg"
+      ]
+    },
+    "technical": {
+      "max_triangles": 4000,
+      "max_materials": 4,
+      "max_texture_size": 1024,
+      "max_textures": 4,
+      "pivot": "base_center",
+      "forward": "-Y",
+      "rig": "none",
+      "animations": [],
+      "collider": "none",
+      "attachments": [],
+      "moving_parts": [],
+      "modular": false,
+      "passage": false,
+      "decimate": false,
+      "texture_mode": "preserve",
+      "height_based": false,
+      "size_m": 0.85
+    },
+    "unity_use": "placed supply cache prop",
+    "children": [],
+    "production_use": "prototype_only",
+    "unity_target": null,
+    "references": {
+      "style": [],
+      "structure": []
+    }
+  },
+  "source": {
+    "source_step": "MODEL",
+    "source_sha256": "3187a476e7e1383c5ddc9c5b6617d6449ddb85b0f82102054f5860f686e70a20",
+    "transport": "download",
+    "remote": "/workspace/generate/1679cb71-11c1-4557-be49-551d5f1ff93c",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/inbox/front.jpg"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "reference_generation": {
+    "views": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/inbox/front.jpg",
+      "side": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/inbox/side.jpg",
+      "back": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/inbox/back.jpg"
+    },
+    "image_model": "Nano Banana 2",
+    "prompts": {
+      "front": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nA single 1740s ship's water barrel, hand-painted concept art with ink outlines and flat colour blocks: coopered oak staves in warm honey-brown with clear vertical seams between the staves, four plain smooth iron hoops with no rivets and no studs, and nothing else at all — no bung, no tap, no handles, no cleats, no straps. The barrel is perfectly rotationally symmetric so every side looks the same. One barrel only, drawn once, centred on plain white. No second barrel, no other views, no layout or contact sheet.\nPose: single barrel standing upright on an implied flat surface, seen from a three-quarter angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front"
+    },
+    "seed": "unknown",
+    "mode": "multiview",
+    "slot_mapping": {
+      "front": "front",
+      "side": "left",
+      "back": "back"
+    },
+    "base": {
+      "operation_id": "c3988f2da0bb488a960edb847df7488a",
+      "remote": "feed:de540bd555e9e7f2"
+    },
+    "multiview": {
+      "operation_id": "774819f92745441886306f858436d01d",
+      "remote": "multiview:feed:de540bd555e9e7f2",
+      "slots": [
+        "front",
+        "left",
+        "right",
+        "back"
+      ]
+    }
+  },
+  "model_generation": {
+    "transport": "download",
+    "remote": "/workspace/generate/1679cb71-11c1-4557-be49-551d5f1ff93c",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/inbox/front.jpg"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "operations": {
+    "REFERENCE:base": {
+      "operation_id": "c3988f2da0bb488a960edb847df7488a",
+      "job_id": "job_5f91c6ab053e4fd69a17c49db03f9cf5",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "base",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Assets/Reference/prop1.jpg": "88d0d395461038eff81f664fcfdd814909d5614cb32086ea0e371b7d40357b86",
+          "Assets/Reference/prop2.jpg": "761dcfa914f4b715f286eec55da6ad475a49b65c9e070e6621375b76e4a22ae9"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "prop1.jpg",
+            "prop2.jpg"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "88d0d395461038eff81f664fcfdd814909d5614cb32086ea0e371b7d40357b86",
+            "761dcfa914f4b715f286eec55da6ad475a49b65c9e070e6621375b76e4a22ae9"
+          ],
+          "screenshot": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/e6f36fac790c47fc8d1965e73d37ea28/attachments-base.png",
+          "screenshot_sha256": "1e28a175b60f41d8a7815f3d82f4b504b00bffe3f3e8542c9b38506d88e920a2"
+        },
+        "attachment_evidence_sha256": "91c9fa1ae89185c8591c9aa316c971ff24de3a951c92873ea8b5ffb48292c158",
+        "model": "Nano Banana 2",
+        "button": "Generate Image",
+        "prompt": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nA single 1740s ship's water barrel, hand-painted concept art with ink outlines and flat colour blocks: coopered oak staves in warm honey-brown with clear vertical seams between the staves, four plain smooth iron hoops with no rivets and no studs, and nothing else at all — no bung, no tap, no handles, no cleats, no straps. The barrel is perfectly rotationally symmetric so every side looks the same. One barrel only, drawn once, centred on plain white. No second barrel, no other views, no layout or contact sheet.\nPose: single barrel standing upright on an implied flat surface, seen from a three-quarter angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "result_marker": "One distinct prop Readable silhouettes, large rounded primary forms, restrained ",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "728587a524d18d93116a71bfb46b2b4e2e10ccf7991074c1102f6b930bf1de67",
+      "intent_utc": "2026-11-25T04:52:41.939838+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/e6f36fac790c47fc8d1965e73d37ea28/before-base.json",
+      "remote": "feed:de540bd555e9e7f2",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/95a46f93ae2c4acb846bee384ceb66ef/result-base.json"
+    },
+    "REFERENCE:multiview": {
+      "operation_id": "774819f92745441886306f858436d01d",
+      "job_id": "job_5f91c6ab053e4fd69a17c49db03f9cf5",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "multiview",
+      "state": "SUBMITTED",
+      "parameters": {
+        "base_remote": "feed:de540bd555e9e7f2",
+        "action": "Multiview Image",
+        "entry": "Generate Multi-Views",
+        "slot_labels": {
+          "front": "Front",
+          "left": "Left",
+          "right": "Right",
+          "back": "Back"
+        },
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ],
+        "slot_deliveries": {
+          "front": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/inbox/front.jpg",
+            "sha256": "397a93028c46b4f020105529857b6aac60616778d3ec8c4a172ef2103b5e1f51",
+            "slot": "front"
+          },
+          "side": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/inbox/side.jpg",
+            "sha256": "6115d29294d48c84d49dd7910ae4819212dc702390f89b05c8db1c3f0ab3f31c",
+            "slot": "left"
+          },
+          "back": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/inbox/back.jpg",
+            "sha256": "d1f19c41c8329e67c8926ab5cfd29fbc6de4bf8a7a718f79e2fa2179fb6f231d",
+            "slot": "back"
+          }
+        }
+      },
+      "input_sha256": "728587a524d18d93116a71bfb46b2b4e2e10ccf7991074c1102f6b930bf1de67",
+      "intent_utc": "2026-11-25T05:01:09.262290+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/95a46f93ae2c4acb846bee384ceb66ef/before-multiview.json",
+      "remote": "multiview:feed:de540bd555e9e7f2",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/95a46f93ae2c4acb846bee384ceb66ef/result-multiview.json"
+    },
+    "MODEL:model": {
+      "operation_id": "5a2753d1f2c64f77b51aac5c737fb7ba",
+      "job_id": "job_5f91c6ab053e4fd69a17c49db03f9cf5",
+      "step_id": "MODEL",
+      "service": "studio",
+      "key": "model",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/inbox/front.jpg": "397a93028c46b4f020105529857b6aac60616778d3ec8c4a172ef2103b5e1f51"
+        },
+        "model": "H3.1",
+        "button": "Generate 45",
+        "prompt": null,
+        "result_marker": "11-21",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/generate/0f2b4713-f319-4a0e-bf1d-ecaeb8fc679f",
+          "/workspace/generate/17b4a50e-e5cf-4ec9-be05-52adb8664dc1",
+          "/workspace/generate/2cd2cc37-58d7-4790-9e7b-a22404bd228f",
+          "/workspace/generate/449f6166-3292-48e2-b3b4-0bc34317a79d",
+          "/workspace/generate/496897fa-d2d5-4a56-be9a-9104f960fe33",
+          "/workspace/generate/57048a4d-9b7a-4f5d-a2f8-aa52fc0784af",
+          "/workspace/generate/5b13ce8b-9fc2-4e22-b513-418a5fddba2e",
+          "/workspace/generate/654f34e7-e9a1-4f2d-a4fa-b11ef3d5a74f",
+          "/workspace/generate/673a1237-b43e-4b46-be19-8e4637a3e7f6",
+          "/workspace/generate/7f16ae6f-8688-4acf-a587-96b38f6434d5",
+          "/workspace/generate/89df113a-ae98-4f92-88e9-36e40baeae46",
+          "/workspace/generate/b8567014-e02b-420a-afef-60c1a17d9fc5",
+          "/workspace/generate/bd6bc7cb-2ce9-45d5-904f-c161031e614b",
+          "/workspace/generate/bf35ba2d-bb0d-4bbc-8cfc-4b3ae28cbd0b",
+          "/workspace/generate/cc9577e1-1a75-4c36-bc92-96d12ddaef3d",
+          "/workspace/generate/d978df8c-80e3-403c-aedd-26b8a467d465",
+          "/workspace/generate/d9b6376b-4465-4fcc-9c31-444ca9be415c",
+          "/workspace/generate/e6c4b3f2-bc6b-4b37-a622-4e33161f89d5",
+          "/workspace/generate/ec1da6a4-0596-45d5-8b42-6a201837f541",
+          "/workspace/generate/f05ab28f-e6e8-4341-a73f-c51fa482bc61",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "9de7357e484e648e6ac241bf4e6c132ab14b9078221647db57ce1c67e62234f3",
+      "intent_utc": "2026-11-25T06:00:03.741901+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/model/ebe272276024487c8ccb1ce94ec9fa9a/before-model.json",
+      "remote": "/workspace/generate/1679cb71-11c1-4557-be49-551d5f1ff93c",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/model/ebe272276024487c8ccb1ce94ec9fa9a/result-model.json",
+      "delivered": {
+        "file": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/model/inbox/raw_model.glb",
+        "sha256": "3187a476e7e1383c5ddc9c5b6617d6449ddb85b0f82102054f5860f686e70a20"
+      }
+    }
+  },
+  "processing": {
+    "stats": {
+      "dims_m": [
+        0.7016432285308838,
+        0.7025169730186462,
+        0.8500000238418579
+      ],
+      "geometry_max_m": [
+        0.3508216142654419,
+        0.3512584865093231,
+        0.8500000238418579
+      ],
+      "geometry_min_m": [
+        -0.3508216142654419,
+        -0.3512584865093231,
+        0.0
+      ],
+      "materials": 1,
+      "names": [
+        "tripo_node_35442058-d6d7-4cb3-b3f4-83faa0dc98bf"
+      ],
+      "texture_downscale": {
+        "wooden_barrel_3d_model_basecolor.jpg": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "wooden_barrel_3d_model_normal.png": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "wooden_barrel_3d_model_rm.jpg": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        }
+      },
+      "texture_extra": [
+        "wooden_barrel_3d_model_rm_metallic_smoothness.png"
+      ],
+      "texture_roles": {
+        "texture_00.png": "base",
+        "texture_01.png": "normal",
+        "texture_02.png": "metallic",
+        "texture_03.png": "roughness",
+        "wooden_barrel_3d_model_rm_metallic_smoothness.png": "metallic_smoothness"
+      },
+      "texture_split": [
+        "wooden_barrel_3d_model_rm_metallic",
+        "wooden_barrel_3d_model_rm_roughness"
+      ],
+      "textures": 4,
+      "triangles": 3522,
+      "vertices": 3350
+    },
+    "checks": [
+      {
+        "name": "size_base_center",
+        "status": "pass",
+        "threshold": 0.85,
+        "value": 0.85
+      },
+      {
+        "name": "origin_base_center",
+        "status": "pass",
+        "value": [
+          -0.3508,
+          -0.3513,
+          0.0
+        ]
+      },
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 3522
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 4000,
+        "value": 3522
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "image:wooden_barrel_3d_model_basecolor.jpg",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:wooden_barrel_3d_model_normal.png",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:wooden_barrel_3d_model_rm_metallic",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:wooden_barrel_3d_model_rm_roughness",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 0.85,
+        "value": 0.8500000238418579
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_35442058-d6d7-4cb3-b3f4-83faa0dc98bf"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_35442058-d6d7-4cb3-b3f4-83faa0dc98bf"
+        ]
+      },
+      {
+        "name": "no_armature",
+        "status": "pass",
+        "value": 0
+      }
+    ]
+  },
+  "validation": {
+    "stats": {
+      "dims_m": [
+        0.7016432285308838,
+        0.7025171220302582,
+        0.8500001406737709
+      ],
+      "geometry_max_m": [
+        0.3508216142654419,
+        0.35125863552093506,
+        0.8500000834465027
+      ],
+      "geometry_min_m": [
+        -0.3508216142654419,
+        -0.3512584865093231,
+        -5.7227268257520336e-08
+      ],
+      "materials": 1,
+      "names": [
+        "tripo_node_35442058-d6d7-4cb3-b3f4-83faa0dc98bf"
+      ],
+      "textures": 4,
+      "triangles": 3522,
+      "vertices": 3350
+    },
+    "checks": [
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 3522
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 4000,
+        "value": 3522
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "image:wooden_barrel_3d_model_basecolor.jpg",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:wooden_barrel_3d_model_rm_metallic",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:wooden_barrel_3d_model_rm_roughness",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:wooden_barrel_3d_model_normal.png",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 0.85,
+        "value": 0.8500001406737709
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          0.0,
+          7.450580596923828e-08,
+          -5.7227268257520336e-08
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_35442058-d6d7-4cb3-b3f4-83faa0dc98bf"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_35442058-d6d7-4cb3-b3f4-83faa0dc98bf"
+        ]
+      },
+      {
+        "name": "no_armature",
+        "status": "pass",
+        "value": 0
+      },
+      {
+        "name": "roundtrip_triangles",
+        "status": "pass",
+        "threshold": 3522,
+        "value": 3522
+      },
+      {
+        "name": "roundtrip_textures",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "roundtrip_dimensions",
+        "status": "pass",
+        "threshold": [
+          0.7016432285308838,
+          0.7025169730186462,
+          0.8500000238418579
+        ],
+        "value": [
+          0.7016432285308838,
+          0.7025171220302582,
+          0.8500001406737709
+        ]
+      }
+    ],
+    "fbx_sha256": "1adfa1dafa603e7d7634219c479094af9bdcb66768902ca4d5c8c229157438cd",
+    "textures_sha256": {
+      "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/blender_process/04435c8edfc44e69895c7c478a5c0656/textures/texture_00.png": "2ec73e48b1a75115ba3ba939ec9a9859fda1d3db91ea5c6df4ce3c82abfedb04",
+      "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/blender_process/04435c8edfc44e69895c7c478a5c0656/textures/texture_01.png": "ae9d94b43ce3148b60c21a5f655710e3fcdb278e54ea8ce71b8bd9a0601a8436",
+      "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/blender_process/04435c8edfc44e69895c7c478a5c0656/textures/texture_02.png": "c319b38f820dadb68a1c0598ebfa793c1946ea60f90d1824aaff69e2cdb6c994",
+      "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/blender_process/04435c8edfc44e69895c7c478a5c0656/textures/texture_03.png": "90f46f3177e10f2d3c97768ac42e4ed912a288649231844102b5d55ed9f8b2f2",
+      "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/blender_process/04435c8edfc44e69895c7c478a5c0656/textures/wooden_barrel_3d_model_rm_metallic_smoothness.png": "1073213d4274949f40f5ce715bb9db4ff06674b41743eb2879e29537489268e6"
+    }
+  },
+  "review": {
+    "review_ingress_sha256": "431aded3d5af6fac6081a84aa2cf1600b7bb3dc431a7d99bd3cfae996848381b",
+    "reviewer": "automated-review",
+    "validator_version": "controlled-3d/1",
+    "checks": {
+      "silhouette": {
+        "result": "PASS",
+        "reason": "3522 triangles against the 4000 maximum (88.1 percent), 3350 vertices, one object. Bounding box 0.702 x 0.703 x 0.850 m with the height exactly 0.8500000 m and the barrel profile widest near mid-height; an 84-height, 720-angle radial scan hits the surface at every sample and shows only the shoulder plus four bands, so no part of the silhouette is missing or extra. Over-tessellation: the count is inside budget and the surface is not duplicated (0 degenerate faces, no shell outside the outer surface), although the mesh is split into 275 unwelded shells (104 of 4 faces or fewer, 242 triangles). Rendered at 8 deg elevation the silhouette width/height is 0.763 against the reference art 0.728 (+4.8 percent), consistent with the concept.",
+        "evidence": "preview.png",
+        "sha256": "b3160795db1175c5d879428b98ce5c136ccbbae128f47fc07406fae81b80f827"
+      },
+      "orientation": {
+        "result": "PASS",
+        "reason": "Upright, +Z up, identity transform: location (0,0,0), rotation (0,0,0), scale (1,1,1); geometry x -0.3508 to 0.3508, y -0.3513 to 0.3513, z 0.0000 to 0.8500. The FBX roundtrip gives dims (0.7016, 0.7025, 0.8500) and pivot (0, 7.5e-8, -5.7e-8), and the export uses the standard Blender Z-up to FBX Y-up conversion. The barrel is rotationally symmetric with no front feature, so the required -Y forward is satisfied by any yaw and the identity yaw is consistent; note the process report records no forward_axis check (the controlled exporter applies align_forward_y only to environment assets), so -Y is not directly attested by a gate.",
+        "evidence": "preview.png",
+        "sha256": "b3160795db1175c5d879428b98ce5c136ccbbae128f47fc07406fae81b80f827"
+      },
+      "pivot": {
+        "result": "PASS",
+        "reason": "Base-centre pivot at the object origin: bbox z minimum 0.000000, x/y centre 0.000000, pivot_at_origin value (0,0,0) in the process report and (0, 7.45e-8, -5.72e-8) after the FBX roundtrip; the object transform is identity and normalization reports size_m 0.8500000. The barrel stands exactly on the z=0 ground plane.",
+        "evidence": "preview.png",
+        "sha256": "b3160795db1175c5d879428b98ce5c136ccbbae128f47fc07406fae81b80f827"
+      },
+      "interaction": {
+        "result": "PASS",
+        "reason": "Static placed supply-cache prop with no interaction rig: one mesh object, zero armatures, modifiers, vertex groups, shape keys or animations, and no collider (the request specifies collider none); attachments and moving_parts list only the mesh node. Geometry is suitable for a static prop (0 degenerate faces, 2.777 m2 surface); the 275 unwelded shells (104 tiny, all on or behind the outer surface) are a topology note only. The base pivot places the prop flush on a flat surface and the model needs no special handling.",
+        "evidence": "preview.png",
+        "sha256": "b3160795db1175c5d879428b98ce5c136ccbbae128f47fc07406fae81b80f827"
+      },
+      "style": {
+        "result": "PASS",
+        "reason": "Four plain smooth iron hoops: preview.png shows dark grey bands at rows 237-266, 335-363, 487-511 and 568-595 (median band luminance 33-49, saturation 3-4), matching radial bands at z 0.00-0.06, 0.22-0.27, 0.55-0.60 and 0.74-0.79; the band surfaces are smooth (ring SD 1.1-1.6 mm, no deviation above 3 mm) so there are no rivets or studs. Stave seams are clear: 15 vertical grooves at 18-26 deg spacing, 10-17 mm deep and 1-3.5 deg wide. Colour matches the hand-painted target: base median 171/117/48 (hue 33.7 deg, sat 0.72) against the reference wood 181/121/49 (hue 32.7 deg, sat 0.73). No bung, tap, handle, cleat or strap: 84 x 720 radial samples found no localized recess or protrusion wider than 3.5 deg, the top and bottom heads are closed, and the eight 45 deg yaw renders keep the same silhouette (pairwise IoU 0.978-0.985, area spread 0.6 percent) with no mirrored front/back feature. The head has a flush cross-shaped plank seam (lid height spread 1.8 mm) visible only from above; it is head joinery, not a raised cleat.",
+        "evidence": "preview.png",
+        "sha256": "b3160795db1175c5d879428b98ce5c136ccbbae128f47fc07406fae81b80f827"
+      },
+      "material_appearance": {
+        "result": "PASS",
+        "reason": "Combined metallic-gloss map is exact against the split maps: over the 46.7 percent UV-covered atlas, R equals texture_02 metallic on every pixel (max abs difference 0, correlation 1.0) and A equals 255 minus texture_03 roughness on every pixel (max abs difference 0), A range 136-246. All maps are 1024 x 1024 and non-constant inside the UV coverage: base std 43.4/31.9/31.6, normal std 9.3/10.0/5.8 (B mean 253.6), metallic std 94.8, roughness std 7.1 (p5-p95 47-70). Metallic covers 19.4 percent of UV pixels (the hoops) and 76.9 percent is non-metal wood. One material, four textures plus the combined map, with roles recorded as base, normal, metallic, roughness and metallic_smoothness. Appearance note: median roughness is 0.20 on wood and 0.25 on metal, so the render reads glossy or varnished rather than matte hand-painted; this is a look risk, not a map-contract defect.",
+        "evidence": "wooden_barrel_3d_model_rm_metallic_smoothness.png",
+        "sha256": "1073213d4274949f40f5ce715bb9db4ff06674b41743eb2879e29537489268e6"
+      }
+    },
+    "evidence": {
+      "silhouette": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/model_review/54cdad8c9af440c09d82811534e74041/evidence-00.png",
+      "orientation": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/model_review/54cdad8c9af440c09d82811534e74041/evidence-01.png",
+      "pivot": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/model_review/54cdad8c9af440c09d82811534e74041/evidence-02.png",
+      "interaction": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/model_review/54cdad8c9af440c09d82811534e74041/evidence-03.png",
+      "style": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/model_review/54cdad8c9af440c09d82811534e74041/evidence-04.png",
+      "material_appearance": "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/model_review/54cdad8c9af440c09d82811534e74041/evidence-05.png"
+    }
+  },
+  "local_delivery": [
+    "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/inbox/front.jpg",
+    "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/inbox/side.jpg",
+    "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/reference/inbox/back.jpg",
+    "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/model/inbox/raw_model.glb",
+    "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/blender_process/04435c8edfc44e69895c7c478a5c0656/asset.blend",
+    "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/blender_process/04435c8edfc44e69895c7c478a5c0656/preview.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/fbx_check/e669d93f84174cd3a8a73f160d8a9d7b/report.json",
+    "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/fbx_check/e669d93f84174cd3a8a73f160d8a9d7b/blender.log",
+    "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/blender_process/04435c8edfc44e69895c7c478a5c0656/model.fbx",
+    "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/blender_process/04435c8edfc44e69895c7c478a5c0656/textures/texture_00.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/blender_process/04435c8edfc44e69895c7c478a5c0656/textures/texture_01.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/blender_process/04435c8edfc44e69895c7c478a5c0656/textures/texture_02.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/blender_process/04435c8edfc44e69895c7c478a5c0656/textures/texture_03.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_5f91c6ab053e4fd69a17c49db03f9cf5/blender_process/04435c8edfc44e69895c7c478a5c0656/textures/wooden_barrel_3d_model_rm_metallic_smoothness.png"
+  ]
+}

@@ -1,0 +1,755 @@
+{
+  "asset_id": "con_supply_crate",
+  "revision": "batch2-3",
+  "category": "prop",
+  "project": "ai-game",
+  "style": "coastal-prototype@2",
+  "branch": "generate",
+  "files": {
+    "references/00-front.webp": "0abb3f4d0ba1a7104ca543801c2d98db0f1f721893d00efeba4de35a41b52768",
+    "references/01-side.webp": "e4f56eeff7a58c87b0eeb4b2a4c9265410a8f0d1ae2531101caa88106eb7317f",
+    "references/02-back.webp": "33e813e24368883b504bc9cd9a6f92912d7466d46db16609a77e9b0fb769eda3",
+    "raw_model/00-con_supply_crate.glb": "e52fec9a304d6c02e51d90a8f1d1cbfaa7d34edaa829222cb8fdc40dea7de4b6",
+    "blend/00-asset.blend": "db6d462b908b37709d5902615db19ce7cd361ba2a1771575e47202c9701b9663",
+    "preview/00-preview.png": "86e94d43d7ba9d1f7fd125a74e22d14aff95e2d8f5bc0cfa8106f328825092ac",
+    "reimport_report/00-report.json": "ab55bb215cd5a1428fffda008885dd21ad862a5c160a061546733bb80394f12c",
+    "reimport_report/01-blender.log": "7098ce5cb61280dec8ea064bfe3f57000087b9eab4535f4eac846e75728b0227",
+    "delivery/model.fbx": "2a5fffb3ad0eb980834abf41e2a1212f7d340295c012ba768788bae9d9843c01",
+    "delivery/textures/texture_00.png": "c1d156c3e2dae05525e5466c96b65bd0d37b10464f4e069a7fd36ab0268722c5",
+    "delivery/textures/texture_01.png": "d419b79cb67a6cac984cc73d5f1a78ea4e5d12416b864eb89a8644669581ca7f",
+    "delivery/textures/texture_02.png": "e6fc32b153aaa5376e903f4a7fc29e97b52d690425a46e98bfbf4a60d8c6237f",
+    "delivery/textures/texture_03.png": "418feb248b9f179331362c583093ff8cc6d569f3ce16047abf22d33d11576094",
+    "delivery/textures/ORM_c62bd283-956a-4057-8611-8ccec07e9642_metallic_smoothness.png": "088092a584d870229e9b09213706f33097e1b003dcdee9c0d836b64d7d19a857"
+  },
+  "contract_sha256": "1839a42238c57596d5cbeb67a42e03c2ff741ddfb8580a5c73f8507590e336e9",
+  "specification": {
+    "asset_id": "con_supply_crate",
+    "revision": "batch2-3",
+    "asset_type": "prop",
+    "name": "Ship's supply crate",
+    "use": "Placed storage and loot crate prop for the island survival prototype",
+    "target_platform": "StandaloneWindows64",
+    "camera": "Close third-person and inventory inspection; crate silhouette and iron bands must read at thumbnail size",
+    "style": "coastal-prototype@2",
+    "batch": "island-batch2",
+    "synonyms": [
+      "crate",
+      "supply crate",
+      "box",
+      "chest"
+    ],
+    "generation": {
+      "description": "A single 1740s ship's wooden supply crate, hand-painted concept art with ink outlines and flat colour blocks: warm honey-brown oak planks with clear seams between the boards, two dark iron bands across the ends, a flat planked lid, and plain vertical corner battens at the four upright edges with round rivets on the bands — that hardware is optional, either the plain banded faces or the battened variant is acceptable, and nothing else at all is drawn: no hinges, no locks, no rope, no handles. The crate is a rectangular box standing square on one face, symmetric left to right and front to back. One crate only, drawn once, centred on plain white. No second crate, no barrel, no other views, no layout or contact sheet. Third revision: the same crate; corner battens and band rivets are explicitly allowed so a re-draw is judged against either approved face.",
+      "pose": "single crate standing square on its base, seen from a slightly raised three-quarter angle",
+      "model_label": "H3.1",
+      "model_input_mode": "single",
+      "model_views": [
+        "front"
+      ],
+      "views_mode": "multiview",
+      "image_model": "Nano Banana 2",
+      "required_views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "postprocess": [],
+      "transports": [
+        "bridge",
+        "download"
+      ],
+      "image_prompts": {
+        "front": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nA single 1740s ship's wooden supply crate, hand-painted concept art with ink outlines and flat colour blocks: warm honey-brown oak planks with clear seams between the boards, two dark iron bands across the ends, a flat planked lid, and plain vertical corner battens at the four upright edges with round rivets on the bands — that hardware is optional, either the plain banded faces or the battened variant is acceptable, and nothing else at all is drawn: no hinges, no locks, no rope, no handles. The crate is a rectangular box standing square on one face, symmetric left to right and front to back. One crate only, drawn once, centred on plain white. No second crate, no barrel, no other views, no layout or contact sheet. Third revision: the same crate; corner battens and band rivets are explicitly allowed so a re-draw is judged against either approved face.\nPose: single crate standing square on its base, seen from a slightly raised three-quarter angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "side": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nA single 1740s ship's wooden supply crate, hand-painted concept art with ink outlines and flat colour blocks: warm honey-brown oak planks with clear seams between the boards, two dark iron bands across the ends, a flat planked lid, and plain vertical corner battens at the four upright edges with round rivets on the bands — that hardware is optional, either the plain banded faces or the battened variant is acceptable, and nothing else at all is drawn: no hinges, no locks, no rope, no handles. The crate is a rectangular box standing square on one face, symmetric left to right and front to back. One crate only, drawn once, centred on plain white. No second crate, no barrel, no other views, no layout or contact sheet. Third revision: the same crate; corner battens and band rivets are explicitly allowed so a re-draw is judged against either approved face.\nPose: single crate standing square on its base, seen from a slightly raised three-quarter angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: side",
+        "back": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nA single 1740s ship's wooden supply crate, hand-painted concept art with ink outlines and flat colour blocks: warm honey-brown oak planks with clear seams between the boards, two dark iron bands across the ends, a flat planked lid, and plain vertical corner battens at the four upright edges with round rivets on the bands — that hardware is optional, either the plain banded faces or the battened variant is acceptable, and nothing else at all is drawn: no hinges, no locks, no rope, no handles. The crate is a rectangular box standing square on one face, symmetric left to right and front to back. One crate only, drawn once, centred on plain white. No second crate, no barrel, no other views, no layout or contact sheet. Third revision: the same crate; corner battens and band rivets are explicitly allowed so a re-draw is judged against either approved face.\nPose: single crate standing square on its base, seen from a slightly raised three-quarter angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: back"
+      },
+      "style_images": [
+        "Assets/Reference/prop1.jpg",
+        "Assets/Reference/prop2.jpg"
+      ]
+    },
+    "technical": {
+      "max_triangles": 3000,
+      "max_materials": 4,
+      "max_texture_size": 1024,
+      "max_textures": 4,
+      "pivot": "base_center",
+      "forward": "-Y",
+      "rig": "none",
+      "animations": [],
+      "collider": "none",
+      "attachments": [],
+      "moving_parts": [],
+      "modular": false,
+      "passage": false,
+      "decimate": true,
+      "texture_mode": "preserve",
+      "height_based": false,
+      "size_m": 0.8
+    },
+    "unity_use": "placed storage crate prop",
+    "children": [],
+    "production_use": "prototype_only",
+    "unity_target": null,
+    "references": {
+      "style": [],
+      "structure": []
+    }
+  },
+  "source": {
+    "source_step": "MODEL",
+    "source_sha256": "e52fec9a304d6c02e51d90a8f1d1cbfaa7d34edaa829222cb8fdc40dea7de4b6",
+    "transport": "download",
+    "remote": "/workspace/generate/09b8b57f-717f-4084-9cc5-58b0b7d30093",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/inbox/front.webp"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "reference_generation": {
+    "views": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/inbox/front.webp",
+      "side": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/inbox/side.webp",
+      "back": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/inbox/back.webp"
+    },
+    "image_model": "Nano Banana 2",
+    "prompts": {
+      "front": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nA single 1740s ship's wooden supply crate, hand-painted concept art with ink outlines and flat colour blocks: warm honey-brown oak planks with clear seams between the boards, two dark iron bands across the ends, a flat planked lid, and plain vertical corner battens at the four upright edges with round rivets on the bands — that hardware is optional, either the plain banded faces or the battened variant is acceptable, and nothing else at all is drawn: no hinges, no locks, no rope, no handles. The crate is a rectangular box standing square on one face, symmetric left to right and front to back. One crate only, drawn once, centred on plain white. No second crate, no barrel, no other views, no layout or contact sheet. Third revision: the same crate; corner battens and band rivets are explicitly allowed so a re-draw is judged against either approved face.\nPose: single crate standing square on its base, seen from a slightly raised three-quarter angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front"
+    },
+    "seed": "unknown",
+    "mode": "multiview",
+    "slot_mapping": {
+      "front": "front",
+      "side": "left",
+      "back": "back"
+    },
+    "reference_metrics": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/76ee871d57c34cceaad12bfe61a6caec/reference-metrics.json",
+    "base": {
+      "operation_id": "b11a12c657ec4c999965eb8fad8451d7",
+      "remote": "feed:3b64eb0f5b6e59c7"
+    },
+    "multiview": {
+      "operation_id": "6054e50bb23c4f12b67fa2550bcf43fb",
+      "remote": "multiview:feed:3b64eb0f5b6e59c7",
+      "slots": [
+        "front",
+        "left",
+        "right",
+        "back"
+      ]
+    }
+  },
+  "model_generation": {
+    "transport": "download",
+    "remote": "/workspace/generate/09b8b57f-717f-4084-9cc5-58b0b7d30093",
+    "model_label": "H3.1",
+    "model_input": {
+      "front": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/inbox/front.webp"
+    },
+    "model_prompt": null,
+    "mode": "image_to_model"
+  },
+  "operations": {
+    "REFERENCE:base": {
+      "operation_id": "b11a12c657ec4c999965eb8fad8451d7",
+      "job_id": "job_b719b9f96a9a48f49742c4a76b91d689",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "base",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Assets/Reference/prop1.jpg": "88d0d395461038eff81f664fcfdd814909d5614cb32086ea0e371b7d40357b86",
+          "Assets/Reference/prop2.jpg": "761dcfa914f4b715f286eec55da6ad475a49b65c9e070e6621375b76e4a22ae9"
+        },
+        "attachment_evidence": {
+          "mode": "composer",
+          "staged": [
+            "prop1.jpg",
+            "prop2.jpg"
+          ],
+          "chips": "present",
+          "staged_sha256": [
+            "88d0d395461038eff81f664fcfdd814909d5614cb32086ea0e371b7d40357b86",
+            "761dcfa914f4b715f286eec55da6ad475a49b65c9e070e6621375b76e4a22ae9"
+          ],
+          "screenshot": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/61c280d3aca5402789614b04ba59088e/attachments-base.png",
+          "screenshot_sha256": "abfc9cd6c50a0f450f9b1ace64e4bc160fa346ae5eedf25ca0a01c1ca1a7349e"
+        },
+        "attachment_evidence_sha256": "51cb0f0fdebd564e24ab64034cdfba91d634707ed1997982b56a2c5f7085343c",
+        "model": "Nano Banana 2",
+        "button": "Generate Image",
+        "prompt": "One distinct prop\nReadable silhouettes, large rounded primary forms, restrained secondary detail\nGrounded prop scale; stylized, layered character proportions\nUse a palette suited to this asset and its materials. Vary palettes across assets; do not copy the references' colors.\nHand-painted appearance, weathered wood, stone and iron\nReadable from the game camera; detail concentrated at meaningful joints and fittings\nUse the category images for shape language, material rendering and detail only. Do not copy their subjects. If an earlier view is attached, match that exact subject and its colors.\nA single 1740s ship's wooden supply crate, hand-painted concept art with ink outlines and flat colour blocks: warm honey-brown oak planks with clear seams between the boards, two dark iron bands across the ends, a flat planked lid, and plain vertical corner battens at the four upright edges with round rivets on the bands — that hardware is optional, either the plain banded faces or the battened variant is acceptable, and nothing else at all is drawn: no hinges, no locks, no rope, no handles. The crate is a rectangular box standing square on one face, symmetric left to right and front to back. One crate only, drawn once, centred on plain white. No second crate, no barrel, no other views, no layout or contact sheet. Third revision: the same crate; corner battens and band rivets are explicitly allowed so a re-draw is judged against either approved face.\nPose: single crate standing square on its base, seen from a slightly raised three-quarter angle\nKeep the same design, structure, scale, colors and pose in each view.\nOne fully visible object, clean background, low perspective, even lighting.\nNo text, watermarks, arbitrary glow, clutter, base or background scenery\nView: front",
+        "result_marker": "One distinct prop Readable silhouettes, large rounded primary forms, restrained ",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "f0a75c16d3576623a826b6538d69edb8caf4d80695656cbf76c4b1413c8e2a47",
+      "intent_utc": "2026-11-25T16:40:51.759392+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/61c280d3aca5402789614b04ba59088e/before-base.json",
+      "remote": "feed:3b64eb0f5b6e59c7",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/80f1daf1f942447b9bbbb9fcf78d5f11/result-base.json"
+    },
+    "REFERENCE:multiview": {
+      "operation_id": "6054e50bb23c4f12b67fa2550bcf43fb",
+      "job_id": "job_b719b9f96a9a48f49742c4a76b91d689",
+      "step_id": "REFERENCE",
+      "service": "studio",
+      "key": "multiview",
+      "state": "SUBMITTED",
+      "parameters": {
+        "base_remote": "feed:3b64eb0f5b6e59c7",
+        "action": "Multiview Image",
+        "entry": "Generate Multi-Views",
+        "slot_labels": {
+          "front": "Front",
+          "left": "Left",
+          "right": "Right",
+          "back": "Back"
+        },
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ],
+        "slot_deliveries": {
+          "front": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/inbox/front.webp",
+            "sha256": "0abb3f4d0ba1a7104ca543801c2d98db0f1f721893d00efeba4de35a41b52768",
+            "slot": "front"
+          },
+          "side": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/inbox/side.webp",
+            "sha256": "e4f56eeff7a58c87b0eeb4b2a4c9265410a8f0d1ae2531101caa88106eb7317f",
+            "slot": "left"
+          },
+          "back": {
+            "file": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/inbox/back.webp",
+            "sha256": "33e813e24368883b504bc9cd9a6f92912d7466d46db16609a77e9b0fb769eda3",
+            "slot": "back"
+          }
+        }
+      },
+      "input_sha256": "f0a75c16d3576623a826b6538d69edb8caf4d80695656cbf76c4b1413c8e2a47",
+      "intent_utc": "2026-11-25T16:55:01.563829+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/80f1daf1f942447b9bbbb9fcf78d5f11/before-multiview.json",
+      "remote": "multiview:feed:3b64eb0f5b6e59c7",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/80f1daf1f942447b9bbbb9fcf78d5f11/result-multiview.json"
+    },
+    "MODEL:model": {
+      "operation_id": "411a4e78478b4635bf24fac36d152f5e",
+      "job_id": "job_b719b9f96a9a48f49742c4a76b91d689",
+      "step_id": "MODEL",
+      "service": "studio",
+      "key": "model",
+      "state": "SUBMITTED",
+      "parameters": {
+        "inputs": {
+          "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/inbox/front.webp": "0abb3f4d0ba1a7104ca543801c2d98db0f1f721893d00efeba4de35a41b52768"
+        },
+        "model_mode": "HD Model",
+        "model_version": "H3.5 Preview New True 3D Fidelity",
+        "declared_model_label": "H3.1",
+        "model": "H3.1",
+        "button": "Generate 50 120",
+        "prompt": null,
+        "result_marker": "11-21",
+        "history_before": [
+          "/workspace/animate",
+          "/workspace/fill-parts",
+          "/workspace/generate",
+          "/workspace/generate-image",
+          "/workspace/generate/0f2b4713-f319-4a0e-bf1d-ecaeb8fc679f",
+          "/workspace/generate/1679cb71-11c1-4557-be49-551d5f1ff93c",
+          "/workspace/generate/17b4a50e-e5cf-4ec9-be05-52adb8664dc1",
+          "/workspace/generate/1c531cf2-f766-41ec-9a42-e235e2ff6e55",
+          "/workspace/generate/2cd2cc37-58d7-4790-9e7b-a22404bd228f",
+          "/workspace/generate/449f6166-3292-48e2-b3b4-0bc34317a79d",
+          "/workspace/generate/496897fa-d2d5-4a56-be9a-9104f960fe33",
+          "/workspace/generate/57048a4d-9b7a-4f5d-a2f8-aa52fc0784af",
+          "/workspace/generate/5b13ce8b-9fc2-4e22-b513-418a5fddba2e",
+          "/workspace/generate/5c366a84-70c9-4824-b407-4dd52f97871c",
+          "/workspace/generate/654f34e7-e9a1-4f2d-a4fa-b11ef3d5a74f",
+          "/workspace/generate/878e30cf-ebe2-4c9b-ad4d-502b472401b9",
+          "/workspace/generate/89df113a-ae98-4f92-88e9-36e40baeae46",
+          "/workspace/generate/b8567014-e02b-420a-afef-60c1a17d9fc5",
+          "/workspace/generate/bd6bc7cb-2ce9-45d5-904f-c161031e614b",
+          "/workspace/generate/cc9577e1-1a75-4c36-bc92-96d12ddaef3d",
+          "/workspace/generate/d978df8c-80e3-403c-aedd-26b8a467d465",
+          "/workspace/generate/d9b6376b-4465-4fcc-9c31-444ca9be415c",
+          "/workspace/generate/ec1da6a4-0596-45d5-8b42-6a201837f541",
+          "/workspace/generate/f05ab28f-e6e8-4341-a73f-c51fa482bc61",
+          "/workspace/retopology",
+          "/workspace/rigging",
+          "/workspace/segmentation",
+          "/workspace/smart-uv",
+          "/workspace/texture",
+          "/workspace/texture-edit",
+          "/workspace/texture-pbr",
+          "/workspace/texture-upscale"
+        ]
+      },
+      "input_sha256": "d3cfe2af86e861d7816ecd1f9f694a028f81001684b27c4c059902e6915ebc5b",
+      "intent_utc": "2026-11-25T17:41:53.044085+00:00",
+      "evidence": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/model/39974a259fab477a90e8154fef990485/before-model.json",
+      "remote": "/workspace/generate/09b8b57f-717f-4084-9cc5-58b0b7d30093",
+      "remote_evidence": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/model/39974a259fab477a90e8154fef990485/result-model.json",
+      "delivered": {
+        "file": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/model/inbox/con_supply_crate.glb",
+        "sha256": "e52fec9a304d6c02e51d90a8f1d1cbfaa7d34edaa829222cb8fdc40dea7de4b6"
+      }
+    }
+  },
+  "processing": {
+    "stats": {
+      "decimate": {
+        "after": 2699,
+        "before": 3578,
+        "ratio": 0.75461
+      },
+      "dims_m": [
+        0.800000011920929,
+        0.7977834939956665,
+        0.6908411979675293
+      ],
+      "geometry_max_m": [
+        0.4000000059604645,
+        0.39889174699783325,
+        0.6908411979675293
+      ],
+      "geometry_min_m": [
+        -0.4000000059604645,
+        -0.39889174699783325,
+        0.0
+      ],
+      "materials": 1,
+      "names": [
+        "tripo_node_c62bd283-956a-4057-8611-8ccec07e9642"
+      ],
+      "texture_downscale": {
+        "Color_c62bd283-956a-4057-8611-8ccec07e9642": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "NormalGL_c62bd283-956a-4057-8611-8ccec07e9642": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        },
+        "ORM_c62bd283-956a-4057-8611-8ccec07e9642": {
+          "after": [
+            1024,
+            1024
+          ],
+          "before": [
+            2048,
+            2048
+          ]
+        }
+      },
+      "texture_extra": [
+        "ORM_c62bd283-956a-4057-8611-8ccec07e9642_metallic_smoothness.png"
+      ],
+      "texture_roles": {
+        "ORM_c62bd283-956a-4057-8611-8ccec07e9642_metallic_smoothness.png": "metallic_smoothness",
+        "texture_00.png": "base",
+        "texture_01.png": "normal",
+        "texture_02.png": "metallic",
+        "texture_03.png": "roughness"
+      },
+      "texture_split": [
+        "ORM_c62bd283-956a-4057-8611-8ccec07e9642_metallic",
+        "ORM_c62bd283-956a-4057-8611-8ccec07e9642_roughness"
+      ],
+      "textures": 4,
+      "triangles": 2699,
+      "vertices": 1978
+    },
+    "checks": [
+      {
+        "name": "size_base_center",
+        "status": "pass",
+        "threshold": 0.8,
+        "value": 0.8
+      },
+      {
+        "name": "origin_base_center",
+        "status": "pass",
+        "value": [
+          -0.4,
+          -0.3989,
+          0.0
+        ]
+      },
+      {
+        "name": "poly_budget",
+        "status": "pass",
+        "threshold": 3000,
+        "value": 2699
+      },
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 2699
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 3000,
+        "value": 2699
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "image:Color_c62bd283-956a-4057-8611-8ccec07e9642",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:NormalGL_c62bd283-956a-4057-8611-8ccec07e9642",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:ORM_c62bd283-956a-4057-8611-8ccec07e9642_roughness",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:ORM_c62bd283-956a-4057-8611-8ccec07e9642_metallic",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 0.8,
+        "value": 0.800000011920929
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_c62bd283-956a-4057-8611-8ccec07e9642"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_c62bd283-956a-4057-8611-8ccec07e9642"
+        ]
+      },
+      {
+        "name": "no_armature",
+        "status": "pass",
+        "value": 0
+      }
+    ]
+  },
+  "validation": {
+    "stats": {
+      "dims_m": [
+        0.800000011920929,
+        0.797783613204956,
+        0.6908413225598835
+      ],
+      "geometry_max_m": [
+        0.4000000059604645,
+        0.3988918662071228,
+        0.6908412575721741
+      ],
+      "geometry_min_m": [
+        -0.4000000059604645,
+        -0.39889174699783325,
+        -6.498770943608179e-08
+      ],
+      "materials": 1,
+      "names": [
+        "tripo_node_c62bd283-956a-4057-8611-8ccec07e9642"
+      ],
+      "textures": 4,
+      "triangles": 2699,
+      "vertices": 1978
+    },
+    "checks": [
+      {
+        "name": "geometry",
+        "status": "pass",
+        "value": 2699
+      },
+      {
+        "name": "triangles",
+        "status": "pass",
+        "threshold": 3000,
+        "value": 2699
+      },
+      {
+        "name": "materials",
+        "status": "pass",
+        "threshold": 4,
+        "value": 1
+      },
+      {
+        "name": "texture_count",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "image:Color_c62bd283-956a-4057-8611-8ccec07e9642",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:ORM_c62bd283-956a-4057-8611-8ccec07e9642_metallic",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:ORM_c62bd283-956a-4057-8611-8ccec07e9642_roughness",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "image:NormalGL_c62bd283-956a-4057-8611-8ccec07e9642",
+        "status": "pass",
+        "threshold": 1024,
+        "value": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "texture_uv",
+        "status": "pass",
+        "value": 1
+      },
+      {
+        "name": "size_m",
+        "status": "pass",
+        "threshold": 0.8,
+        "value": 0.800000011920929
+      },
+      {
+        "name": "pivot_at_origin",
+        "status": "pass",
+        "value": [
+          0.0,
+          5.960464477539063e-08,
+          -6.498770943608179e-08
+        ]
+      },
+      {
+        "name": "attachments",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_c62bd283-956a-4057-8611-8ccec07e9642"
+        ]
+      },
+      {
+        "name": "moving_parts",
+        "status": "pass",
+        "threshold": [],
+        "value": [
+          "tripo_node_c62bd283-956a-4057-8611-8ccec07e9642"
+        ]
+      },
+      {
+        "name": "no_armature",
+        "status": "pass",
+        "value": 0
+      },
+      {
+        "name": "roundtrip_triangles",
+        "status": "pass",
+        "threshold": 2699,
+        "value": 2699
+      },
+      {
+        "name": "roundtrip_textures",
+        "status": "pass",
+        "threshold": 4,
+        "value": 4
+      },
+      {
+        "name": "roundtrip_dimensions",
+        "status": "pass",
+        "threshold": [
+          0.800000011920929,
+          0.7977834939956665,
+          0.6908411979675293
+        ],
+        "value": [
+          0.800000011920929,
+          0.797783613204956,
+          0.6908413225598835
+        ]
+      }
+    ],
+    "fbx_sha256": "2a5fffb3ad0eb980834abf41e2a1212f7d340295c012ba768788bae9d9843c01",
+    "textures_sha256": {
+      "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/blender_process/97f61d51039c4324bfb4aa40510869e4/textures/texture_00.png": "c1d156c3e2dae05525e5466c96b65bd0d37b10464f4e069a7fd36ab0268722c5",
+      "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/blender_process/97f61d51039c4324bfb4aa40510869e4/textures/texture_01.png": "d419b79cb67a6cac984cc73d5f1a78ea4e5d12416b864eb89a8644669581ca7f",
+      "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/blender_process/97f61d51039c4324bfb4aa40510869e4/textures/texture_02.png": "e6fc32b153aaa5376e903f4a7fc29e97b52d690425a46e98bfbf4a60d8c6237f",
+      "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/blender_process/97f61d51039c4324bfb4aa40510869e4/textures/texture_03.png": "418feb248b9f179331362c583093ff8cc6d569f3ce16047abf22d33d11576094",
+      "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/blender_process/97f61d51039c4324bfb4aa40510869e4/textures/ORM_c62bd283-956a-4057-8611-8ccec07e9642_metallic_smoothness.png": "088092a584d870229e9b09213706f33097e1b003dcdee9c0d836b64d7d19a857"
+    }
+  },
+  "review": {
+    "review_ingress_sha256": "713ef9934dc28a32176a17b6711b7e698cb1ac8df19542c6ab615137baa4d1c4",
+    "reviewer": "automated-review",
+    "validator_version": "controlled-3d/1",
+    "checks": {
+      "silhouette": {
+        "result": "PASS",
+        "reason": "The render reads as the accepted crate. Exactly two iron straps: the 38,953 dark-neutral pixels (L*<25, chroma<=12) form 106 components, of which two dominate at 19,682 px (50.5%) and 17,181 px (44.1%) = 94.6% of them; the next largest is 350 px, so there is no third band. Strap centres sit at 0.62 and 0.27 of the 474-px silhouette height (component medians; per-column runs give 0.55-0.65 and 0.15-0.30), against the same per-column method on the three reference views which puts the reference bands at 0.65-0.75 and 0.25-0.35; strap thickness is 0.070/0.065 of the height versus the reference's 0.074/0.079/0.074, so count, order and heights match (the upper strap sits ~0.06 lower and the straps are less even). Rectangular box: 503x474 px silhouette, convexity area/hull 0.9735, flat lid with a framed bevel, four plain corner battens and 18 small round rivet blobs (38-215 px) on the straps and batten ends. Planked faces: the same four-course layout as the reference (rim board above the upper strap, two courses between the straps, one below) with dark seam lines visible on both faces. Nothing forbidden added: no hinge, lock, rope, handle or barrel. Caveats, not fatal: the straps are uneven (thickness p90/p50 1.53 and 2.45, top-edge wander 11.5 and 10.5 px = 2.2-2.4% of the height, against 2.2-5.8 px = 0.5-1.3% for the accepted barrel's straps) and the lid's inner panel shows no plank seams (one smooth framed slab where the reference lid has four planks).",
+        "evidence": "model-preview.png",
+        "sha256": "86e94d43d7ba9d1f7fd125a74e22d14aff95e2d8f5bc0cfa8106f328825092ac"
+      },
+      "orientation": {
+        "result": "PASS",
+        "reason": "Up +Z is proven and forward -Y is consistent but cannot be face-attested. Raw exported geometry bounds are z 0.000000-0.690841 m, x -0.400000..0.400000, y -0.398892..0.398892, so Z is the up axis with the base on z=0; the FBX reimport reproduces min z = -6.5e-8 m, dims 0.800000 x 0.797784 x 0.690842 m, pivot (0, 5.96e-8, -6.50e-8) m and a standing mesh. The delivered model.fbx declares UpAxis=Y (sign +1), FrontAxis=Z (sign +1), CoordAxis=X (sign +1), UnitScaleFactor 100, i.e. the standard Y-up export; the controlled exporter only applies align_forward_y for environment assets, so no gate attests -Y for this prop, which is the same status as the accepted barrel that passed this check. What the artifacts can prove: up is +Z with the base on the ground; the file carries no yaw. What they cannot prove: a specific -Y front face. That is unobservable here because the footprint is near-square (0.800000 x 0.797783 m, 0.27% difference), the frozen request itself specifies a crate 'symmetric left to right and front to back' with battens on all four corners and rivets on all faces, and the band and lid features repeat on every face, so a 90 deg yaw maps the asset onto itself and identity yaw is consistent with the -Y requirement. No orientation defect can exist visually; an authoring-side forward marker would be needed to attest it literally.",
+        "evidence": "fbx_check-reimport-report-report.json",
+        "sha256": "ab55bb215cd5a1428fffda008885dd21ad862a5c160a061546733bb80394f12c"
+      },
+      "pivot": {
+        "result": "PASS",
+        "reason": "Origin is the base centre. The process report records pivot_at_origin [0.0, 0.0, 0.0] and the FBX reimport reproduces it as [0.0, 5.96e-8, -6.50e-8] m, every component within 0.1 um. Geometry min z = 0.000000 m (reimport -6.5e-8 m) and the horizontal bounds centre is (0.000000, 0.000000) m, so the origin sits on the ground plane at the footprint centre and a (0,0,0) placement stands flush instead of floating or sinking. Note for reading the report: the origin_base_center value [-0.4, -0.3989, 0.0] is the bbox min corner, not the pivot; pivot_at_origin [0,0,0] is the pivot itself.",
+        "evidence": "fbx_check-reimport-report-report.json",
+        "sha256": "ab55bb215cd5a1428fffda008885dd21ad862a5c160a061546733bb80394f12c"
+      },
+      "interaction": {
+        "result": "PASS",
+        "reason": "Rests on its base without floating or sinking, and the 0.8 m size band is met exactly: size_m 0.800000011920929 against the requested 0.8 m (0.0% error), clear of 0.700001 m, and the reimport reproduces 0.800000 x 0.797784 x 0.690842 m. No part sinks: geometry min z = 0.000000 m (reimport -6.5e-8 m = 65 nm) with no vertex below the floor, and the base is one flat box face, so the prop cannot rock or hover. Static prop as specified: 2,699 triangles (89.97% of the 3,000 budget) and 1,978 vertices, 1 material and 4 textures (within 4 and 4), no armature (no_armature 0), attachments and moving_parts list only the mesh node, collider none per the request. The 0.691 m height is a proportion choice, not a size failure.",
+        "evidence": "blender_process-blender-report-report.json",
+        "sha256": "9d86421c82a14cdae107a5b1b37b0710b8db6bf060f57c69b1bf2745d68fd874"
+      },
+      "style": {
+        "result": "PASS",
+        "reason": "Graded against the shipped, already-accepted barrel bake (job_5f91c6ab..., same 1280x720 frame and backdrop RGB 82,94,98), both previews measured with identical code. Inward L* profile at the silhouette (1-2 / 3-4 / 5-7 / 8-12 px): crate 34.8 / 37.0 / 39.4 / 41.2 versus barrel 36.6 / 38.9 / 40.9 / 41.6, so the crate is 1.2-1.8 L* darker at the rim, i.e. marginally more contour, not less. Share of boundary pixels darker than L*15: crate 10.2% (216 of 2,115 boundary px) versus barrel 1.1%; both are far from the 47-48% of the inked reference art, and 95.8% of the crate's dark boundary pixels are neutral (chroma<=14, L* median 10.9) and sit at the left and right silhouettes where the near-black straps cut the outline. Count of 4-L* tone bins holding >=256 px: crate 20 versus barrel 19 in the render (21 versus 17 over the albedo), so equal or more gradation, not posterised. Largest 5x5-flat albedo plate with L* std <=1.0: crate 3.79% versus barrel 3.39% of texels (4.72% versus 27.32% at std <=2.0), and the median 9x9 albedo L* std is 1.44 versus 1.85, so the crate's flat-fill share is equal or higher; measured over all 1024x1024 atlas texels for both because no UV mask is derivable from the delivered images, and the border/interior 5x5 flatness probe is similar for both (crate 0.62/0.45, barrel 0.46/0.41). Share of pale desaturated pixels (L*>=75, chroma<=12): crate 0.0% of the render and 0.023% of the albedo versus barrel 0.31% and 0.0%, so no washout. The crate is not below the accepted barrel on any of the five measures. Briefed features present: honey-brown planked oak with visible seams, exactly two dark iron straps, four plain corner battens with round rivets, flat framed lid; nothing forbidden added (no hinge, lock, rope, handle or barrel). Caveats recorded honestly: the lid's inner panel carries no visible plank seams (the reference lid shows four) and the bake is soft (interior abs-gradient p99 13.3 and 2.5% of pixels above 10, versus 19.9 and 5.2% for the barrel), so seams read as smudges rather than the reference's ink lines, and the straps are uneven (thickness p90/p50 up to 2.45, edge wander 10-11 px).",
+        "evidence": "model-preview.png",
+        "sha256": "86e94d43d7ba9d1f7fd125a74e22d14aff95e2d8f5bc0cfa8106f328825092ac"
+      },
+      "material_appearance": {
+        "result": "PASS",
+        "reason": "One material and four 1024x1024 maps with the documented roles (base, normal, metallic, roughness) plus an exact URP pack: R equals the metallic map (max abs difference 0), A equals 255 minus roughness (max abs difference 0, correlation 1.0) and G is 0 everywhere. Base colour sane: albedo median 128/73/32 (L* 36.6, chroma 40), 24 four-L* levels, only 0.049% of texels above L*80 and 0.023% pale-desaturated, so no blown or washed-out areas. Metal sits only on the iron: 10.1% of texels are above 0.5 metallic; those texels are 99.6% neutral (chroma <=12) and 97.6% dark (L*<35, mean albedo 47.5/45.9/41.8), while the non-metal wood is warm (median 140/83/32, chroma 43.6), so leakage is 0.33%; the accepted barrel has 87.7% neutral and 9.0% warm metal texels. Roughness percentiles: p05/p50/p95 = 0.302/0.733/0.784, mean 0.679, 0.48% above 0.9, wood median 0.741 and metal median 0.306, i.e. matte varnished oak (the barrel shipped glossier at 0.184/0.208/0.275). Normal map valid but nearly flat over most of the surface: mean RGB (127.0, 126.8, 254.0), mean vector length 0.996, 0.0% of texels with B<128 (no inverted normals), 87.65% of texels within +/-2/255 of flat; the real-relief tail is genuine (deviation p50 0.32 deg, p95 3.46 deg, p99 25.07 deg, max 69.67 deg), so groove and rivet edges are mostly painted rather than modelled, and the barrel's map is stronger in the tail (85.36% within +/-2, p95 7.41 deg, p99 39.86 deg). Packaging note: textures/ holds 7 PNGs for 4 bound maps because ORM_..._metallic.png and ORM_..._roughness.png are byte-identical duplicates of texture_02/03, so texture_count stays 4.",
+        "evidence": "blender_process-blender-report-report.json",
+        "sha256": "9d86421c82a14cdae107a5b1b37b0710b8db6bf060f57c69b1bf2745d68fd874"
+      }
+    },
+    "evidence": {
+      "silhouette": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/model_review/b20fb6dbb21142eb9eb41344e902f387/evidence-00.png",
+      "orientation": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/model_review/b20fb6dbb21142eb9eb41344e902f387/evidence-01.json",
+      "pivot": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/model_review/b20fb6dbb21142eb9eb41344e902f387/evidence-02.json",
+      "interaction": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/model_review/b20fb6dbb21142eb9eb41344e902f387/evidence-03.json",
+      "style": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/model_review/b20fb6dbb21142eb9eb41344e902f387/evidence-04.png",
+      "material_appearance": "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/model_review/b20fb6dbb21142eb9eb41344e902f387/evidence-05.json"
+    }
+  },
+  "local_delivery": [
+    "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/inbox/front.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/inbox/side.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/reference/inbox/back.webp",
+    "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/model/inbox/con_supply_crate.glb",
+    "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/blender_process/97f61d51039c4324bfb4aa40510869e4/asset.blend",
+    "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/blender_process/97f61d51039c4324bfb4aa40510869e4/preview.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/fbx_check/d2a71f6551744aa991636d44c97b7506/report.json",
+    "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/fbx_check/d2a71f6551744aa991636d44c97b7506/blender.log",
+    "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/blender_process/97f61d51039c4324bfb4aa40510869e4/model.fbx",
+    "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/blender_process/97f61d51039c4324bfb4aa40510869e4/textures/texture_00.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/blender_process/97f61d51039c4324bfb4aa40510869e4/textures/texture_01.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/blender_process/97f61d51039c4324bfb4aa40510869e4/textures/texture_02.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/blender_process/97f61d51039c4324bfb4aa40510869e4/textures/texture_03.png",
+    "Artifacts/pipeline3d/controlled/jobs/job_b719b9f96a9a48f49742c4a76b91d689/blender_process/97f61d51039c4324bfb4aa40510869e4/textures/ORM_c62bd283-956a-4057-8611-8ccec07e9642_metallic_smoothness.png"
+  ]
+}
